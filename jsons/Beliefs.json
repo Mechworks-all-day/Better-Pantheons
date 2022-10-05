@@ -1,9 +1,9 @@
-
+//the most important thing is adding a way to get Faith to all pantheons, because DUH.
 [
     {
         "name": "Ancestor Worship",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Shrine]"]
+        "uniques": ["[+1 Culture] from every [Shrine]","[+1 Faith] per [5] population [in all cities]"] //because more people means more ancestors, obv.
     },
     {
         "name": "Dance of the Aurora",
@@ -16,66 +16,60 @@
         "uniques": ["[+1 Faith] from every [Desert]"]
     },
     {
-        "name": "Faith Healers",
+        "name": "Fertility Goddess", //changed the name, because reasons 
         "type": "Pantheon",
-        "uniques": ["[All] Units adjacent to this city heal [+30] HP per turn when healing"]
-        // This should be worded better
-    },
-    {
-        "name": "Fertility Rites",
-        "type": "Pantheon",
-        "uniques": ["[+10]% growth [in this city]"]
+        "uniques": ["[+10]% growth [in this city]","[3]% [Faith] from every [Farm]"], //only 3% because you're going to be building a *lot* of farms
         // Preferably I would not have a cityFilter here, but doing so requires no additional implementation
     },
     {
         "name": "God of Craftsman",
         "type": "Pantheon",
-        "uniques": ["[+1 Production] <in cities with at least [3] [Population]>"]
+        "uniques": ["[+1 Production] <in cities with at least [3] [Population]>","[+2] [Faith] for every [manufacturing]","[2]% [Faith] for every [Mine]" ] //same deal, a small boost for mines and Great Engineers are a source of faith
     },
     {
         "name": "God of the Open Sky",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Pasture]"]
+        "uniques": ["[+1 Culture] from every [Pasture]","[+1 Faith] from [Grassland] tiles without [Forest] [in this city]"] //relitively straightforward "god of X terrain" package 
     },
     {
         "name": "God of the Sea",
         "type": "Pantheon",
-        "uniques": ["[+1 Production] from every [Fishing Boats]"]
+        "uniques": ["[+1 Production] from every [Fishing Boats]","[+1 Faith] from [Water] tiles [in this city]"] //relitively straightforward "god of X terrain" package again 
     },
     {
-        "name": "God of War",
+        "name": "God of War", //I really wish that number was parameterized but W/E
         "type": "Pantheon",
         "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
     },
     {
-        "name": "Goddess of Festivals",
+        "name": "Goddess of Festivals", //already generates faith, so no need to change anything 
         "type": "Pantheon",
         "uniques": ["[+1 Culture, +1 Faith] from every [Wine]", "[+1 Culture, +1 Faith] from every [Incense]"]
     },
     {
         "name": "Goddess of Love",
         "type": "Pantheon",
-        "uniques": ["[+1 Happiness] <in cities with at least [6] [Population]>"]
+        "uniques": ["[+1 Happiness] <in cities with at least [6] [Population]>","[+1 Faith] <in cities with at least [6] [Population]>"] //basically just adds Faith
     },
     {
         "name": "Goddess of Protection",
         "type": "Pantheon",
-        "uniques": ["[+30]% Strength for cities <when attacking>"]
+        "uniques": ["[+30]% Strength for cities <when attacking>","[+1 Faith]<in cities with a [Walls]>","[5]% [Faith] [in all cities with a garrison]<in cities with a [Castle]>" //extra Faith from defensive stuff 
     },
     {
         "name": "Goddess of the Hunt",
         "type": "Pantheon",
-        "uniques": ["[+1 Food] from every [Camp]"]
+        "uniques": ["[+1 Food,+1 Faith] from every [Camp]"] //added Faith 
     },
     {
         "name": "Messenger of the Gods",
         "type": "Pantheon",
-        "uniques": ["[+2 Science] from each Trade Route"]
+        "uniques": ["[+2 Science] from each Trade Route","[+2 Faith][in capital]","[+1 Faith][in all cities connected to capital]"]//I'm not sure what this is supposed to reference but I am definitely not doing anything with roads
     },
     {
         "name": "Monument to the Gods",
         "type": "Pantheon",
-        "uniques": ["[+15]% Production when constructing [All] wonders [in cities following this religion]"]
+        "uniques": ["[+15]% Production when constructing [All] wonders [in cities following this religion]","[+2 Faith][in all cities with a world wonder]"]//obvious addition
         // ToDo: Should only be ancient/classical era wonders, but implementing that is another can of worms
         // For that we really should need an era.matchesFilter(), so we could write something like:
         //"uniques": ["[+15]% Production when constructing [Ancient era] wonders [in cities following this religion]",
@@ -85,34 +79,34 @@
         // Alternatively, we could approximate this with "[+15]% Production when constructing [All] wonders [in all cities] <during the [Ancient era]>"
     },
     {
-        "name": "One with Nature",
+        "name": "One with Nature", //doesn't need changing 
         "type": "Pantheon",
         "uniques": ["[+4 Faith] from every [Natural Wonder]"]
     },
     {
         "name": "Oral Tradition",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Plantation]"]
+        "uniques": ["[+1 Culture,+1 Faith] from every [Plantation]"] //added Faith again 
     },
     {
-        "name": "Religious Idols",
+        "name": "Religious Idols", //doesn't need changing 
         "type": "Pantheon",
         "uniques": ["[+1 Culture, +1 Faith] from every [Gold Ore]", "[+1 Culture, +1 Faith] from every [Silver]"]
     },
     {
         "name": "Religious Settlements",
         "type": "Pantheon",
-        "uniques": ["[-15]% Culture cost of natural border growth [in cities following this religion]"]
+        "uniques": ["[-15]% Culture cost of natural border growth [in cities following this religion]","[10]% [Faith] [in cities following this religion] <in cities with at least [6] [Population]>"] //boosts religion in big cities 
     },
     {
         "name": "Sacred Path",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Jungle]"]
+        "uniques": ["[+1 Culture,+1 Faith] from every [Jungle]"] //added Faith (again)
     },
     {
         "name": "Sacred Waters",
         "type": "Pantheon",
-        "uniques": ["[+1 Happiness] in cities on [River] tiles"]
+        "uniques": ["[+1 Happiness,+3 Faith] in cities on [River] tiles"] //Faith again, this one is a little more tricky to pull in game so has bigger bonus 
     },
     {
         "name": "Stone Circles",
@@ -120,7 +114,13 @@
         "uniques": ["[+2 Faith] from every [Quarry]"]
     },
 ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
-    {
+     {
+        "name": "Faith Healers",
+        "type": "Follower", //moved this to Follower because it's not really a pantheon worthy effect, and there's no way to check when a unit heals and generate faith that way AFAIK
+        "uniques": ["[All] Units adjacent to this city heal [+30] HP per turn when healing"]
+        // This should be worded better
+    },
+   {
         "name": "Asceticism",
         "type": "Follower",
         "uniques": ["[+1 Happiness] from every [Shrine] <in cities with at least [3] [Followers of this Religion]>"]
