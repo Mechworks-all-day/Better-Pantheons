@@ -52,9 +52,9 @@
         "uniques": ["[+1 Happiness] <in cities with at least [6] [Population]>","[+1 Faith] <in cities with at least [6] [Population]>"] //basically just adds Faith
     },
     {
-        "name": "Goddess of Protection",
+        "name": "Goddess of Protection",//extra Faith from defensive stuff
         "type": "Pantheon",
-        "uniques": ["[+30]% Strength for cities <when attacking>","[+1 Faith]<in cities with a [Walls]>","[5]% [Faith] [in all cities with a garrison]<in cities with a [Castle]>" //extra Faith from defensive stuff 
+        "uniques": ["[+30]% Strength for cities <when attacking>","[+1 Faith]<in cities with a [Walls]>","[5]% [Faith] [in all cities with a garrison]<in cities with a [Castle]>"  
     },
     {
         "name": "Goddess of the Hunt",
