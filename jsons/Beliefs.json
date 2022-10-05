@@ -24,7 +24,7 @@
     {
         "name": "God of Craftsman",
         "type": "Pantheon",
-        "uniques": ["[+1 Production] <in cities with at least [3] [Population]>","[+2] [Faith] for every [manufacturing]","[2]% [Faith] for every [Mine]" ] //same deal, a small boost for mines and Great Engineers are a source of faith
+        "uniques": ["[+1 Production] <in cities with at least [3] [Population]>","[+2] [Faith] for every [Manufactory]","[2]% [Faith] for every [Mine]" ] //same deal, a small boost for mines and Great Engineers are a source of faith
     },
     {
         "name": "God of the Open Sky",
