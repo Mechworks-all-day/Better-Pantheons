@@ -69,14 +69,167 @@
   {
      "name": "Sacred Stones",
      "type": "Pantheon",
-     "uniques": ["[+1 Faith] from every [Stone]", "WIP", "May buy [Standing Stones] buildings with [Faith] [in cities following this religion]"]
-  },
+     "uniques": ["[+1 Faith] from every [Stone]", "[+2 Culture] from every [Marble]", "May buy [Standing Stones] buildings with [Faith] [in cities following this religion]"]
+  }, //Note, I really want to change marble to a persentage, but can't work out how to do that properly, so it's just a +2 for now.
 
+//Sacred Resources Set 
   {
      "name": "Sacred Riches",
      "type": "Pantheon",
-     "uniques": ["[+1 Culture] from [Jungle] tiles [in cities following this religion]", "May buy [Golden Path] buildings with [Faith] [in cities following this religion]"]
+     "uniques": [
+                "[+1 Culture] from every [Gold Ore]",
+                "[+1 Culture] from every [Silver]",
+                "[+1 Culture] from every [Gems]",
+                "[20]% Yield from every [Gold Ore]",
+                "[20]% Yield from every [Silver]",
+                "[20]% Yield from every [Gems]",
+                "May buy [Gleaming Idol] buildings with [Faith] [in cities following this religion]"
+                ]
   },
+  {
+     "name": "Sacred Celebrations",
+     "type": "Pantheon",
+     "uniques": [
+                "[+1 Culture] from every [Incense]",
+                "[+1 Culture] from every [Wine]",
+                "[+1 Culture] from every [Dyes]",
+                "[20]% Yield from every [Incense]",
+                "[20]% Yield from every [Wine]",
+                "[20]% Yield from every [Dyes]",
+                "May buy [Dancing Ground] buildings with [Faith] [in cities following this religion]"
+                ]
+  },
+  {
+     "name": "Sacred Seas",
+     "type": "Pantheon",
+     "uniques": [
+                "[+1 Culture] from every [Crabs]",
+                "[+1 Culture] from every [Whales]",
+                "[+1 Culture] from every [Pearls]",
+                "[20]% Yield from every [Crabs]",
+                "[20]% Yield from every [Whales]",
+                "[20]% Yield from every [Pearls]",
+                "May buy [Tidal Shrine] buildings with [Faith] [in cities following this religion]"
+                ]
+  },  {
+     "name": "Sacred Bounty",
+     "type": "Pantheon",
+     "uniques": [
+                "[+1 Culture] from every [Wheat]",
+                "[+1 Culture] from every [Truffles]",
+                "[+1 Culture] from every [Deer]",
+                "[20]% Yield from every [Wheat]",
+                "[20]% Yield from every [Truffles]",
+                "[20]% Yield from every [Deer]",
+                "May buy [Feasting Hall] buildings with [Faith] [in cities following this religion]"
+                ]
+  },
+  {
+     "name": "Sacred Herds",
+     "type": "Pantheon",
+     "uniques": [
+                "[+1 Culture] from every [Sheep]",
+                "[+1 Culture] from every [Cattle]",
+                "[+1 Culture] from every [Ivory]",
+                "[20]% Yield from every [Sheep]",
+                "[20]% Yield from every [Cattle]",
+                "[20]% Yield from every [Ivory]",
+                "May buy [Sacred Bull] buildings with [Faith] [in cities following this religion]"
+                ]
+  },
+  {
+     "name": "Sacred Fruits",
+     "type": "Pantheon",
+     "uniques": [
+                "[+1 Culture] from every [Bananas]",
+                "[+1 Culture] from every [Citrus]",
+                "[+1 Culture] from every [Sugar]", //note: replace this with cocoa once it's available 
+                "[20]% Yield from every [Bananas]",
+                "[20]% Yield from every [Citrus]",
+                "[20]% Yield from every [Sugar]",
+                "May buy [Idol of Plenty] buildings with [Faith] [in cities following this religion]"
+                ]
+  },
+//Gods Set
+//Hahaha this is *so incomplete right now* guys I will be adding SO MUCH to this set later.
+  {
+     "name": "God of Craftsman",
+     "type": "Pantheon",
+     "uniques": ["May buy [Cult of Making] buildings with [Faith] [in cities following this religion]"]
+  },
+  {
+     "name": "Goddess of Crafting",
+     "type": "Pantheon",
+     "uniques": ["May buy [Creation Rites] buildings with [Faith] [in cities following this religion]"]
+  },
+  {
+     "name": "God of the Sea",
+     "type": "Pantheon",
+     "uniques": ["May buy [Cult of the Ocean] buildings with [Faith] [in cities following this religion]"]
+  },
+  {
+     "name": "Goddess of the Sea",
+     "type": "Pantheon",
+     "uniques": ["May buy [Seafarer's Rites] buildings with [Faith] [in cities following this religion]"]
+  },
+  {
+     "name": "God of War",
+     "type": "Pantheon",
+     "uniques": ["May buy [Cult of the Warrior] buildings with [Faith] [in cities following this religion]"]
+  },
+  {
+     "name": "Goddess of War",
+     "type": "Pantheon",
+     "uniques": ["May buy [Battle Rites] buildings with [Faith] [in cities following this religion]"]
+  },
+  {
+     "name": "God of the Sky",
+     "type": "Pantheon",
+     "uniques": ["May buy [Cult of the Sky] buildings with [Faith] [in cities following this religion]"]
+  },
+  {
+     "name": "Goddess of the Sky",
+     "type": "Pantheon",
+     "uniques": ["May buy [Wind Rites] buildings with [Faith] [in cities following this religion]"]
+  },
+  {
+     "name": "God of Love",
+     "type": "Pantheon",
+     "uniques": ["May buy [Cult of Love] buildings with [Faith] [in cities following this religion]"]
+  },
+  {
+     "name": "Goddess of Love",
+     "type": "Pantheon",
+     "uniques": ["May buy [Fertility Rites] buildings with [Faith] [in cities following this religion]"]
+  },
+  {
+     "name": "God of Protection",
+     "type": "Pantheon",
+     "uniques": ["May buy [Cult of the Defender] buildings with [Faith] [in cities following this religion]"]
+  },
+  {
+     "name": "Goddess of Protection",
+     "type": "Pantheon",
+     "uniques": ["May buy [Protective Rites] buildings with [Faith] [in cities following this religion]"]
+  },
+  {
+     "name": "God of the Hunt",
+     "type": "Pantheon",
+     "uniques": ["May buy [Cult of the Hunter] buildings with [Faith] [in cities following this religion]"]
+  },
+  {
+     "name": "Goddess of the Hunt",
+     "type": "Pantheon",
+     "uniques": ["May buy [Hunting Rites] buildings with [Faith] [in cities following this religion]"]
+  },
+
+//And lastly,
+  {
+     "name": "The One God",
+     "type": "Pantheon",
+     "uniques": ["May buy [Cult of Making] buildings with [Faith] [in cities following this religion]"]
+  },
+
 
 /////////////////////////////Founder Beliefs/////////////////////////////
 
