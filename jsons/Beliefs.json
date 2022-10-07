@@ -24,21 +24,59 @@
   },
 
 //Folklore Set
-
   {
      "name": "Tundra Folklore",
      "type": "Pantheon",
-     "uniques": ["[+1 Culture] from every [Shrine]", "May buy [Spirit Shrine] buildings with [Faith] [in cities following this religion]"]
+     "uniques": ["[+1 Food] from [Farm] tiles [in cities following this religion] <in [Tundra] tiles>", "May buy [Spirit Shrine] buildings with [Faith] [in cities following this religion]"]
   },
   {
      "name": "Desert Folklore",
      "type": "Pantheon",
-     "uniques": ["[+1 Culture] from every [Shrine]", "May buy [Ancestral Shrine] buildings with [Faith] [in cities following this religion]"]
+     "uniques": ["[+1 Food] from [Farm] tiles [in cities following this religion] <in [Desert] tiles>", "May buy [Shrine of Sands] buildings with [Faith] [in cities following this religion]"]
+  },
+  {
+     "name": "Woodland Folklore",
+     "type": "Pantheon",
+     "uniques": ["[+1 Food] from [Camp] tiles [in cities following this religion] <in [Forest] tiles>", "May buy [Sacred Grove] buildings with [Faith] [in cities following this religion]"]
+  },
+  {
+     "name": "Grassland Folklore",
+     "type": "Pantheon",
+     "uniques": ["[10]% Yield from every [Pasture] <in [Grassland] tiles>", "[10]% Yield from every [Pasture] <in [Plains] tiles>", "May buy [Waystone] buildings with [Faith] [in cities following this religion]"]
+  },
+  {
+     "name": "Mountain Folklore",
+     "type": "Pantheon",
+     "uniques": ["[+1 Food] from [Mountain] tiles [in cities following this religion]", "May buy [Sacred Stair] buildings with [Faith] [in cities following this religion]"]
+  },
+  {
+     "name": "Coastal Folklore",
+     "type": "Pantheon",
+     "uniques": ["[+1 Food] from [Coast] tiles [in cities following this religion]", "May buy [Shrine of Seas] buildings with [Faith] [in cities following this religion]"]
   },
 
+//Sacred Set
+  {
+     "name": "Sacred Path",
+     "type": "Pantheon",
+     "uniques": ["[+1 Culture] from [Jungle] tiles [in cities following this religion]", "May buy [Golden Path] buildings with [Faith] [in cities following this religion]"]
+  },
+  {
+     "name": "Sacred Waters",
+     "type": "Pantheon",
+     "uniques": ["[10%] [Faith] [in cities following this religion] <in [River] tiles>", "[+2 Faith] from [Holy Site] tiles [in cities following this religion] <in [River] tiles>", "May buy [Sacred Stream] buildings with [Faith] [in cities following this religion]"]
+  },
+  {
+     "name": "Sacred Stones",
+     "type": "Pantheon",
+     "uniques": ["[+1 Faith] from every [Stone]", "WIP", "May buy [Standing Stones] buildings with [Faith] [in cities following this religion]"]
+  },
 
-
-
+  {
+     "name": "Sacred Riches",
+     "type": "Pantheon",
+     "uniques": ["[+1 Culture] from [Jungle] tiles [in cities following this religion]", "May buy [Golden Path] buildings with [Faith] [in cities following this religion]"]
+  },
 
 /////////////////////////////Founder Beliefs/////////////////////////////
 
