@@ -706,7 +706,7 @@
   },
 //Note: commenting these out for now, because this adds a bunch of new religious structures already and I don't think they're needed.
 //Leaving them actually in the document though, just so it's easier if I change my mind latera
-/*  {
+*/  {
      "name": "Monasteries",
      "type": "Follower",
      "uniques": ["May buy [Monastery] buildings for [150] [Faith] [in cities following this religion]"]
@@ -725,7 +725,7 @@
      "name": "Pagodas",
      "type": "Follower",
      "uniques": ["May buy [Pagoda] buildings with [Faith] [in cities following this religion]"]
-  }, */
+  }, /*
   {
      "name": "Peace Gardens",
      "type": "Follower",
@@ -821,7 +821,7 @@
      "type": "Follower",
      "uniques": ["[-15]% Culture cost of natural border growth [in cities following this religion]"]
   },
-//And lastly a couple of Founder Beliefs the really shouldn't be:
+//And lastly a couple of Founder Beliefs that really shouldn't be:
   {
      "name": "Interfaith Dialogue",
      "type": "Follower",
