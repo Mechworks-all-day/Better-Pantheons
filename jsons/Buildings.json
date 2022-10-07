@@ -171,7 +171,7 @@
                 "Basic Religion", "Sacred"
                 ],
    },
-   { //Sacred seas
+   { //Sacred Seas
      "name": "Tidal Shrine",
      "cost": 0,
      "faith": 1,
@@ -417,6 +417,7 @@
                 "[+1 Faith] from all [Faith] buildings",
                 "Free [Inquisitor] appears",
                 "Unbuildable", 
+                "Destroyed when the city is captured",
                 "Hidden when religion is disabled",
                 "Basic Religion", "One God"
                 ],
@@ -429,6 +430,7 @@
                 "[+30]% Natural religion spread [in this city]",
 //I have/had more complex ideas for this, but implementing them doesn't seem to be possible at this time.
                 "Unbuildable", 
+                "Destroyed when the city is captured", 
                 "Hidden when religion is disabled",
                 "Basic Religion", "All Gods"
                 ],
@@ -437,7 +439,7 @@
 //Bah.
 
 //Teir 2
-//Note that almost all of these are going to require at least some Temples before you can build them.
+//Note that almost all of these are going to require at least some other stuff before you can build them.
   { //Ritual burial 
      "name": "Burial Ground",
      "cost": 0,
@@ -488,8 +490,9 @@
                 "Requires a [Basic Religion] in at least [5] Cities",
                 "Only available <in cities without a [Pilgrimage]>",
                 "Limited to [3] per Civilization",
-                "National Wonder",
+                "Religious Wonder",
                 "Unbuildable", 
+                "Never destroyed when the city is captured",
                 "Hidden when religion is disabled",
                 "Enhanced Religion", "Pilgrimage"
                 ],
@@ -506,8 +509,9 @@
                 "Requires a [Pilgrimage] in at least [2] Cities",
                 "Only available <in cities without a [Pilgrimage]>",
                 "Limited to [2] per Civilization",
-                "National Wonder",
+                "Religious Wonder",
                 "Unbuildable", 
+                "Never destroyed when the city is captured",
                 "Hidden when religion is disabled",
                 "Enhanced Religion", "Pilgrimage"
                 ],
@@ -523,8 +527,9 @@
                 "Requires a [Basic Religion] in at least [5] Cities",
                 "Only available <in cities without a [Pilgrimage]>",
                 "Limited to [2] per Civilization",
-                "National Wonder",
+                "Religious Wonder",
                 "Unbuildable", 
+                "Never destroyed when the city is captured",
                 "Hidden when religion is disabled",
                 "Enhanced Religion", "Pilgrimage"
                 ],
@@ -542,8 +547,9 @@
                 "Requires a [Sacred Grave] in at least [1] Cities",
                 "Only available <in cities without a [Pilgrimage]>",
                 "Limited to [2] per Civilization",
-                "National Wonder",
+                "Religious Wonder",
                 "Unbuildable", 
+                "Never destroyed when the city is captured",
                 "Hidden when religion is disabled",
                 "Enhanced Religion", "Pilgrimage"
                 ],
@@ -573,7 +579,8 @@
                 "[+2 Happiness] from every [Enhanced Religion] [in all cities]",
                 "Requires a [Enhanced Religion] in at least [5] cities",
                 "Requires a [Burial] in at least [3] cities", 
-                "Unbuildable", 
+                "Unbuildable",
+                "Never destroyed when the city is captured", 
                 "Hidden when religion is disabled",
                 "Religious Wonder", "Burial"
                 ],
@@ -587,7 +594,7 @@
                 "[+2 Faith] per [5] population [in this city]",
                 "[+2 Culture] from every [Enhanced Religion] [in all cities]",
                 "Requires a [Enhanced Religion] in at least [5] cities",
-                "Requires a [World] in at least [3] cities", 
+                "Requires a [Worldwide] in at least [3] cities", 
                 "Unbuildable", 
                 "Hidden when religion is disabled",
                 "Religious Wonder", "Worldwide"
@@ -603,7 +610,8 @@
                 "[+2 Gold] from every [Enhanced Religion] [in all cities]",
                 "Requires a [Enhanced Religion] in at least [5] cities",
                 "Requires a [Tithe] in at least [3] cities", 
-                "Unbuildable", 
+                "Unbuildable",
+               "Never destroyed when the city is captured", 
                 "Hidden when religion is disabled",
                 "Religious Wonder", "Tithe"
                 ],
@@ -619,6 +627,7 @@
                 "Requires a [Enhanced Religion] in at least [5] cities",
                 "Requires a [Harmony] in at least [3] cities", 
                 "Unbuildable", 
+                "Never destroyed when the city is captured",
                 "Hidden when religion is disabled",
                 "Religious Wonder", "Harmony"
                 ],
@@ -640,6 +649,7 @@
                 "Requires a [Religious Wonder] in at least [1] cities",
                 "Only available <in cities without a [Religious World Wonder]>",
                 "Unbuildable", 
+                "Never destroyed when the city is captured",
                 "Hidden when religion is disabled",
                 "Religious World Wonder", "Burial"
                 ],
@@ -658,7 +668,8 @@
                 "Requires a [Enhanced Religion] in at least [5] cities",
                 "Requires a [Religious Wonder] in at least [1] cities",
                 "Only available <in cities without a [Religious World Wonder]>",
-                "Unbuildable", 
+                "Unbuildable",
+                "Never destroyed when the city is captured",
                 "Hidden when religion is disabled",
                 "Religious World Wonder", "Worldwide"
                 ],
@@ -677,7 +688,8 @@
                 "Requires a [Enhanced Religion] in at least [5] cities",
                 "Requires a [Religious Wonder] in at least [1] cities",
                 "Only available <in cities without a [Religious World Wonder]>",
-                "Unbuildable", 
+                "Unbuildable",
+                "Never destroyed when the city is captured", 
                 "Hidden when religion is disabled",
                 "Religious World Wonder", "Tithe"
                 ],
@@ -697,6 +709,7 @@
                 "Requires a [Religious Wonder] in at least [1] cities",
                 "Only available <in cities without a [Religious World Wonder]>",
                 "Unbuildable", 
+                "Never destroyed when the city is captured",
                 "Hidden when religion is disabled",
                 "Religious World Wonder", "Harmony"
                 ],
@@ -714,6 +727,7 @@
                 "Only available <in cities without a [Religious World Wonder]>",
                 "Only available <in cities without a [Pilgrimage]>",
                 "Unbuildable", 
+                "Never destroyed when the city is captured",
                 "Hidden when religion is disabled",
                 "Religious World Wonder", "Pilgrimage"
                 ],
@@ -732,6 +746,7 @@
                 "Only available <in cities without a [Religious World Wonder]>",
                 "Only available <in cities without a [Pilgrimage]>",
                 "Unbuildable", 
+                "Never destroyed when the city is captured",
                 "Hidden when religion is disabled",
                 "Religious World Wonder", "Pilgrimage"
                 ],
@@ -751,6 +766,7 @@
                 "Only available <in cities without a [Religious World Wonder]>",
                 "Only available <in cities without a [Pilgrimage]>",
                 "Unbuildable", 
+                "Never destroyed when the city is captured",
                 "Hidden when religion is disabled",
                 "Religious World Wonder", "Pilgrimage"
                 ],
@@ -771,7 +787,8 @@
                 "Requires a [Tomb of the Saint] in at least [1] cities",
                 "Only available <in cities without a [Religious World Wonder]>",
                 "Only available <in cities without a [Pilgrimage]>",
-                "Unbuildable", 
+                "Unbuildable",
+                "Never destroyed when the city is captured", 
                 "Hidden when religion is disabled",
                 "Religious World Wonder", "Pilgrimage"
                 ],
@@ -785,7 +802,7 @@
                 "Gain a free [Pantheon] belief",
                 "Limited to [2] per Civilization",
                 "Unbuildable", 
-                "Hidden when religion is disabled"
+                "Hidden when religion is disabled",
                 "Simple Religion upgrade"
                 ],
     },
@@ -796,18 +813,20 @@
                 "Gain a free [Follower] belief",
                 "Limited to [1] per Civilization",
                 "Unbuildable", 
-                "Hidden when religion is disabled"
+                "Hidden when religion is disabled",
                 "Simple Religion upgrade"
                 ],
     },
-   {
+//These are commented out, because I figured out that I can just tack these effect on the Palace
+//That way they're always there and you can't lose them.
+/*   {
      "name": "The Coming of the Prophet",
      "cost": 0,
      "uniques": [
                 "May choose [2] extra [Founder] beliefs when [Founding] a religion",
                 "Limited to [1] per Civilization",
                 "Unbuildable", 
-                "Hidden when religion is disabled"
+                "Hidden when religion is disabled",
                 "Simple Religion upgrade"
                 ],
     },
@@ -819,10 +838,11 @@
                 "May choose [2] extra belief(s) of any type when [Enhancing] a religion",
                 "Limited to [1] per Civilization",
                 "Unbuildable", 
-                "Hidden when religion is disabled"
+                "Hidden when religion is disabled",
                 "Simple Religion upgrade"
                 ],
-    },
+    }, 
+*/
 ]
 //Section to append proper tags to the vanilla buildings
 	{
@@ -906,4 +926,22 @@
      "specialistSlots": {"Artist": 1},
      "uniques": ["Unbuildable", "Hidden when religion is disabled"]
     },
+//Modified Palace with extra religion choices, so you'll always have them
+    {
+     "name": "Palace",
+     "isNationalWonder": true,
+     "production": 3,
+     "science": 3,
+     "gold": 3,
+     "culture": 1,
+     "cityStrength": 2,
+     "cost": 1,
+     "uniques": [
+                "May choose [2] extra [Founder] beliefs when [Founding] a religion",
+                "May choose [1] extra [Enhancer] beliefs when [Enhancing] a religion",
+                "May choose [2] extra belief(s) of any type when [Enhancing] a religion",
+                "Indicates the capital city"
+                ]
+  },
+
 ]
