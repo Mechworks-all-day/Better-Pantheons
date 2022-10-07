@@ -1,4 +1,4 @@
-[
+ [
 ////////////////////////////////////////////////Pantheons////////////////////////////////////////////////
 
 //Simple Set
@@ -13,56 +13,87 @@
   {
      "name": "Small Gods",
      "type": "Pantheon",
-     "uniques": ["[+1 Happiness] from every [Shrine]", "May buy [Appeasement Shrine] buildings with [Faith] [in cities following this religion]"]
+     "uniques": [
+                "[+1 Happiness] from every [Shrine]", 
+                "May buy [Appeasement Shrine] buildings with [Faith] [in cities following this religion]"
+                ]
   },
   {
      "name": "Correct Actions",
      "type": "Pantheon",
-     "uniques": ["[+1 Gold] from every [Shrine]", "May buy [Tablet of Law] buildings with [Faith] [in cities following this religion]"]
+     "uniques": [
+                "[+1 Gold] from every [Shrine]", 
+                "May buy [Tablet of Law] buildings with [Faith] [in cities following this religion]"
+                ]
   },
   {
      "name": "Everyday Spirituality",
      "type": "Pantheon",
-     "uniques": ["[+1 Faith] from every [Shrine]", "May buy [Sacred Markings] buildings with [Faith] [in cities following this religion]"]
+     "uniques": [
+                "[+1 Faith] from every [Shrine]", 
+                "May buy [Sacred Markings] buildings with [Faith] [in cities following this religion]"
+                ]
   },
 
 //Folklore Set
   {
      "name": "Tundra Folklore",
      "type": "Pantheon",
-     "uniques": ["[+1 Food] from [Farm] tiles [in cities following this religion] <in [Tundra] tiles>", "May buy [Spirit Shrine] buildings with [Faith] [in cities following this religion]"]
+     "uniques": [
+                "[+1 Food] from [Farm] tiles [in cities following this religion] <in [Tundra] tiles>", 
+                "May buy [Spirit Shrine] buildings with [Faith] [in cities following this religion]"
+                ]
   },
   {
      "name": "Desert Folklore",
      "type": "Pantheon",
-     "uniques": ["[+1 Food] from [Farm] tiles [in cities following this religion] <in [Desert] tiles>", "May buy [Shrine of Sands] buildings with [Faith] [in cities following this religion]"]
+     "uniques": [
+                "[+1 Food] from [Farm] tiles [in cities following this religion] <in [Desert] tiles>", 
+                "May buy [Shrine of Sands] buildings with [Faith] [in cities following this religion]"
+                ]
   },
   {
      "name": "Woodland Folklore",
      "type": "Pantheon",
-     "uniques": ["[+1 Food] from [Camp] tiles [in cities following this religion] <in [Forest] tiles>", "May buy [Sacred Grove] buildings with [Faith] [in cities following this religion]"]
+     "uniques": [
+                "[+1 Food] from [Camp] tiles [in cities following this religion] <in [Forest] tiles>", 
+                "May buy [Sacred Grove] buildings with [Faith] [in cities following this religion]"
+                ]
   },
   {
      "name": "Grassland Folklore",
      "type": "Pantheon",
-     "uniques": ["[10]% Yield from every [Pasture] <in [Grassland] tiles>", "[10]% Yield from every [Pasture] <in [Plains] tiles>", "May buy [Waystone] buildings with [Faith] [in cities following this religion]"]
+     "uniques": [
+                "[+10]% Yield from every [Pasture] <in [Grassland] tiles>", 
+                "[+10]% Yield from every [Pasture] <in [Plains] tiles>", 
+                "May buy [Waystone] buildings with [Faith] [in cities following this religion]"
+                ]
   },
   {
      "name": "Mountain Folklore",
      "type": "Pantheon",
-     "uniques": ["[+1 Food] from [Mountain] tiles [in cities following this religion]", "May buy [Sacred Stair] buildings with [Faith] [in cities following this religion]"]
+     "uniques": [
+                "[+1 Food] from [Mountain] tiles [in cities following this religion]", 
+                "May buy [Sacred Stair] buildings with [Faith] [in cities following this religion]"
+                ]
   },
   {
      "name": "Coastal Folklore",
      "type": "Pantheon",
-     "uniques": ["[+1 Food] from [Coast] tiles [in cities following this religion]", "May buy [Shrine of Seas] buildings with [Faith] [in cities following this religion]"]
+     "uniques": [
+                "[+1 Food] from [Coast] tiles [in cities following this religion]", 
+                "May buy [Shrine of Seas] buildings with [Faith] [in cities following this religion]"
+                ]
   },
 
 //Sacred Set
   {
      "name": "Sacred Path",
      "type": "Pantheon",
-     "uniques": ["[+1 Culture] from [Jungle] tiles [in cities following this religion]", "May buy [Golden Path] buildings with [Faith] [in cities following this religion]"]
+     "uniques": [
+                "[+1 Culture] from [Jungle] tiles [in cities following this religion]", 
+                "May buy [Golden Path] buildings with [Faith] [in cities following this religion]"
+                ]
   },
   {
      "name": "Sacred Waters",
@@ -76,7 +107,11 @@
   {
      "name": "Sacred Stones",
      "type": "Pantheon",
-     "uniques": ["[+1 Faith] from every [Stone]", "[+2 Culture] from every [Marble]", "May buy [Standing Stones] buildings with [Faith] [in cities following this religion]"]
+     "uniques": [
+                "[+1 Faith] from every [Stone]", 
+                "[+2 Culture] from every [Marble]", 
+                "May buy [Standing Stones] buildings with [Faith] [in cities following this religion]"
+                ]
   }, //Note, I really want to change marble to a persentage, but can't work out how to do that properly, so it's just a +2 for now.
 
 //Sacred Resources Set 
@@ -543,6 +578,7 @@
   },
 
 //Double down on or add to the basic Folklore sets
+//Simple Set
   {
      "name": "Ancestor Worship",
      "type": "Pantheon",
@@ -554,53 +590,79 @@
   {
      "name": "Small Gods",
      "type": "Pantheon",
-     "uniques": ["[+1 Happiness] from every [Shrine]", "May buy [Appeasement Shrine] buildings with [Faith] [in cities following this religion]"]
+     "uniques": [
+                "[+1 Happiness] from every [Shrine]", 
+                "May buy [Appeasement Shrine] buildings with [Faith] [in cities following this religion]"
+                ]
   },
   {
      "name": "Correct Actions",
      "type": "Pantheon",
-     "uniques": ["[+1 Gold] from every [Shrine]", "May buy [Tablet of Law] buildings with [Faith] [in cities following this religion]"]
+     "uniques": [
+                "[+1 Gold] from every [Shrine]", 
+                "May buy [Tablet of Law] buildings with [Faith] [in cities following this religion]"
+                ]
   },
   {
      "name": "Everyday Spirituality",
      "type": "Pantheon",
-     "uniques": ["[+1 Faith] from every [Shrine]", "May buy [Sacred Markings] buildings with [Faith] [in cities following this religion]"]
+     "uniques": [
+                "[+1 Faith] from every [Shrine]", 
+                "May buy [Sacred Markings] buildings with [Faith] [in cities following this religion]"
+                ]
   },
 
 //Folklore Set
   {
      "name": "Tundra Folklore",
      "type": "Pantheon",
-     "uniques": ["[+1 Food] from [Farm] tiles [in cities following this religion] <in [Tundra] tiles>", "May buy [Spirit Shrine] buildings with [Faith] [in cities following this religion]"]
+     "uniques": [
+                "[+1 Food] from [Farm] tiles [in cities following this religion] <in [Tundra] tiles>", 
+                "May buy [Spirit Shrine] buildings with [Faith] [in cities following this religion]"
+                ]
   },
   {
      "name": "Desert Folklore",
      "type": "Pantheon",
-     "uniques": ["[+1 Food] from [Farm] tiles [in cities following this religion] <in [Desert] tiles>", "May buy [Shrine of Sands] buildings with [Faith] [in cities following this religion]"]
+     "uniques": [
+                "[+1 Food] from [Farm] tiles [in cities following this religion] <in [Desert] tiles>", 
+                "May buy [Shrine of Sands] buildings with [Faith] [in cities following this religion]"
+                ]
   },
   {
      "name": "Woodland Folklore",
      "type": "Pantheon",
-     "uniques": ["[+1 Food] from [Camp] tiles [in cities following this religion] <in [Forest] tiles>", "May buy [Sacred Grove] buildings with [Faith] [in cities following this religion]"]
+     "uniques": [
+                "[+1 Food] from [Camp] tiles [in cities following this religion] <in [Forest] tiles>", 
+                "May buy [Sacred Grove] buildings with [Faith] [in cities following this religion]"
+                ]
   },
   {
      "name": "Grassland Folklore",
      "type": "Pantheon",
-     "uniques": ["[10]% Yield from every [Pasture] <in [Grassland] tiles>", "[10]% Yield from every [Pasture] <in [Plains] tiles>", "May buy [Waystone] buildings with [Faith] [in cities following this religion]"]
+     "uniques": [
+                "[+10]% Yield from every [Pasture] <in [Grassland] tiles>", 
+                "[+10]% Yield from every [Pasture] <in [Plains] tiles>", 
+                "May buy [Waystone] buildings with [Faith] [in cities following this religion]"
+                ]
   },
   {
      "name": "Mountain Folklore",
      "type": "Pantheon",
-     "uniques": ["[+1 Food] from [Mountain] tiles [in cities following this religion]", "May buy [Sacred Stair] buildings with [Faith] [in cities following this religion]"]
+     "uniques": [
+                "[+1 Food] from [Mountain] tiles [in cities following this religion]", 
+                "May buy [Sacred Stair] buildings with [Faith] [in cities following this religion]"
+                ]
   },
   {
      "name": "Coastal Folklore",
      "type": "Pantheon",
-     "uniques": ["[+1 Food] from [Coast] tiles [in cities following this religion]", "May buy [Shrine of Seas] buildings with [Faith] [in cities following this religion]"]
+     "uniques": [
+                "[+1 Food] from [Coast] tiles [in cities following this religion]", 
+                "May buy [Shrine of Seas] buildings with [Faith] [in cities following this religion]"
+                ]
   },
-
-//Again, really want to do more The One God and Grand Pantheon stuff, but needs dependency before that can happen.
-
+//Again, really want to do more The One God and Grand Pantheon stuff, but needs dependency to be a thing before that can happen.
 
 /////////////////////////////////////////////Follower  Beliefs/////////////////////////////////////////////
 
@@ -691,4 +753,83 @@
   },
 //This is the end of the vanilla Follower stuff, here's the things that get moved from other catagories 
 
-]
+//Literally all the Enhancer beliefs, because they're all really milquetoast
+
+  {
+     "name": "Defender of the Faith",
+     "type": "Follower",
+     "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
+  },
+  {
+     "name": "Holy Order",
+     "type": "Follower",
+     "uniques": ["[Faith] cost of purchasing [Missionary] units [-30]%", "[Faith] cost of purchasing [Inquisitor] units [-30]%"]
+  },
+  {
+     "name": "Itinerant Preachers",
+     "type": "Follower",
+     "uniques": ["Religion naturally spreads to cities [+3] tiles away"]
+  },
+  {
+     "name": "Just War",
+     "type": "Follower",
+     "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
+  },
+  {
+     "name": "Messiah",
+     "type": "Follower",
+     "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>", "[-25]% Faith cost of generating Great Prophet equivalents"]
+  },
+  {
+     "name": "Missionary Zeal",
+     "type": "Follower",
+     "uniques": ["[+25]% Spread Religion Strength <for [Missionary] units>"]
+  },
+  {
+     "name": "Religious Texts",
+     "type": "Follower",
+     "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [Printing Press]>"]
+  },
+  {
+     "name": "Religious Unity",
+     "type": "Follower",
+     "uniques": ["[+100]% Natural religion spread [in City-State cities]"]
+  },
+  {
+     "name": "Reliquary",
+     "type": "Follower",
+     "uniques": ["[+50 Faith] whenever a Great Person is expended"]
+  }
+//A couple of the Pantheon things that are even more milquetoast and outright terrible by the new paradigm
+  {
+     "name": "Faith Healers",
+     "type": "Follower",
+     "uniques": ["[All] Units adjacent to this city heal [+30] HP per turn when healing"]
+  },
+  {
+     "name": "One with Nature",
+     "type": "Follower",
+     "uniques": ["[+4 Faith] from every [Natural Wonder]"]
+  },
+  {
+     "name": "Oral Tradition",
+     "type": "Follower",
+     "uniques": ["[+1 Culture] from every [Plantation]"]
+  },
+  {
+     "name": "Religious Settlements",
+     "type": "Follower",
+     "uniques": ["[-15]% Culture cost of natural border growth [in cities following this religion]"]
+  },
+//And lastly a couple of Founder Beliefs the really shouldn't be:
+  {
+     "name": "Interfaith Dialogue",
+     "type": "Follower",
+     "uniques": ["When spreading religion to a city, gain [10] times the amount of followers of other religions as [Faith]"]
+  }
+  {
+     "name": "Church Property",
+     "type": "Founder",
+     "uniques": ["[+2 Gold] for each global city following this religion"]
+  },
+ ]
