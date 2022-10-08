@@ -639,7 +639,7 @@
      "faith": 3,
      "isNationalWonder": true,
      "uniques": [
-                "[+2 Faith] from [Gold] tiles [in all cities]",
+                "[+2 Faith] from every [Gold]",
                 "[+2 Gold] from every [Enhanced Religion]",
 //                "Requires a Enhanced Religion in at least 5 cities",
 //                "Requires a Tithe in at least 3 cities",
