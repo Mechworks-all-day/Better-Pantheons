@@ -492,7 +492,8 @@
      "cost": 0,
      "faith": 2,
      "uniques": [
-                "[+1 Faith] from [Gold] tiles [in this city]",
+                "[+1 Faith] from every [Gold] <in cities with a [Blessed Market]>",
+//Original idea for these doesn't work, so it's this now. Not as good as I want, but it'll work and that's the important thing.
                 "[+1 Gold] from every [Basic Religion] <in cities with a [Blessed Market]>",
 //Gah!
 //                "Requires a Basic Religion in at least 5 cities",
@@ -586,7 +587,7 @@
      "cost": 0,
      "faith": 2,
      "uniques": [
-                "[+1 Faith] from [Science] tiles [in this city]",
+                "[+1 Faith] from every [Science] <in cities with a [Temple of Contemplation]>",//again, not really what I want this to do, but it'll actually work now so c'est la vie 
                 "[+1 Science] from every [Basic Religion] <in cities with a [Temple of Contemplation]>",
 //                "Requires a Basic Religion in at least 5 cities",
 //Damn faint silver lining though.
@@ -655,7 +656,7 @@
      "faith": 3,
      "isNationalWonder": true,
      "uniques": [
-                "[+2 Faith] from [Science] tiles [in all cities]",
+                "[+2 Faith] from every [Science]",
                 "[+2 Science] from every [Enhanced Religion]",
 //                "Requires a Enhanced Religion in at least 5 cities",
 //                "Requires a Harmony in at least 3 cities", 
