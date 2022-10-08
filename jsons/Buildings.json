@@ -309,6 +309,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
+/*
                 "[+1 Faith][in this city]<in cities with a [Stone Works]>",
                 "[+1 Faith][in this city]<in cities with a [Water Mill]>",
                 "[+1 Faith][in this city]<in cities with a [Stable]>",
@@ -325,6 +326,10 @@
                 "[+1 Faith][in this city]<in cities with a [Solar Plant]>",
                 "[+1 Faith][in this city]<in cities with a [Nuclear Plant]>",
                 "[+1 Faith][in this city]<in cities with a [Spaceship Factory]>",
+*/
+// testing if this works
+                "[+1 Faith][in this city]<in cities with a [Production]>",
+
 //Oh I hate this, but it's the only way to get the desired behavior 
 //Why for the love of god can't we get more cityFilter versions of things
 //"[+1 Faith] from all [Production] buildings [in this city]" would be so much more elegant!
