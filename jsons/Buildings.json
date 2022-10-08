@@ -450,6 +450,10 @@
 
 //Teir 2
 //Note that almost all of these are going to require at least some other stuff before you can build them.
+//Note 2: arg. Apparently the requires X building unique *doesn't use buildingFilter*
+//So that whole mechanic is just going to have to wait.
+//I've already asked for it to be swapped to the more general buildingFilter from its current buildingName,
+//But until that happens all the code for it is commented out for now.
   { //Ritual burial 
      "name": "Burial Ground",
      "cost": 0,
@@ -457,7 +461,8 @@
      "uniques": [
                 "[+1 Faith] per [14] population [in all cities]",
                 "[+1 Happiness] from every [Basic Religion] <in cities with a [Burial Ground]>",//this is flakkin' awkward but there's no Cityfilter on this one so this is the best I can do I think 
-                "Requires a [Basic Religion] in at least [5] cities",
+//Rarg.
+//                "Requires a [Basic Religion] in at least [5] cities",
                 "Unbuildable", 
                 "Hidden when religion is disabled",
                 "Enhanced Religion", "Burial"
@@ -469,8 +474,9 @@
      "faith": 2,
      "uniques": [
                 "[+1 Faith] per [7] population [in this city]",
-                "[+1 Culture] from every [Basic Religion] <in cities with a [Seminary]>",
-                "Requires a [Basic Religion] in at least [5] cities",
+                "[+1 Culture] from every [Basic Religion] <in cities with a [Seminary]>", 
+//                "Requires a [Basic Religion] in at least [5] cities",
+//Arg.
                 "Unbuildable", 
                 "Hidden when religion is disabled",
                 "Enhanced Religion", "Worldwide"
@@ -483,7 +489,8 @@
      "uniques": [
                 "[+1 Faith] from [Gold] tiles [in this city]",
                 "[+1 Gold] from every [Basic Religion] <in cities with a [Blessed Market]>",
-                "Requires a [Basic Religion] in at least [5] cities",
+//Gah!
+//                "Requires a [Basic Religion] in at least [5] cities",
                 "Unbuildable", 
                 "Hidden when religion is disabled",
                 "Enhanced Religion", "Tithe"
@@ -496,8 +503,10 @@
      "isNationalWonder": true,
      "uniques": [
                 "[+1 Faith] from all [Pilgrimage] buildings",
-                "[+1 Happiness] from every [Basic Religion] <in cities with a [Pilgrimage]>",//Changed how that works a little for the pilgrim sets
-                "Requires a [Basic Religion] in at least [5] cities",
+                "[+1 Faith] from every [Basic Religion] <in cities with a [Pilgrimage]>",//Changed how that works a little for the pilgrim sets
+//                "Requires a [Basic Religion] in at least [5] cities",
+//And it was such an *elegant* idea too
+//it just ain't the same 
                 "Only available <in cities without a [Pilgrimage]>",
                 "Limited to [3] per Civilization",
                 "Religious Wonder",
@@ -514,9 +523,10 @@
      "isNationalWonder": true,
      "uniques": [
                 "[+1 Faith] from all [Pilgrimage] buildings",
-                "[+1 Happiness] from every [Basic Religion] <in cities with a [Pilgrimage]>",
-                "Requires a [Basic Religion] in at least [5] cities",
-                "Requires a [Pilgrimage] in at least [2] cities",
+                "[+1 Faith] from every [Basic Religion] <in cities with a [Pilgrimage]>",
+//                "Requires a [Basic Religion] in at least [5] cities",
+//                "Requires a [Pilgrimage] in at least [2] cities",
+// *Sigh*
                 "Only available <in cities without a [Pilgrimage]>",
                 "Limited to [2] per Civilization",
                 "Religious Wonder",
@@ -533,8 +543,8 @@
      "isNationalWonder": true,
      "uniques": [
                 "[+1 Faith] from all [Pilgrimage] buildings",
-                "[+1 Happiness] from every [Basic Religion] <in cities with a [Pilgrimage]>",
-                "Requires a [Basic Religion] in at least [5] cities",
+                "[+1 Faith] from every [Basic Religion] <in cities with a [Pilgrimage]>",
+//                "Requires a [Basic Religion] in at least [5] cities",
                 "Only available <in cities without a [Pilgrimage]>",
                 "Limited to [2] per Civilization",
                 "Religious Wonder",
@@ -551,7 +561,9 @@
      "isNationalWonder": true,
      "uniques": [
                 "[+1 Faith] from all [Pilgrimage] buildings",
-                "[+1 Happiness] from every [Basic Religion] <in cities with a [Pilgrimage]>",
+                "[+1 Faith] from every [Basic Religion] <in cities with a [Pilgrimage]>",
+//At least this let me catch that Pilgrimage wasn't giving Faith as intended
+//So that's something I suppose.
                 "Requires a [Humble Church] in at least [1] cities",
                 "Requires a [Storied Temple] in at least [1] cities",
                 "Requires a [Sacred Grave] in at least [1] cities",
@@ -571,7 +583,8 @@
      "uniques": [
                 "[+1 Faith] from [Science] tiles [in this city]",
                 "[+1 Science] from every [Basic Religion] <in cities with a [Temple of Contemplation]>",
-                "Requires a [Basic Religion] in at least [5] cities",
+//                "Requires a [Basic Religion] in at least [5] cities",
+//Damn faint silver lining though.
                 "Unbuildable", 
                 "Hidden when religion is disabled",
                 "Enhanced Religion", "Harmony"
@@ -587,8 +600,10 @@
      "uniques": [
                 "[+2 Faith] per [10] population [in all cities]",
                 "[+2 Happiness] from every [Enhanced Religion]",
-                "Requires a [Enhanced Religion] in at least [5] cities",
-                "Requires a [Burial] in at least [3] cities", 
+//                "Requires a [Enhanced Religion] in at least [5] cities",
+//                "Requires a [Burial] in at least [3] cities", 
+//ESPECIALLY IN HERE!
+                "Requires a [Burial Ground] in at least [3] cities",
                 "Unbuildable",
                 "Never destroyed when the city is captured", 
                 "Hidden when religion is disabled",
@@ -603,8 +618,10 @@
      "uniques": [
                 "[+2 Faith] per [5] population [in this city]",
                 "[+2 Culture] from every [Enhanced Religion]",
-                "Requires a [Enhanced Religion] in at least [5] cities",
-                "Requires a [Worldwide] in at least [3] cities", 
+//                "Requires a [Enhanced Religion] in at least [5] cities",
+//                "Requires a [Worldwide] in at least [3] cities", 
+//I wanted these to be CAPSTONE PROJECTS dangit!
+                "Requires a [Seminary] in at least [3] cities",//this can work as a placeholder I suppose. It's not the *intended* restriction but feh.
                 "Unbuildable", 
                 "Hidden when religion is disabled",
                 "Religious Wonder", "Worldwide"
@@ -618,10 +635,11 @@
      "uniques": [
                 "[+2 Faith] from [Gold] tiles [in all cities]",
                 "[+2 Gold] from every [Enhanced Religion]",
-                "Requires a [Enhanced Religion] in at least [5] cities",
-                "Requires a [Tithe] in at least [3] cities", 
+//                "Requires a [Enhanced Religion] in at least [5] cities",
+//                "Requires a [Tithe] in at least [3] cities",
+                "Requires a [Blessed Market] in at least [3] cities",
                 "Unbuildable",
-               "Never destroyed when the city is captured", 
+                "Never destroyed when the city is captured", 
                 "Hidden when religion is disabled",
                 "Religious Wonder", "Tithe"
                 ],
@@ -634,8 +652,10 @@
      "uniques": [
                 "[+2 Faith] from [Science] tiles [in all cities]",
                 "[+2 Science] from every [Enhanced Religion]",
-                "Requires a [Enhanced Religion] in at least [5] cities",
-                "Requires a [Harmony] in at least [3] cities", 
+//                "Requires a [Enhanced Religion] in at least [5] cities",
+//                "Requires a [Harmony] in at least [3] cities", 
+                "Requires a [Temple of Contemplation] in at least [3] cities",
+//I *really want* those tag based requirements 
                 "Unbuildable", 
                 "Never destroyed when the city is captured",
                 "Hidden when religion is disabled",
@@ -654,9 +674,10 @@
                 "[+1 Happiness] from every [Basic Religion]",
                 "[+2 Happiness] from every [Enhanced Religion]",
                 "[+3 Happiness] from every [Religious Wonder]",
-                "Requires a [Basic Religion] in at least [8] cities",
-                "Requires a [Enhanced Religion] in at least [5] cities",
-                "Requires a [Religious Wonder] in at least [1] cities",
+//                "Requires a [Basic Religion] in at least [8] cities",
+//                "Requires a [Enhanced Religion] in at least [5] cities",
+//                "Requires a [Religious Wonder] in at least [1] cities",
+//Especially for this lot
                 "Only available <in cities without a [Religious World Wonder]>",
                 "Unbuildable", 
                 "Never destroyed when the city is captured",
@@ -674,9 +695,10 @@
                 "[+1 Culture] from every [Basic Religion]",
                 "[+2 Culture] from every [Enhanced Religion]",
                 "[+3 Culture] from every [Religious Wonder]",
-                "Requires a [Basic Religion] in at least [8] cities",
-                "Requires a [Enhanced Religion] in at least [5] cities",
-                "Requires a [Religious Wonder] in at least [1] cities",
+//                "Requires a [Basic Religion] in at least [8] cities",
+//                "Requires a [Enhanced Religion] in at least [5] cities",
+//                "Requires a [Religious Wonder] in at least [1] cities",
+//These are pretty important to how I want the Religious World Wonders to work mechanically 
                 "Only available <in cities without a [Religious World Wonder]>",
                 "Unbuildable",
                 "Never destroyed when the city is captured",
@@ -694,9 +716,10 @@
                 "[+1 Gold] from every [Basic Religion]",
                 "[+2 Gold] from every [Enhanced Religion]",
                 "[+3 Gold] from every [Religious Wonder]",
-                "Requires a [Basic Religion] in at least [8] cities",
-                "Requires a [Enhanced Religion] in at least [5] cities",
-                "Requires a [Religious Wonder] in at least [1] cities",
+//                "Requires a [Basic Religion] in at least [8] cities",
+//                "Requires a [Enhanced Religion] in at least [5] cities",
+//                "Requires a [Religious Wonder] in at least [1] cities",
+//At least the dag *conditional* is using buildingFilter 
                 "Only available <in cities without a [Religious World Wonder]>",
                 "Unbuildable",
                 "Never destroyed when the city is captured", 
@@ -714,9 +737,10 @@
                 "[+1 Science] from every [Basic Religion]",
                 "[+2 Science] from every [Enhanced Religion]",
                 "[+3 Science] from every [Religious Wonder]",
-                "Requires a [Basic Religion] in at least [8] cities",
-                "Requires a [Enhanced Religion] in at least [5] cities",
-                "Requires a [Religious Wonder] in at least [1] cities",
+//                "Requires a [Basic Religion] in at least [8] cities",
+//                "Requires a [Enhanced Religion] in at least [5] cities",
+//                "Requires a [Religious Wonder] in at least [1] cities",
+//So you'll still have to spread these out
                 "Only available <in cities without a [Religious World Wonder]>",
                 "Unbuildable", 
                 "Never destroyed when the city is captured",
@@ -733,7 +757,8 @@
                 "[+4 Faith] from every [Basic Religion]",
                 "[+1 Culture] from every [Basic Religion]",
                 "[+1]% [Culture] from every [Pilgrimage]",
-                "Requires a [Basic Religion] in at least [8] cities",
+//                "Requires a [Basic Religion] in at least [8] cities",
+//Especially important for the Pilgrimage sets
                 "Only available <in cities without a [Religious World Wonder]>",
                 "Only available <in cities without a [Pilgrimage]>",
                 "Unbuildable", 
@@ -751,8 +776,9 @@
                 "[+4 Faith] from every [Enhanced Religion]",
                 "[+2]% [Culture] from every [Pilgrimage]",
                 "[+2 Culture] from every [Enhanced Religion]",
-                "Requires a [Basic Religion] in at least [8] cities",
-                "Requires a [Enhanced Religion] in at least [5] cities",
+//                "Requires a [Basic Religion] in at least [8] cities",
+//                "Requires a [Enhanced Religion] in at least [5] cities",
+//Both for lore *and* gameplay reasons
                 "Only available <in cities without a [Religious World Wonder]>",
                 "Only available <in cities without a [Pilgrimage]>",
                 "Unbuildable", 
@@ -770,9 +796,10 @@
                 "[+4 Faith] from every [Religious Wonder]",
                 "[+3]% [Culture] from every [Pilgrimage]",
                 "[+3 Culture] from every [Religious Wonder]",
-                "Requires a [Basic Religion] in at least [8] cities",
-                "Requires a [Enhanced Religion] in at least [5] cities",
-                "Requires a [Religious Wonder] in at least [1] cities",
+//                "Requires a [Basic Religion] in at least [8] cities",
+//                "Requires a [Enhanced Religion] in at least [5] cities",
+//                "Requires a [Religious Wonder] in at least [1] cities",
+//I don't want people piling up the Pilgrimage sets into one city, spread that out 
                 "Only available <in cities without a [Religious World Wonder]>",
                 "Only available <in cities without a [Pilgrimage]>",
                 "Unbuildable", 
@@ -797,6 +824,8 @@
                 "Requires a [Tomb of the Saint] in at least [1] cities",
                 "Only available <in cities without a [Religious World Wonder]>",
                 "Only available <in cities without a [Pilgrimage]>",
+//You might note, however, that the regular Religious Wonders; CAN be stacked on these in pairs
+//*That* is *entirely* deliberate. No more than two strategicly relevant sites per city though.
                 "Unbuildable",
                 "Never destroyed when the city is captured", 
                 "Hidden when religion is disabled",
