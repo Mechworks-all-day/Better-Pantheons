@@ -23,6 +23,24 @@
                "Ranged attacks may be performed over obstacles"
                ]
   },
+  {
+    "name": "Defender of the Faith",
+    "uniques": [
+               "[+20]% Strength <when fighting in [Friendly Land] tiles>",
+               ]
+  },
+  {
+    "name": "Just War",
+    "uniques": [
+               "[+20]% Strength <when fighting in [Enemy Land] tiles>",
+               ]
+  },
+  {
+    "name": "Zeal",
+    "uniques": [
+               "[+25]% Spread Religion Strength",
+               ]
+  },
 //Obviously these are for things that would be nigh impossible to implement properly
 //Without being Promotions 
 ]
