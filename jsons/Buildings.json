@@ -333,7 +333,7 @@
 //If it would stop using close brackets that are commented out, that'd be *gr~eat*
 
 // testing if this works
-//                "[+1 Faith][in this city]<in cities with a [Production]>",
+//                " +1 Faith  in this city <in cities with a  Production >",
 //The problem with that is it only ever generates *one* faith, if there's *any* production buildings,
 //The desired behavior is that *each* production building in the same city generates one faith. 
 
