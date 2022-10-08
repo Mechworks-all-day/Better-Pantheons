@@ -878,13 +878,14 @@
   {
      "name": "Just War",
      "type": "Follower",
-     "uniques": ["All newly-trained [Military] units [in all cities] receive the [Just War] promotion"]
+     "uniques": ["All newly-trained [Military] units [in all cities] receive the [Justified] promotion"]
   },
-  {
+/*  {
      "name": "Messiah",
      "type": "Follower",
-     "uniques": ["[-25]% Faith cost of generating Great Prophet equivalents"]
-  },
+     "uniques": [""]
+  },*/
+//Not sure what to do with this one.
   {
      "name": "Missionary Zeal",
      "type": "Follower",
@@ -927,11 +928,12 @@
      "uniques": ["[-15]% Culture cost of natural border growth [in cities following this religion]"]
   },
 //And lastly a couple of Founder Beliefs that really shouldn't be:
-  {
+/*  {
      "name": "Interfaith Dialogue",
      "type": "Follower",
      "uniques": ["When spreading religion to a city, gain [10] times the amount of followers of other religions as [Faith]"]
-  }
+  }*/
+//Figure out how to implement that later. Promotion maybe?
   {
      "name": "Church Property",
      "type": "Follower",
