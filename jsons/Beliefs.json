@@ -122,7 +122,7 @@
      "type": "Pantheon",
      "uniques": [
                 "[10%] [Faith] [in cities following this religion] <in [Fresh Water] tiles>", //this is so lakes & oasis also count
-                "[+2 Faith] from [Holy site] tiles [in cities following this religion] <in [Fresh Water] tiles>", 
+                "[+2 Faith] from [Holy site] [in cities following this religion] <in [Fresh Water] tiles>", 
                 "May buy [Sacred Stream] buildings with [10] [Faith] [in cities following this religion] at an increasing price of ([5])",
                 "May buy [Basic Pantheon] buildings with [1] [Faith] [in capital] <before the [Renaissance era]>",
                 "May buy [Religious Practice] buildings with [1] [Faith] [in capital] <before the [Renaissance era]>"
@@ -901,11 +901,12 @@
      "type": "Follower",
      "uniques": ["[+100]% Natural religion spread [in City-State cities]"]
   },
-  {
+/*  {
      "name": "Reliquary",
      "type": "Follower",
      "uniques": ["[+50 Faith] whenever a Great Person is expended"]
-  }
+  }*/
+//Nuked for now, implement as a Religious Wonder later
 //A couple of the Pantheon things that are even more milquetoast and outright terrible by the new paradigm
   {
      "name": "Faith Healers",
