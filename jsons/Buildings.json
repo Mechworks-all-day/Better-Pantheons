@@ -772,7 +772,7 @@
                 ],
    },
   { //Pilgrimage 
-     "name": Temple of Glory",
+     "name": "Temple of Glory",
      "cost": 0,
      "Culture": 4
      "faith": 4,
@@ -796,7 +796,7 @@
 
 //Special bits for expanding the number of things you can pick:
    {
-     "name": "Basic Religion",
+     "name": "Basic Pantheon",
      "cost": 0,
      "uniques": [
                 "Gain a free [Pantheon] belief",
@@ -916,7 +916,7 @@
 		"requiredTech": "Theology",
 		"isNationalWonder": true
 	},
-// Religious building template 
+/* Religious building template 
    {
      "name": "Cathedral",
      "cost": 0,
@@ -926,6 +926,7 @@
      "specialistSlots": {"Artist": 1},
      "uniques": ["Unbuildable", "Hidden when religion is disabled"]
     },
+*/
 //Modified Palace with extra religion choices, so you'll always have them
     {
      "name": "Palace",
