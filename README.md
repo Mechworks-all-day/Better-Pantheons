@@ -1,4 +1,10 @@
 # Better-Pantheons
-A mod that alters the starting pantheons to have greater or more logical effect.
-Primarily, Faith effects have been added to everything that didn't have any and Faith Healers is now a Follower belief rather than a Pantheon.
-This mod exists solely because I was frustrated with chosing fluffy options and then never getting to actually found a religion because the AI always beats me to it, because they're in the middle of a desert and have Desert Folklore or whatever.
+Better Pantheons is a comprehensive religion overhaul with several basic design goals.
+
+Firstly, the effects of Pantheons have been extended, more opportunities for a given example are available,
+and pantheon specific structures have been given to every example.
+
+Further, all Pantheons, Founder Beliefs, and Enhancer beliefs have effects and structures designed to generate Faith,
+as well as one or more other resources; all other Beliefs have been religated to Follower beliefs quite deliberately.
+
+The overall effect is that religion is more complex, and can use a wide variety of effects with multiple synergies.
