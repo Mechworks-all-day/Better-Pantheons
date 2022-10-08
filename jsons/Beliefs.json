@@ -122,7 +122,7 @@
      "type": "Pantheon",
      "uniques": [
                 "[10%] [Faith] [in cities following this religion] <in [Fresh Water] tiles>", //this is so lakes & oasis also count
-                "[+2 Faith] from [Holy Site] tiles [in cities following this religion] <in [Fresh Water] tiles>", 
+                "[+2 Faith] from [Holy site] tiles [in cities following this religion] <in [Fresh Water] tiles>", 
                 "May buy [Sacred Stream] buildings with [10] [Faith] [in cities following this religion] at an increasing price of ([5])",
                 "May buy [Basic Pantheon] buildings with [1] [Faith] [in capital] <before the [Renaissance era]>",
                 "May buy [Religious Practice] buildings with [1] [Faith] [in capital] <before the [Renaissance era]>"
@@ -358,9 +358,9 @@
                 "May buy [Religious Practice] buildings with [1] [Faith] [in capital] <before the [Renaissance era]>"
                 ]
   },
-
+//On second thought,
 //And lastly,
-  {
+/*  {
      "name": "The One God",
      "type": "Pantheon",
      "uniques": [
@@ -373,12 +373,12 @@
      "name": "The Grand Pantheon",
      "type": "Pantheon",
      "uniques": [
-                "Gain a free [All are Welcome] [in cities following this religion]",
+                "Gain a free [All Are Welcome] [in cities following this religion]",
                 "[+2 Faith] for each global city following this religion",
                 "[+25]% Spread Religion Strength"
                 ]
-  },
-
+  },*/
+//I'll leave these out until we get more complex behavior and I can use them that way.
 //////////////////////////////////////////////Founder Beliefs//////////////////////////////////////////////
 
 //Basic set
@@ -858,14 +858,17 @@
 //Literally all the Enhancer beliefs, because they're all really milquetoast
 
   {
-     "name": "Defender of the Faith",
+     "name": "Defenders of the Faith",
      "type": "Follower",
-     "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
-  },
+     "uniques": ["All newly-trained [Military] units [in all cities] receive the [Defender of the Faith] promotion"]
+  },//Pluralized the name, made it's Effect a promotion because it was throwing a snit.
   {
      "name": "Holy Order",
      "type": "Follower",
-     "uniques": ["[Faith] cost of purchasing [Missionary] units [-30]%", "[Faith] cost of purchasing [Inquisitor] units [-30]%"]
+     "uniques": [
+                "[Faith] cost of purchasing [Missionary] units [-30]%", 
+                "[Faith] cost of purchasing [Inquisitor] units [-30]%"
+                ]
   },
   {
      "name": "Itinerant Preachers",
@@ -875,17 +878,17 @@
   {
      "name": "Just War",
      "type": "Follower",
-     "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
+     "uniques": ["All newly-trained [Military] units [in all cities] receive the [Just War] promotion"]
   },
   {
      "name": "Messiah",
      "type": "Follower",
-     "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>", "[-25]% Faith cost of generating Great Prophet equivalents"]
+     "uniques": ["[-25]% Faith cost of generating Great Prophet equivalents"]
   },
   {
      "name": "Missionary Zeal",
      "type": "Follower",
-     "uniques": ["[+25]% Spread Religion Strength <for [Missionary] units>"]
+     "uniques": ["All newly-trained [Missionary] units [in all cities] receive the [Zeal] promotion"]
   },
   {
      "name": "Religious Texts",
