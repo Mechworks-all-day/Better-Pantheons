@@ -495,10 +495,10 @@
      "faith": 2,
      "isNationalWonder": true,
      "uniques": [
-                "[+1 Faith] from all ["Pilgrimage"] buildings",
-                "[+1 Happiness] from every [Basic Religion] <in cities with a ["Pilgrimage"]>",//Changed how that works a little for the pilgrim sets
+                "[+1 Faith] from all [Pilgrimage] buildings",
+                "[+1 Happiness] from every [Basic Religion] <in cities with a [Pilgrimage]>",//Changed how that works a little for the pilgrim sets
                 "Requires a [Basic Religion] in at least [5] cities",
-                "Only available <in cities without a ["Pilgrimage"]>",
+                "Only available <in cities without a [Pilgrimage]>",
                 "Limited to [3] per Civilization",
                 "Religious Wonder",
                 "Unbuildable", 
@@ -533,7 +533,7 @@
      "isNationalWonder": true,
      "uniques": [
                 "[+1 Faith] from all [Pilgrimage] buildings",
-                "[+1 Happiness] from every [Basic Religion] <in cities with a ["Pilgrimage"]>",
+                "[+1 Happiness] from every [Basic Religion] <in cities with a [Pilgrimage]>",
                 "Requires a [Basic Religion] in at least [5] cities",
                 "Only available <in cities without a [Pilgrimage]>",
                 "Limited to [2] per Civilization",
@@ -551,7 +551,7 @@
      "isNationalWonder": true,
      "uniques": [
                 "[+1 Faith] from all [Pilgrimage] buildings",
-                "[+1 Happiness] from every [Basic Religion] <in cities with a ["Pilgrimage"]>",
+                "[+1 Happiness] from every [Basic Religion] <in cities with a [Pilgrimage]>",
                 "Requires a [Humble Church] in at least [1] cities",
                 "Requires a [Storied Temple] in at least [1] cities",
                 "Requires a [Sacred Grave] in at least [1] cities",
