@@ -935,7 +935,7 @@
   {
      "name": "Church Property",
      "type": "Follower",
-     "uniques": ["[+2 Gold] for each global city following this religion"]
+     "uniques": ["[+2 Gold][in all cities]"]
   },
 //Feel free to suggest ideas for more Follower Beliefs because I really want to bulk that section out some; such things should be narrow in scope
 //In the same way that the vanilla stuff that's currently the bulk of things is.
