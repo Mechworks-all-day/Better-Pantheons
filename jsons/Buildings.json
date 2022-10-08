@@ -1,0 +1,948 @@
+[
+//Teir 1
+   { //Ancestor Worship 
+     "name": "Ancestral Shrine",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+5]% [Faith] [in all cities] <while the empire is happy>",
+                "Unbuildable", 
+                "Hidden when religion is disabled"
+                "Basic Religion", "Simple"
+                ],
+   },
+   { //Small Gods 
+     "name": "Appeasement Shrine",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+10]% [Faith] [in this city] <while the empire is happy>",
+                "Unbuildable", 
+                "Hidden when religion is disabled"
+                "Basic Religion", "Simple"
+                ],
+   },
+   { //Correct Actions 
+     "name": "Tablet of Law",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith] per [15] population [in all cities]",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Simple"
+                ],
+   },
+   { //Everyday Spirituality 
+     "name": "Sacred Markings",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith] per [5] population [in this city]",
+                "Unbuildable", 
+                "Hidden when religion is disabled"
+                "Basic Religion", "Simple"
+                ],
+   },
+   { //Arctic Folklore 
+     "name": "Spirit Shrine",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith] per [Tundra] [in this city] <within [3] tiles of a [City Center]>",
+                "[+1 Faith] per [Snow] [in this city] <within [4] tiles of a [City Center]>",
+                "Unbuildable", 
+                "Hidden when religion is disabled"
+                "Basic Religion", "Folklore"
+                ],
+   },
+   { //Desert Folklore 
+     "name": "Shrine of Sands",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith] per [Desert] [in this city] <within [3] tiles of a [City Center]>",
+                "Unbuildable", 
+                "Hidden when religion is disabled"
+                "Basic Religion", "Folklore"
+                ],
+   },
+   { //Woodland Folklore 
+     "name": "Sacred Grove",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith] per [Forest] [in this city] <within [5] tiles of a [City Center]>",
+                "Unbuildable", 
+                "Hidden when religion is disabled"
+                "Basic Religion", "Folklore"
+                ],
+   },
+   { //Grassland Folklore 
+     "name": "Waystone",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith] per [Grassland] [in this city] <in tiles without [Forest]> <in tiles without [Hill]> <within [4] tiles of a [City Center]>",
+                "[+1 Faith] per [Plains] [in this city] <in tiles without [Forest]> <in tiles without [Hill]> <within [4] tiles of a [City Center]>",
+                "Unbuildable", 
+                "Hidden when religion is disabled"
+                "Basic Religion", "Folklore"
+                ],
+   },
+   { //Mountain Folklore 
+     "name": "Sacred Stair",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith] per [Mountain] [in this city] <within [4] tiles of a [City Center]>",
+                "Unbuildable", 
+                "Hidden when religion is disabled"
+                "Basic Religion", "Folklore"
+                ],
+   },
+   { //Coastal Folklore 
+     "name": "Shrine of Seas",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith] per [Water] [in this city] <within [3] tiles of a [City Center]>",
+                "Unbuildable", 
+                "Hidden when religion is disabled"
+                "Basic Religion", "Folklore"
+                ],
+   },
+   { //Sacred Path 
+     "name": "Golden Path",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith] per [Jungle] [in this city] <within [5] tiles of a [City Center]>",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Sacred"
+                ],
+   },
+   { //Sacred waters 
+     "name": "Sacred Stream",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith] per [River] [in this city] <within [4] tiles of a [City Center]>",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Sacred"
+                ],
+   },
+   { //Sacred stones 
+     "name": "Standing Stones",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+2 Faith] per [Quarry] [in this city]",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Sacred"
+                ],
+   },
+   { //Sacred Riches
+     "name": "Gleaming Idol",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith] from every [Gold Ore]",
+                "[+1 Faith] from every [Silver]",
+                "[+1 Faith] from every [Gems]",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Sacred"
+                ],
+   },
+   { //Sacred celebrations
+     "name": "Dancing Ground",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith] from every [Incense]",
+                "[+1 Faith] from every [Wine]",
+                "[+1 Faith] from every [Dyes]",
+                "Unbuildable", 
+                "Hidden when religion is disabled"
+                "Basic Religion", "Sacred"
+                ],
+   },
+   { //Sacred Seas
+     "name": "Tidal Shrine",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith] from every [Crabs]",
+                "[+1 Faith] from every [Whales]",
+                "[+1 Faith] from every [Pearls]",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Sacred"
+                ],
+   },
+   { //Sacred bounty
+     "name": "Feasting Hall",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith] from every [Wheat]",
+                "[+1 Faith] from every [Truffles]",
+                "[+1 Faith] from every [Deer]",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Sacred"
+                ],
+   },
+   { //Sacred herds
+     "name": "Sacred Bull",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith] from every [Cattle]",
+                "[+1 Faith] from every [Sheep]",
+                "[+1 Faith] from every [Ivory]",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Sacred"
+                ],
+   },
+   { //Sacred fruits 
+     "name": "Idol of Plenty",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith] from every [Bananas]",
+                "[+1 Faith] from every [Citrus]",
+                "[+1 Faith] from every [Sugar]", //just a reminder, replace this with cocoa once it's available 
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Sacred"
+                ],
+   },
+//Gods ("Cult of X" or "Cult of the X" is the naming scheme here)
+   { //Crafting 
+     "name": "Cult of the Maker",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "Enables conversion of city production to [Faith] <in cities with a [Cult of the Maker]>",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Deific"
+                ],
+   },
+   { //Sea 
+     "name": "Cult of the Ocean",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith, +1 Happiness, +1 Gold, +1 Culture, +1 Science] from [Fishing Boats] <in cities with a [Cult of the Ocean]>",
+                "Must be next to [Water]",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Deific"
+                ],
+   },
+  { //War 
+     "name": "Cult of the Warrior",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "All newly-trained [Military] units [in this city] receive the [Warrior Cult] promotion",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Deific"
+                ],
+   },
+  { //Sky 
+     "name": "Cult of the Sky",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith] from [Hill] tiles without [Forest] [Mine] [in this city] <within [5] tiles of a [City Center]>",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Deific"
+                ],
+   },
+  { //Love 
+     "name": "Cult of Love",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith] per [5] population [in this city]",
+                "Unbuildable", 
+                "Hidden when religion is disabled"
+                "Basic Religion", "Deific"
+                ],
+   },
+  { //Defense 
+     "name": "Cult of the Defender",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith][in all cities]<with a garrison",
+                "[+15]% City Strength from defensive buildings <with a garrison>",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Deific"
+                ],
+   },
+  { //Hunt 
+     "name": "Cult of the Hunter",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "All newly-trained [Ranged] units [in this city] receive the [Hunter Cult] promotion",
+                "Unbuildable", 
+                "Hidden when religion is disabled"
+                "Basic Religion", "Deific"
+                ],
+   },
+//Goddesses (Possessive-Pronoun/Action Rites is the general naming scheme here
+   { //Crafting 
+     "name": "Creation Rites",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith][in this city]<in cities with a [Stone Works]>",
+                "[+1 Faith][in this city]<in cities with a [Water Mill]>",
+                "[+1 Faith][in this city]<in cities with a [Stable]>",
+                "[+1 Faith][in this city]<in cities with a [Petra]>",
+                "[+1 Faith][in this city]<in cities with a [Workshop]>",
+                "[+1 Faith][in this city]<in cities with a [Forge]>",
+                "[+1 Faith][in this city]<in cities with a [Harbor]>",
+                "[+1 Faith][in this city]<in cities with a [Ironworks]>",
+                "[+1 Faith][in this city]<in cities with a [Seaport]>",
+                "[+1 Faith][in this city]<in cities with a [Windmill]>",
+                "[+1 Faith][in this city]<in cities with a [Factory]>",
+                "[+1 Faith][in this city]<in cities with a [Hydro Plant]>",
+                "[+1 Faith][in this city]<in cities with a [Statue of Liberty]>",
+                "[+1 Faith][in this city]<in cities with a [Solar Plant]>",
+                "[+1 Faith][in this city]<in cities with a [Nuclear Plant]>",
+                "[+1 Faith][in this city]<in cities with a [Spaceship Factory]>",
+//Oh I hate this, but it's the only way to get the desired behavior 
+//Why for the love of god can't we get more cityFilter versions of things
+//"[+1 Faith] from all [Production] buildings [in this city]" would be so much more elegant!
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Deific"
+                ],
+   },
+   { //Sea 
+     "name": "Seafarer's Rites",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith] from [Fishing Boats] [in all cities]",
+                "Must be next to [Water]",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Deific"
+                ],
+   },
+  { //War 
+     "name": "Battle Rites",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+5]% [Faith] for every [Experience]",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Deific"
+                ],
+   },
+  { //Sky 
+     "name": "Wind Rites",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith] from [Land] tiles without [Forest] [Hill] [in this city] <within [4] tiles of a [City Center]>",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Deific"
+                ],
+   },
+  { //Love 
+     "name": "Fertility Rites",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith] from [Farm] tiles [in this city]",
+                "[+10]% growth [in this city]",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Deific"
+                ],
+   },
+  { //Defense 
+     "name": "Protective Rites",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith][in this city]<in cities with a [Walls]>",
+                "[+1 Faith][in this city]<in cities with a [Castle]>",
+                "[+1 Faith][in this city]<in cities with a [Arsenal]>",
+                "[+1 Faith][in this city]<in cities with a [Military Base]>",
+                "[+1 Faith][in this city]<in cities with a [Kremlin]>",
+// IhatethisIhatethis*IhatethesSOMUCH!*
+//WRRRRY.gif
+                "[+5]% Strength for cities <when attacking>",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Deific"
+                ],
+   },
+  { //Hunt 
+     "name": "Hunting Rites",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "All newly-trained [Ranged] units [in this city] receive the [Hunting Rites] promotion",
+                "[+1 Faith] from [Camp] tiles [in all cities]",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Deific"
+                ],
+   },//Yes they both give out promotions. A spot where doubling down is really good here; getting both is a pretty good boost for your unit
+  { //The One God 
+     "name": "No Gods But I",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Faith] from all [Faith] buildings",
+                "Free [Inquisitor] appears",
+                "Unbuildable", 
+                "Destroyed when the city is captured",
+                "Hidden when religion is disabled",
+                "Basic Religion", "One God"
+                ],
+   },
+  { //Grand Pantheon 
+     "name": "All Are Welcome",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+30]% Natural religion spread [in this city]",
+//I have/had more complex ideas for this, but implementing them doesn't seem to be possible at this time.
+                "Unbuildable", 
+                "Destroyed when the city is captured", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "All Gods"
+                ],
+   },
+// Obviously "Atheism" and it's "No Gods" tag complete this little trinity, but I can't actually implement it
+//Bah.
+
+//Teir 2
+//Note that almost all of these are going to require at least some other stuff before you can build them.
+  { //Ritual burial 
+     "name": "Burial Ground",
+     "cost": 0,
+     "faith": 2,
+     "uniques": [
+                "[+1 Faith] per [14] population [in all cities]",
+                "[+1 Happiness] from every [Basic Religion] [in this city]",
+                "Requires a [Basic Religion] in at least [5] Cities",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Enhanced Religion", "Burial"
+                ],
+   },
+  { //Global Church 
+     "name": "Seminary",
+     "cost": 0,
+     "faith": 2,
+     "uniques": [
+                "[+1 Faith] per [7] population [in this city]",
+                "[+1 Culture] from every [Basic Religion] [in this city]",
+                "Requires a [Basic Religion] in at least [5] Cities",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Enhanced Religion", "Worldwide"
+                ],
+   },
+  { //Tithe 
+     "name": "Blessed Market",
+     "cost": 0,
+     "faith": 2,
+     "uniques": [
+                "[+1 Faith] from [Gold] tiles [in this city]",
+                "[+1 Gold] from every [Basic Religion] [in this city]",
+                "Requires a [Basic Religion] in at least [5] Cities",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Enhanced Religion", "Tithe"
+                ],
+   },
+  { //Pilgrimage 
+     "name": "Humble Church",
+     "cost": 0,
+     "faith": 2,
+     "isNationalWonder": true,
+     "uniques": [
+                "[+1 Faith] from all [Pilgrimage] buildings",
+                "[+1 Happiness] from every [Basic Religion] [in this city]",
+                "Requires a [Basic Religion] in at least [5] Cities",
+                "Only available <in cities without a [Pilgrimage]>",
+                "Limited to [3] per Civilization",
+                "Religious Wonder",
+                "Unbuildable", 
+                "Never destroyed when the city is captured",
+                "Hidden when religion is disabled",
+                "Enhanced Religion", "Pilgrimage"
+                ],
+   },
+  { //Pilgrimage 
+     "name": "Storied Temple",
+     "cost": 0,
+     "faith": 2,
+     "isNationalWonder": true,
+     "uniques": [
+                "[+1 Faith] from all [Pilgrimage] buildings",
+                "[+1 Happiness] from every [Basic Religion] [in this city]",
+                "Requires a [Basic Religion] in at least [5] Cities",
+                "Requires a [Pilgrimage] in at least [2] Cities",
+                "Only available <in cities without a [Pilgrimage]>",
+                "Limited to [2] per Civilization",
+                "Religious Wonder",
+                "Unbuildable", 
+                "Never destroyed when the city is captured",
+                "Hidden when religion is disabled",
+                "Enhanced Religion", "Pilgrimage"
+                ],
+   },
+  { //Pilgrimage 
+     "name": "Sacred Grave",
+     "cost": 0,
+     "faith": 2,
+     "isNationalWonder": true,
+     "uniques": [
+                "[+1 Faith] from all [Pilgrimage] buildings",
+                "[+1 Happiness] from every [Basic Religion] [in this city]",
+                "Requires a [Basic Religion] in at least [5] Cities",
+                "Only available <in cities without a [Pilgrimage]>",
+                "Limited to [2] per Civilization",
+                "Religious Wonder",
+                "Unbuildable", 
+                "Never destroyed when the city is captured",
+                "Hidden when religion is disabled",
+                "Enhanced Religion", "Pilgrimage"
+                ],
+   },
+  { //Pilgrimage 
+     "name": "Grand Idol",
+     "cost": 0,
+     "faith": 2,
+     "isNationalWonder": true,
+     "uniques": [
+                "[+1 Faith] from all [Pilgrimage] buildings",
+                "[+1 Happiness] from every [Basic Religion] [in this city]",
+                "Requires a [Humble Church] in at least [1] Cities",
+                "Requires a [Storied Temple] in at least [1] Cities",
+                "Requires a [Sacred Grave] in at least [1] Cities",
+                "Only available <in cities without a [Pilgrimage]>",
+                "Limited to [2] per Civilization",
+                "Religious Wonder",
+                "Unbuildable", 
+                "Never destroyed when the city is captured",
+                "Hidden when religion is disabled",
+                "Enhanced Religion", "Pilgrimage"
+                ],
+   },
+  { //Harmoy 
+     "name": "Temple of Contemplation",
+     "cost": 0,
+     "faith": 2,
+     "uniques": [
+                "[+1 Faith] from [Science] tiles [in this city]",
+                "[+1 Science] from every [Basic Religion] [in this city]",
+                "Requires a [Basic Religion] in at least [5] Cities",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Enhanced Religion", "Harmony"
+                ],
+   },
+
+//Teir 3 (National Wonders)
+  { //Burial 
+     "name": "Sacred Mausoleum",
+     "cost": 0,
+     "faith": 3,
+     "isNationalWonder": true,
+     "uniques": [
+                "[+2 Faith] per [10] population [in all cities]",
+                "[+2 Happiness] from every [Enhanced Religion] [in all cities]",
+                "Requires a [Enhanced Religion] in at least [5] cities",
+                "Requires a [Burial] in at least [3] cities", 
+                "Unbuildable",
+                "Never destroyed when the city is captured", 
+                "Hidden when religion is disabled",
+                "Religious Wonder", "Burial"
+                ],
+   },
+  { //Global 
+     "name": "Central Temple",
+     "cost": 0,
+     "faith": 3,
+     "isNationalWonder": true,
+     "uniques": [
+                "[+2 Faith] per [5] population [in this city]",
+                "[+2 Culture] from every [Enhanced Religion] [in all cities]",
+                "Requires a [Enhanced Religion] in at least [5] cities",
+                "Requires a [Worldwide] in at least [3] cities", 
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Religious Wonder", "Worldwide"
+                ],
+   },
+  { //Tithe 
+     "name": "Church Treasury",
+     "cost": 0,
+     "faith": 3,
+     "isNationalWonder": true,
+     "uniques": [
+                "[+2 Faith] from [Gold] tiles [in all cities]",
+                "[+2 Gold] from every [Enhanced Religion] [in all cities]",
+                "Requires a [Enhanced Religion] in at least [5] cities",
+                "Requires a [Tithe] in at least [3] cities", 
+                "Unbuildable",
+               "Never destroyed when the city is captured", 
+                "Hidden when religion is disabled",
+                "Religious Wonder", "Tithe"
+                ],
+   },
+  { //Harmony 
+     "name": "Temple Complex",
+     "cost": 0,
+     "faith": 3,
+     "isNationalWonder": true,
+     "uniques": [
+                "[+2 Faith] from [Science] tiles [in all cities]",
+                "[+2 Science] from every [Enhanced Religion] [in all cities]",
+                "Requires a [Enhanced Religion] in at least [5] cities",
+                "Requires a [Harmony] in at least [3] cities", 
+                "Unbuildable", 
+                "Never destroyed when the city is captured",
+                "Hidden when religion is disabled",
+                "Religious Wonder", "Harmony"
+                ],
+   },
+
+//Teir 4 (Religious World Wonders)
+  { //Burial 
+     "name": "Grand Mausoleum",
+     "cost": 0,
+     "faith": 4,
+     "isWonder": true,
+     "uniques": [
+                "[+4 Faith] per [8] population [in all cities]",
+                "[+1 Happiness] from every [Basic Religion] [in all cities]",
+                "[+2 Happiness] from every [Enhanced Religion] [in all cities]",
+                "[+3 Happiness] from every [Religious Wonder] [in all cities]",
+                "Requires a [Basic Religion] in at least [8] cities",
+                "Requires a [Enhanced Religion] in at least [5] cities",
+                "Requires a [Religious Wonder] in at least [1] cities",
+                "Only available <in cities without a [Religious World Wonder]>",
+                "Unbuildable", 
+                "Never destroyed when the city is captured",
+                "Hidden when religion is disabled",
+                "Religious World Wonder", "Burial"
+                ],
+   },
+  { //World 
+     "name": "Mecca",
+     "cost": 0,
+     "faith": 4,
+     "isWonder": true,
+     "uniques": [
+                "[+4 Faith] per [3] population [in this city]",
+                "[+1 Culture] from every [Basic Religion] [in all cities]",
+                "[+2 Culture] from every [Enhanced Religion] [in all cities]",
+                "[+3 Culture] from every [Religious Wonder] [in all cities]",
+                "Requires a [Basic Religion] in at least [8] cities",
+                "Requires a [Enhanced Religion] in at least [5] cities",
+                "Requires a [Religious Wonder] in at least [1] cities",
+                "Only available <in cities without a [Religious World Wonder]>",
+                "Unbuildable",
+                "Never destroyed when the city is captured",
+                "Hidden when religion is disabled",
+                "Religious World Wonder", "Worldwide"
+                ],
+   },
+  { //Tithe 
+     "name": "Sacred Horde",
+     "cost": 0,
+     "faith": 4,
+     "isWonder": true,
+     "uniques": [
+                "[+4 Faith] from every [Gold]",
+                "[+1 Gold] from every [Basic Religion] [in all cities]",
+                "[+2 Gold] from every [Enhanced Religion] [in all cities]",
+                "[+3 Gold] from every [Religious Wonder] [in all cities]",
+                "Requires a [Basic Religion] in at least [8] cities",
+                "Requires a [Enhanced Religion] in at least [5] cities",
+                "Requires a [Religious Wonder] in at least [1] cities",
+                "Only available <in cities without a [Religious World Wonder]>",
+                "Unbuildable",
+                "Never destroyed when the city is captured", 
+                "Hidden when religion is disabled",
+                "Religious World Wonder", "Tithe"
+                ],
+   },
+  { //Harmony 
+     "name": "Shangri La",
+     "cost": 0,
+     "faith": 4,
+     "isWonder": true,
+     "uniques": [
+                "[+4 Faith] from every [Science]",
+                "[+1 Science] from every [Basic Religion] [in all cities]",
+                "[+2 Science] from every [Enhanced Religion] [in all cities]",
+                "[+3 Science] from every [Religious Wonder] [in all cities]",
+                "Requires a [Basic Religion] in at least [8] cities",
+                "Requires a [Enhanced Religion] in at least [5] cities",
+                "Requires a [Religious Wonder] in at least [1] cities",
+                "Only available <in cities without a [Religious World Wonder]>",
+                "Unbuildable", 
+                "Never destroyed when the city is captured",
+                "Hidden when religion is disabled",
+                "Religious World Wonder", "Harmony"
+                ],
+   },
+  { //Pilgrimage 
+     "name": "Simple Shrine",
+     "cost": 0,
+     "faith": 4,
+     "isWonder": true,
+     "uniques": [
+                "[+4 Faith] from every [Basic Religion]",
+                "[+1 Culture] from every [Basic Religion] [in all cities]",
+                "[+1]% [Culture] from every [Pilgrimage]",
+                "Requires a [Basic Religion] in at least [8] cities",
+                "Only available <in cities without a [Religious World Wonder]>",
+                "Only available <in cities without a [Pilgrimage]>",
+                "Unbuildable", 
+                "Never destroyed when the city is captured",
+                "Hidden when religion is disabled",
+                "Religious World Wonder", "Pilgrimage"
+                ],
+   },
+  { //Pilgrimage 
+     "name": "First Temple",
+     "cost": 0,
+     "faith": 4,
+     "isWonder": true,
+     "uniques": [
+                "[+4 Faith] from every [Enhanced Religion]",
+                "[+2]% [Culture] from every [Pilgrimage]",
+                "[+2 Culture] from every [Enhanced Religion] [in all cities]",
+                "Requires a [Basic Religion] in at least [8] cities",
+                "Requires a [Enhanced Religion] in at least [5] cities",
+                "Only available <in cities without a [Religious World Wonder]>",
+                "Only available <in cities without a [Pilgrimage]>",
+                "Unbuildable", 
+                "Never destroyed when the city is captured",
+                "Hidden when religion is disabled",
+                "Religious World Wonder", "Pilgrimage"
+                ],
+   },
+  { //Pilgrimage 
+     "name": "Tomb of the Saint",
+     "cost": 0
+     "faith": 4,
+     "isWonder": true,
+     "uniques": [
+                "[+4 Faith] from every [Religious Wonder]",
+                "[+3]% [Culture] from every [Pilgrimage]",
+                "[+3 Culture] from every [Religious Wonder] [in all cities]",
+                "Requires a [Basic Religion] in at least [8] cities",
+                "Requires a [Enhanced Religion] in at least [5] cities",
+                "Requires a [Religious Wonder] in at least [1] cities",
+                "Only available <in cities without a [Religious World Wonder]>",
+                "Only available <in cities without a [Pilgrimage]>",
+                "Unbuildable", 
+                "Never destroyed when the city is captured",
+                "Hidden when religion is disabled",
+                "Religious World Wonder", "Pilgrimage"
+                ],
+   },
+  { //Pilgrimage 
+     "name": "Temple of Glory",
+     "cost": 0,
+     "Culture": 4
+     "faith": 4,
+     "isWonder": true,
+     "uniques": [
+                "[+4 Faith] from every [Science]",
+                "[+1 Culture] from every [Basic Religion] [in all cities]",
+                "[+2 Culture] from every [Enhanced Religion] [in all cities]",
+                "[+3 Culture] from every [Religious Wonder] [in all cities]",
+                "Requires a [Simple Shrine] in at least [1] cities",
+                "Requires a [First Temple] in at least [1] cities",
+                "Requires a [Tomb of the Saint] in at least [1] cities",
+                "Only available <in cities without a [Religious World Wonder]>",
+                "Only available <in cities without a [Pilgrimage]>",
+                "Unbuildable",
+                "Never destroyed when the city is captured", 
+                "Hidden when religion is disabled",
+                "Religious World Wonder", "Pilgrimage"
+                ],
+   },
+
+//Special bits for expanding the number of things you can pick:
+   {
+     "name": "Basic Pantheon",
+     "cost": 0,
+     "uniques": [
+                "Gain a free [Pantheon] belief",
+                "Limited to [2] per Civilization",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Simple Religion upgrade"
+                ],
+    },
+   {
+     "name": "Religious Practice",
+     "cost": 0,
+     "uniques": [
+                "Gain a free [Follower] belief",
+                "Limited to [1] per Civilization",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Simple Religion upgrade"
+                ],
+    },
+//These are commented out, because I figured out that I can just tack these effect on the Palace
+//That way they're always there and you can't lose them.
+/*   {
+     "name": "The Coming of the Prophet",
+     "cost": 0,
+     "uniques": [
+                "May choose [2] extra [Founder] beliefs when [Founding] a religion",
+                "Limited to [1] per Civilization",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Simple Religion upgrade"
+                ],
+    },
+   {
+     "name": "The Second Coming",
+     "cost": 0,
+     "uniques": [
+                "May choose [1] extra [Enhancer] beliefs when [Enhancing] a religion",
+                "May choose [2] extra belief(s) of any type when [Enhancing] a religion",
+                "Limited to [1] per Civilization",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Simple Religion upgrade"
+                ],
+    }, 
+*/
+]
+//Section to append proper tags to the vanilla buildings
+	{
+		"name": "Shrine",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": [
+                           "Hidden when religion is disabled",
+                           "Basic Religion", "Agnostic"
+                           ]
+	},
+	{
+		"name": "Pyramid",
+		"replaces": "Shrine",
+		"uniqueTo": "The Maya",
+		"faith": 2,
+		"science": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Hidden when religion is disabled","Basic Religion", "Agnostic"]
+	},
+	{
+		"name": "Temple",
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured","Basic Religion", "Agnostic"]
+	},
+	{
+		"name": "Burial Tomb",
+		"replaces": "Temple",
+		"uniqueTo": "Egypt",
+		"maintenance": 0,
+		"uniques": ["Doubles Gold given to enemy if city is captured","Basic Religion", "Agnostic"],
+		"faith": 2,
+		"happiness": 2,
+		"requiredBuilding": "Shrine",
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Mud Pyramid Mosque",
+		"replaces": "Temple",
+		"uniqueTo": "Songhai",
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"culture": 2,
+		"faith": 2,
+                "uniques ":["Basic Religion", "Agnostic"],
+		"requiredBuilding": "Shrine",
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Grand Temple",
+		"cost": 125,
+		"culture": 1,
+		"faith": 8,
+		"uniques": [
+                           "Requires a [Temple] in all cities", 
+                           "Cost increases by [30] per owned city",
+			   "[+100]% Natural religion spread [in this city]", 
+                           "Hidden when religion is disabled", 
+                           "Can only be built [in holy cities]",
+                           "Enhanced Religion", "Agnostic"
+                           ],
+		"requiredTech": "Theology",
+		"isNationalWonder": true
+	},
+/* Religious building template 
+   {
+     "name": "Cathedral",
+     "cost": 0,
+     "faith": 1,
+     "culture": 3,
+     "happiness": 1,
+     "specialistSlots": {"Artist": 1},
+     "uniques": ["Unbuildable", "Hidden when religion is disabled"]
+    },
+*/
+//Modified Palace with extra religion choices, so you'll always have them
+    {
+     "name": "Palace",
+     "isNationalWonder": true,
+     "production": 3,
+     "science": 3,
+     "gold": 3,
+     "culture": 1,
+     "cityStrength": 2,
+     "cost": 1,
+     "uniques": [
+                "May choose [2] extra [Founder] beliefs when [Founding] a religion",
+                "May choose [1] extra [Enhancer] beliefs when [Enhancing] a religion",
+                "May choose [2] extra belief(s) of any type when [Enhancing] a religion",
+                "Indicates the capital city"
+                ]
+  },
+
+]

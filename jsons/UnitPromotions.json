@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Warrior Cult",
+    "uniques": [
+               "Earn [25]% of the damage done to [Military] units as [Faith]",
+               "[+15]% XP gained from combat",
+               "Can move immediately once bought"
+               ]
+  },
+  {
+    "name": "Hunter Cult",
+    "uniques": [
+               "[+1] Sight", 
+               "[+1] Movement",
+               "Can move after attacking"
+               ]
+  },
+  {
+    "name": "Hunting Rites",
+    "uniques": [
+               "[+1] Range",
+               "May withdraw before melee ([50]%)",
+               "Ranged attacks may be performed over obstacles"
+               ]
+  },
+//Obviously these are for things that would be nigh impossible to implement properly
+//Without being Promotions 
+]
