@@ -329,7 +329,7 @@
 
 //Oh I hate this, but it's the only way to get the desired behavior 
 //Why for the love of god can't we get more cityFilter versions of things
-/*"[+1 Faith from all [Production buildings [in this city" would be so much more elegant!*/
+//"[+1 Faith from all [Production buildings [in this city" would be so much more elegant!
 //If it would stop using close brackets that are commented out, that'd be *gr~eat*
 
 // testing if this works
