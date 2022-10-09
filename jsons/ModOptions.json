@@ -3,8 +3,23 @@
 //But it's logical to assume that the pattern was kept to 
   "beliefsToRemove":[
                     "Goddess of Festivals",
-//More stuff, I deleted my notes on this (like a dummy dumb dummie thing) so I can't actually recall exactly what was depricated right now 
-//If anyone sees this and feels like slogging through comparing the two lists before I do that's fine
-//Or if there's just a way to nuke the whole vanilla file and only use the mod one, that would probably be the more elegant solution.
+                    "Dance of the Aurora",
+                    "Fertility Rites",
+                    "God of the Open Sky",
+                    "Messenger of the Gods",
+                    "Religious Idols",
+                    "Stone Circles",
+                    "Cathedrals",
+                    "Monasteries",
+                    "Mosques",
+                    "Pagodas",
+                    "Initiation Rites",
+                    "Interfaith Dialogue",
+                    "Papal Primacy",
+                    "Peace Loving",
+                    "Defender of the Faith",
+                    "Messiah", //note that this will go back in once I figure out how to implement it as a Follower belief
+                    "Reliquary" //and this one, as soon as I make a building for it
+//if there's just a way to nuke the whole vanilla file and only use the mod one, that would probably be the more elegant solution.
                     ],
 }
