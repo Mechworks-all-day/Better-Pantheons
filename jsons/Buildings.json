@@ -848,7 +848,7 @@
                 "Gain a free [Pantheon] belief",
                 "Limited to [2] per Civilization",
                 "Unbuildable", 
-                "Unsellable",
+                //"Unsellable",//Is this the problem? LET'S FIND OUT!
                 "Hidden when religion is disabled",
                 "Simple Religion upgrade"
                 ],
@@ -860,7 +860,9 @@
                 "Gain a free [Follower] belief",
                 "Limited to [1] per Civilization",
                 "Unbuildable",
-                "Unsellable",
+                //"Unsellable",//if it is, I'll just have to deal with the exploitable nature of it.
+                //Perhaps I should smack them on your capital for free the first time you build a T1 building
+                //If I can get them to effing WORK 
                 "Hidden when religion is disabled",
                 "Simple Religion upgrade"
                 ],
@@ -892,7 +894,10 @@
     }, 
 */
 //Section to append proper tags to the vanilla buildings
-	{
+
+//Commenting this out because the thing it's for doesn't actually *work;*
+//but I hope that the relevant unique will be updated at some point to actually use the right filter for it.
+/*	{
 		"name": "Shrine",
 		"faith": 1,
 		"cost": 40,
@@ -962,7 +967,7 @@
                            ],
 		"requiredTech": "Theology",
 		"isNationalWonder": true
-	},
+	}, */
 /* Religious building template 
    {
      "name": "Cathedral",
