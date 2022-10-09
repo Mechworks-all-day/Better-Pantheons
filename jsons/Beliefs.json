@@ -1,6 +1,14 @@
  [
 ////////////////////////////////////////////////Pantheons////////////////////////////////////////////////
 
+////////////////////////////////////////////////
+//    HEY IDIOT FUTURE ME, IT'S PAST YOU!     //
+//  REMEMBER THAT ALL THESE HAVE DUPLICATES,  //
+//           SO IF YOU FIX A BUG HERE,        //
+//      YOU NEED TO DO THE DUPLICATE TOO,     //
+//      OR UNCIV WILL STILL THROW A SNIT!     //
+////////////////////////////////////////////////
+
 //Simple Set
   {
      "name": "Ancestor Worship",
