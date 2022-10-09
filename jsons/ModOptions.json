@@ -1,5 +1,8 @@
 {
-	"techsToRemove":["Combustion"],
-	"buildingsToRemove":["The Great Lighthouse", "Lighthouse"],
-	"unitsToRemove": ["Rocket Artillery"]
+//I'm assuming here, about the syntax
+//But it's logical to assume that the pattern was kept to 
+  "beliefsToRemove":[
+                    "Goddess of Festivals",
+                    More stuff, I deleted my notes on this (like a dummy dumb dummie thing) so I can't actually recall exactly what was depricated right now 
+                    ],
 }
