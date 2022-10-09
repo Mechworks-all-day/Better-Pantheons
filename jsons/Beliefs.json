@@ -122,7 +122,7 @@
      "type": "Pantheon",
      "uniques": [
                 "[10%] [Faith] [in cities following this religion] <in [Fresh Water] tiles>", //this is so lakes & oasis also count
-//                "[+2 Faith] from [Holy site] <in [Fresh Water] tiles>", 
+                "[+2 Faith] from [Holy site] tiles [in cities following this religion] /*<in [Fresh Water] tiles>*/",
 //This just *refuses* to work, so I'm nuking it for now until someone can figure out what's going on 
                 "May buy [Sacred Stream] buildings with [10] [Faith] [in cities following this religion] at an increasing price of ([5])",
                 "May buy [Basic Pantheon] buildings with [1] [Faith] [in capital] <before the [Renaissance era]>",
