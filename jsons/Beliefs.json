@@ -443,10 +443,9 @@
   },
 
 //Double down on a God or grab one that someone else already picked; these ones don't have the booster buildings though.
-/*
 //Sacred Set
   {
-     "name": "Sacred Path",
+     "name": "Blessed Paths", //"Sacred Path",
      "type": "Founder",
      "uniques": [
                 "[+1 Culture] from [Jungle] tiles [in cities following this religion]", 
@@ -454,7 +453,7 @@
                 ]
   },
   {
-     "name": "Sacred Waters",
+     "name": "Blessed Waters", //"Sacred Waters",
      "type": "Founder",
      "uniques": [
                 "[10%] [Faith] [in cities following this religion] <in [River] tiles>", 
@@ -463,7 +462,7 @@
                 ]
   },
   {
-     "name": "Sacred Stones",
+     "name": "Blessed Stones",//"Sacred Stones",
      "type": "Founder",
      "uniques": [
                 "[+1 Faith] from every [Stone]", 
@@ -473,7 +472,7 @@
 
 //Sacred Resources Set 
   {
-     "name": "Sacred Riches",
+     "name": "Blessed Riches", //"Sacred Riches",
      "type": "Founder",
      "uniques": [
                 "[+1 Culture] from every [Gold Ore]",
@@ -486,7 +485,7 @@
                 ]
   },
   {
-     "name": "Sacred Celebrations",
+     "name": "Blessed Celebrations",//"Sacred Celebrations",
      "type": "Founder",
      "uniques": [
                 "[+1 Culture] from every [Incense]",
@@ -499,7 +498,7 @@
                 ]
   },
   {
-     "name": "Sacred Seas",
+     "name": "Blessed Seas",//"Sacred Seas",
      "type": "Founder",
      "uniques": [
                 "[+1 Culture] from every [Crabs]",
@@ -511,7 +510,7 @@
                 "May buy [Tidal Shrine] buildings with [10] [Faith] [in cities following this religion] at an increasing price of ([5])"
                 ]
   },  {
-     "name": "Sacred Bounty",
+     "name": "Blessed Bounty",//"Sacred Bounty",
      "type": "Founder",
      "uniques": [
                 "[+1 Culture] from every [Wheat]",
@@ -524,7 +523,7 @@
                 ]
   },
   {
-     "name": "Sacred Herds",
+     "name": "Blessed Herds",//"Sacred Herds",
      "type": "Founder",
      "uniques": [
                 "[+1 Culture] from every [Sheep]",
@@ -537,7 +536,7 @@
                 ]
   },
   {
-     "name": "Sacred Fruits",
+     "name": "Blessed Fruits",//"Sacred Fruits",
      "type": "Founder",
      "uniques": [
                 "[+1 Culture] from every [Bananas]",
@@ -552,78 +551,76 @@
 //Gods Set
 //Hahaha this is *so incomplete right now* guys I will be adding SO MUCH to this set later.
   {
-     "name": "God of Craftsman",
+     "name": "Crafting God",//"God of Craftsman",
      "type": "Founder",
      "uniques": ["May buy [Cult of Making] buildings with [10] [Faith] [in cities following this religion] at an increasing price of ([5])"]
   },
   {
-     "name": "Goddess of Crafting",
+     "name": "Crafting Goddess",//"Goddess of Crafting",
      "type": "Founder",
      "uniques": ["May buy [Creation Rites] buildings with [10] [Faith] [in cities following this religion] at an increasing price of ([5])"]
   },
   {
-     "name": "God of the Sea",
+     "name": "Sea God",//"God of the Sea",
      "type": "Founder",
      "uniques": ["May buy [Cult of the Ocean] buildings with [10] [Faith] [in cities following this religion] at an increasing price of ([5])"]
   },
   {
-     "name": "Goddess of the Sea",
+     "name": "Sea Goddess",//"Goddess of the Sea",
      "type": "Founder",
      "uniques": ["May buy [Seafarer's Rites] buildings with [10] [Faith] [in cities following this religion] at an increasing price of ([5])"]
   },
   {
-     "name": "God of War",
+     "name": "War God",//"God of War",
      "type": "Founder",
      "uniques": ["May buy [Cult of the Warrior] buildings with [10] [Faith] [in cities following this religion] at an increasing price of ([5])"]
   },
   {
-     "name": "Goddess of War",
+     "name": "War Goddess",//"Goddess of War",
      "type": "Founder",
      "uniques": ["May buy [Battle Rites] buildings with [10] [Faith] [in cities following this religion] at an increasing price of ([5])"]
   },
   {
-     "name": "God of the Sky",
+     "name": "Sky God",//"God of the Sky",
      "type": "Founder",
      "uniques": ["May buy [Cult of the Sky] buildings with [10] [Faith] [in cities following this religion] at an increasing price of ([5])"]
   },
   {
-     "name": "Goddess of the Sky",
+     "name": "Sky Goddess",//"Goddess of the Sky",
      "type": "Founder",
      "uniques": ["May buy [Wind Rites] buildings with [10] [Faith] [in cities following this religion] at an increasing price of ([5])"]
   },
   {
-     "name": "God of Love",
+     "name": "Love God",//"God of Love",
      "type": "Founder",
      "uniques": ["May buy [Cult of Love] buildings with [10] [Faith] [in cities following this religion] at an increasing price of ([5])"]
   },
   {
-     "name": "Goddess of Love",
+     "name": "Love Goddess",//"Goddess of Love",
      "type": "Founder",
      "uniques": ["May buy [Fertility Rites] buildings with [10] [Faith] [in cities following this religion] at an increasing price of ([5])"]
   },
   {
-     "name": "God of Protection",
+     "name": "Protector God",//"God of Protection",
      "type": "Founder",
      "uniques": ["May buy [Cult of the Defender] buildings with [10] [Faith] [in cities following this religion] at an increasing price of ([5])"]
   },
   {
-     "name": "Goddess of Protection",
+     "name": "Protector Goddess",//"Goddess of Protection",
      "type": "Founder",
      "uniques": ["May buy [Protective Rites] buildings with [10] [Faith] [in cities following this religion] at an increasing price of ([5])"]
   },
   {
-     "name": "God of the Hunt",
+     "name": "Hunting God",//"God of the Hunt",
      "type": "Founder",
      "uniques": ["May buy [Cult of the Hunter] buildings with [10] [Faith] [in cities following this religion] at an increasing price of ([5])"]
   },
   {
-     "name": "Goddess of the Hunt",
+     "name": "Hunting Goddess",//"Goddess of the Hunt",
      "type": "Founder",
      "uniques": ["May buy [Hunting Rites] buildings with [10] [Faith] [in cities following this religion] at an increasing price of ([5])"]
   },
-*/
-//Testing to see if having these twice is causing them not to show up ever
-
+//Renamed all the duplicates because it was throwing a snit about them and having none show up ever
 //I want to put more The One God/Grand Pantheon stuff in here as well,
 //But that's going to have to wait until we get the ability to build dependency 
 //(preferably with a <requires [Belief]> conditional, since that'd be awesome)
@@ -691,7 +688,7 @@
 //Double down on or add to the basic Folklore sets; again doesn't have the booster buildings because you should have built them already if you're here.
 //Simple Set
   {
-     "name": "Ancestor Worship",
+     "name": "Ancestral Worship",//"Ancestor Worship",
      "type": "Pantheon",
      "uniques": [
                 "[+1 Culture] from every [Shrine]", 
@@ -699,7 +696,7 @@
                 ]
   },
   {
-     "name": "Small Gods",
+     "name": "Gods in Everything",//"Small Gods",
      "type": "Pantheon",
      "uniques": [
                 "[+1 Happiness] from every [Shrine]", 
@@ -707,7 +704,7 @@
                 ]
   },
   {
-     "name": "Correct Actions",
+     "name": "Law of Heaven",//"Correct Actions",
      "type": "Pantheon",
      "uniques": [
                 "[+1 Gold] from every [Shrine]", 
@@ -715,7 +712,7 @@
                 ]
   },
   {
-     "name": "Everyday Spirituality",
+     "name": "All actions are Worship",//"Everyday Spirituality",
      "type": "Pantheon",
      "uniques": [
                 "[+1 Faith] from every [Shrine]", 
@@ -725,7 +722,7 @@
 
 //Folklore Set
   {
-     "name": "Tundra Folklore",
+     "name": "Tundra Myth",//"Tundra Folklore",
      "type": "Pantheon",
      "uniques": [
                 "[+1 Food] from [Farm] tiles [in cities following this religion] <in [Tundra] tiles>", 
@@ -733,7 +730,7 @@
                 ]
   },
   {
-     "name": "Desert Folklore",
+     "name": "Desert Myth",//"Desert Folklore",
      "type": "Pantheon",
      "uniques": [
                 "[+1 Food] from [Farm] tiles [in cities following this religion] <in [Desert] tiles>", 
@@ -741,7 +738,7 @@
                 ]
   },
   {
-     "name": "Woodland Folklore",
+     "name": "Woodland Myth",//"Woodland Folklore",
      "type": "Pantheon",
      "uniques": [
                 "[+1 Food] from [Camp] tiles [in cities following this religion] <in [Forest] tiles>", 
@@ -749,7 +746,7 @@
                 ]
   },
   {
-     "name": "Grassland Folklore",
+     "name": "Grassland Myth",//"Grassland Folklore",
      "type": "Pantheon",
      "uniques": [
                 "[+10]% Yield from every [Pasture] <in [Grassland] tiles>", 
@@ -758,7 +755,7 @@
                 ]
   },
   {
-     "name": "Mountain Folklore",
+     "name": "Mountain Myth",//"Mountain Folklore",
      "type": "Pantheon",
      "uniques": [
                 "[+1 Food] from [Mountain] tiles [in cities following this religion]", 
@@ -766,13 +763,14 @@
                 ]
   },
   {
-     "name": "Coastal Folklore",
+     "name": "Coastal Myth",//"Coastal Folklore",
      "type": "Pantheon",
      "uniques": [
                 "[+1 Food] from [Coast] tiles [in cities following this religion]", 
                 "May buy [Shrine of Seas] buildings with [10] [Faith] [in cities following this religion] at an increasing price of ([5])"
                 ]
   },
+//It *wasn't* throwing a snit about these, but I renamed them anyway for safety's sake
 //Again, really want to do more The One God and Grand Pantheon stuff, but needs dependency to be a thing before that can happen.
 
 /////////////////////////////////////////////Follower  Beliefs/////////////////////////////////////////////
