@@ -14,4 +14,8 @@ Known issues: Images need compiling, none of the Wonders have quotes yet, whatev
 Incrementing to 0.4 because I added a modOptions.json to (hopefully) remove the depricated Beliefs.
 Now if only I knew why half of the things don't show up, and why the buy with faith stuff isn't showing up.
 
+11-10-2022 (Version 0.4.1)
+Fixed "a metric ton" of uncaught errors because the mod test *doesn't test things against the stock rulesets automatically like it should* 
+Hopefully things will *mostly* actually *work* now.
+
 
