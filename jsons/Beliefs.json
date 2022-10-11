@@ -443,7 +443,7 @@
   },
 
 //Double down on a God or grab one that someone else already picked; these ones don't have the booster buildings though.
-
+/*
 //Sacred Set
   {
      "name": "Sacred Path",
@@ -621,6 +621,8 @@
      "type": "Founder",
      "uniques": ["May buy [Hunting Rites] buildings with [10] [Faith] [in cities following this religion] at an increasing price of ([5])"]
   },
+*/
+//Testing to see if having these twice is causing them not to show up ever
 
 //I want to put more The One God/Grand Pantheon stuff in here as well,
 //But that's going to have to wait until we get the ability to build dependency 
