@@ -1,6 +1,5 @@
  [
 ////////////////////////////////////////////////Pantheons////////////////////////////////////////////////
-
 ////////////////////////////////////////////////
 //    HEY IDIOT FUTURE ME, IT'S PAST YOU!     //
 //  REMEMBER THAT ALL THESE HAVE DUPLICATES,  //
@@ -8,7 +7,6 @@
 //      YOU NEED TO DO THE DUPLICATE TOO,     //
 //      OR UNCIV WILL STILL THROW A SNIT!     //
 ////////////////////////////////////////////////
-
 //Simple Set
   {
      "name": "Ancestor Worship",
@@ -50,7 +48,6 @@
                 "May buy [Religious Practice] buildings with [1] [Faith] [in capital] <before the [Renaissance era]>"
                 ]
   },
-
 //Folklore Set
   {
      "name": "Tundra Folklore",
@@ -113,7 +110,6 @@
                 "May buy [Religious Practice] buildings with [1] [Faith] [in capital] <before the [Renaissance era]>"
                 ]
   },
-
 //Sacred Set
   {
      "name": "Sacred Path",
@@ -147,7 +143,6 @@
                 "May buy [Religious Practice] buildings with [1] [Faith] [in capital] <before the [Renaissance era]>"
                 ]
   }, //Note, I really want to change marble to a persentage, but can't work out how to do that properly, so it's just a +2 for now.
-
 //Sacred Resources Set 
   {
      "name": "Sacred Riches",
