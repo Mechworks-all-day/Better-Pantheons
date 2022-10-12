@@ -129,7 +129,7 @@
      "name": "Sacred Waters",
      "type": "Pantheon",
      "uniques": [
-                "[10%] [Faith] [in cities following this religion] <in [Fresh Water] tiles>", //this is so lakes & oasis also count
+                "[10]% [Faith] [in cities following this religion] <in [Fresh Water] tiles>", //this is so lakes & oasis also count
                 "[+2 Faith] from [Holy site] tiles [in cities following this religion] <in [River] tiles>", 
                 "May buy [Sacred Stream] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
                 "May buy [Basic Pantheon] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
@@ -456,7 +456,7 @@
      "name": "Blessed Waters", //"Sacred Waters",
      "type": "Founder",
      "uniques": [
-                "[10%] [Faith] [in cities following this religion] <in [River] tiles>", 
+                "[10]% [Faith] [in cities following this religion] <in [River] tiles>", 
                 "[+2 Faith] from [Holy site] tiles [in cities following this religion] <in [River] tiles>", 
                 "May buy [Sacred Stream] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"
                 ]
