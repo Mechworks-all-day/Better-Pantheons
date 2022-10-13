@@ -980,7 +980,7 @@
     },
 */
 //Modified Palace with extra religion choices, so you'll always have them
-    {
+/*    {
      "name": "Palace",
      "isNationalWonder": true,
      "production": 3,
@@ -996,5 +996,7 @@
                 "Indicates the capital city"
                 ]
   },
-
+*/
+//This apparently doesn't work properly, I'm going to try putting them in modOptions.
+//I *think* I'm reading how that works correctly....
 ]
