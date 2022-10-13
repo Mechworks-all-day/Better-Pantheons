@@ -648,7 +648,7 @@
   },
   {
      "name": "Tithe",
-     "type": "Founder",
+     "type": "Enhancer",
      "uniques": [
                 "[+1 Gold] for each global city following this religion",
                 "May buy [Church Treasury] buildings for [800] [Faith] [in holy cities]",
@@ -657,7 +657,7 @@
   },
   {
      "name": "Pilgrimage",
-     "type": "Founder",
+     "type": "Enhancer",
      "uniques": [
                 "[+1 Faith] for each global city following this religion",
                 "May buy [Humble Shrine] buildings for [100] [Faith] [in cities following this religion]",
@@ -668,7 +668,7 @@
   },
   {
      "name": "Balance",
-     "type": "Founder",
+     "type": "Enhancer",
      "uniques": [
                 "[+1 Science] for each global city following this religion",
                 "May buy [Temple Complex] buildings for [800] [Faith] [in holy cities]",
@@ -677,7 +677,7 @@
   },
   {
      "name": "Dedication Ceremonies",
-     "type": "Founder",
+     "type": "Enhancer",
      "uniques": [
                 "[+2 Faith] from every [National Wonder]",
                 "[+8]% [Faith] [in cities following this religion] <in cities with a [National Wonder]>",
@@ -689,7 +689,7 @@
 //Simple Set
   {
      "name": "Ancestral Worship",//"Ancestor Worship",
-     "type": "Pantheon",
+     "type": "Enhancer",
      "uniques": [
                 "[+1 Culture] from every [Shrine]", 
                 "May buy [Ancestral Shrine] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"
@@ -697,7 +697,7 @@
   },
   {
      "name": "Gods in Everything",//"Small Gods",
-     "type": "Pantheon",
+     "type": "Enhancer",
      "uniques": [
                 "[+1 Happiness] from every [Shrine]", 
                 "May buy [Appeasement Shrine] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"
@@ -705,7 +705,7 @@
   },
   {
      "name": "Law of Heaven",//"Correct Actions",
-     "type": "Pantheon",
+     "type": "Enhancer",
      "uniques": [
                 "[+1 Gold] from every [Shrine]", 
                 "May buy [Tablet of Law] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"
@@ -713,7 +713,7 @@
   },
   {
      "name": "All actions are Worship",//"Everyday Spirituality",
-     "type": "Pantheon",
+     "type": "Enhancer",
      "uniques": [
                 "[+1 Faith] from every [Shrine]", 
                 "May buy [Sacred Markings] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"
@@ -723,7 +723,7 @@
 //Folklore Set
   {
      "name": "Tundra Myth",//"Tundra Folklore",
-     "type": "Pantheon",
+     "type": "Enhancer",
      "uniques": [
                 "[+1 Food] from [Farm] tiles [in cities following this religion] <in [Tundra] tiles>", 
                 "May buy [Spirit Shrine] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"
@@ -731,7 +731,7 @@
   },
   {
      "name": "Desert Myth",//"Desert Folklore",
-     "type": "Pantheon",
+     "type": "Enhancer",
      "uniques": [
                 "[+1 Food] from [Farm] tiles [in cities following this religion] <in [Desert] tiles>", 
                 "May buy [Shrine of Sands] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"
@@ -739,7 +739,7 @@
   },
   {
      "name": "Woodland Myth",//"Woodland Folklore",
-     "type": "Pantheon",
+     "type": "Enhancer",
      "uniques": [
                 "[+1 Food] from [Camp] tiles [in cities following this religion] <in [Forest] tiles>", 
                 "May buy [Sacred Grove] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"
@@ -747,7 +747,7 @@
   },
   {
      "name": "Grassland Myth",//"Grassland Folklore",
-     "type": "Pantheon",
+     "type": "Enhancer",
      "uniques": [
                 "[+10]% Yield from every [Pasture] <in [Grassland] tiles>", 
                 "[+10]% Yield from every [Pasture] <in [Plains] tiles>", 
@@ -756,7 +756,7 @@
   },
   {
      "name": "Mountain Myth",//"Mountain Folklore",
-     "type": "Pantheon",
+     "type": "Enhancer",
      "uniques": [
                 "[+1 Food] from [Mountain] tiles [in cities following this religion]", 
                 "May buy [Sacred Stair] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"
@@ -764,7 +764,7 @@
   },
   {
      "name": "Coastal Myth",//"Coastal Folklore",
-     "type": "Pantheon",
+     "type": "Enhancer",
      "uniques": [
                 "[+1 Food] from [Coast] tiles [in cities following this religion]", 
                 "May buy [Shrine of Seas] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"
