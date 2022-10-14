@@ -23,11 +23,11 @@
 //if there's just a way to nuke the whole vanilla file and only use the mod one, that would probably be the more elegant solution.
                     ],
 //So the above isn't implemented yet but I got a "we can make that happen" from the devs so I'm just gonna leave it as is
-         "uniques": [
+/*         "uniques": [
                     "May choose [2] additional [Founder] beliefs when [founding] a religion",
                     "May choose [1] additional [Enhancer] beliefs when [enhancing] a religion",
                     "May choose [2] additional belief(s) of any type when [enhancing] a religion",
-                    ]
+                    ]*/ //Nope doesn't work. Trying this syntax on the palace now.
 //We're trying this out, seeing if it works
 //Still wish the first one could be tagged to work with Pantheons in the second field
 //But until then I'll just have to deal with the workaround.
