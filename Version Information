@@ -23,4 +23,6 @@ Fixed *more* uncaught errors (thanks to carriontrooper for nailing a couple of t
 Attempting to make the extra Beliefs when founding and enhancing religions actually work by putting them in modOptions; the original workaround
 that modified the Palace has been depricated.
 
-
+13-10-2023 (Version 0.4.3) (later in the day)
+Restored palace modification *with the right syntax this time;* now actually working as intended.
+That's enough to increment by itself. Getting closer to not having any glitches in the base package lads!
