@@ -980,7 +980,7 @@
     },
 */
 //Modified Palace with extra religion choices, so you'll always have them
-/*    {
+    {
      "name": "Palace",
      "isNationalWonder": true,
      "production": 3,
@@ -990,13 +990,11 @@
      "cityStrength": 2,
      "cost": 1,
      "uniques": [
-                "May choose [2] extra [Founder] beliefs when [Founding] a religion",
-                "May choose [1] extra [Enhancer] beliefs when [Enhancing] a religion",
-                "May choose [2] extra belief(s) of any type when [Enhancing] a religion",
+                "May choose [2] additional [Founder] beliefs when [founding] a religion",
+                "May choose [1] additional [Enhancer] beliefs when [enhancing] a religion",
+                "May choose [2] additional belief(s) of any type when [enhancing] a religion",
                 "Indicates the capital city"
                 ]
-  },
-*/
-//This apparently doesn't work properly, I'm going to try putting them in modOptions.
-//I *think* I'm reading how that works correctly....
+  }
+//Trying out new syntax to see if it works 
 ]
