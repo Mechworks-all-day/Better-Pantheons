@@ -24,9 +24,9 @@
                     ],
 //So the above isn't implemented yet but I got a "we can make that happen" from the devs so I'm just gonna leave it as is
          "uniques": [
-                    "May choose [2] extra [Founder] beliefs when [Founding] a religion",
-                    "May choose [1] extra [Enhancer] beliefs when [Enhancing] a religion",
-                    "May choose [2] extra belief(s) of any type when [Enhancing] a religion",
+                    "May choose [2] additional [Founder] beliefs when [founding] a religion",
+                    "May choose [1] additional [Enhancer] beliefs when [enhancing] a religion",
+                    "May choose [2] additional belief(s) of any type when [enhancing] a religion",
                     ]
 //We're trying this out, seeing if it works
 //Still wish the first one could be tagged to work with Pantheons in the second field
