@@ -26,3 +26,5 @@ that modified the Palace has been depricated.
 13-10-2023 (Version 0.4.3) (later in the day)
 Restored palace modification *with the right syntax this time;* now actually working as intended.
 That's enough to increment by itself. Getting closer to not having any glitches in the base package lads!
+Unfortunately I also had to remove Religious Practice because *apparently* you can't put follower beliefs in with just Pantheon level religions
+For some reason.  * Confused face *
