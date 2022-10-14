@@ -853,7 +853,8 @@
                 "Simple Religion upgrade"
                 ],
     },
-   {
+//This one doesn't work as intended, so away it goes until I can figure out how to implement it properly.
+/*   {
      "name": "Religious Practice",
      "cost": 0,
      "uniques": [
@@ -866,7 +867,8 @@
                 "Hidden when religion is disabled",
                 "Simple Religion upgrade"
                 ],
-    },
+    },*/
+
 //These are commented out, because I figured out that I can just tack these effect on the Palace
 //That way they're always there and you can't lose them.
 /*   {
