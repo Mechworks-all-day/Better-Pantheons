@@ -28,3 +28,6 @@ Restored palace modification *with the right syntax this time;* now actually wor
 That's enough to increment by itself. Getting closer to not having any glitches in the base package lads!
 Unfortunately I also had to remove Religious Practice because *apparently* you can't put follower beliefs in with just Pantheon level religions
 For some reason.  * Confused face *
+
+15-10-2022 (Version 0.4.4)
+Squashed minor syntax error in Sacred Seas that wasn't calling Crab correctly, should work now.
