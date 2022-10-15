@@ -182,10 +182,10 @@
      "name": "Sacred Seas",
      "type": "Pantheon",
      "uniques": [
-                "[+1 Culture] from every [Crabs]",
+                "[+1 Culture] from every [Crab]",
                 "[+1 Culture] from every [Whales]",
                 "[+1 Culture] from every [Pearls]",
-                "[20]% Yield from every [Crabs]",
+                "[20]% Yield from every [Crab]",
                 "[20]% Yield from every [Whales]",
                 "[20]% Yield from every [Pearls]",
                 "May buy [Tidal Shrine] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
@@ -503,10 +503,10 @@
      "name": "Blessed Seas",//"Sacred Seas",
      "type": "Founder",
      "uniques": [
-                "[+1 Culture] from every [Crabs]",
+                "[+1 Culture] from every [Crab]",
                 "[+1 Culture] from every [Whales]",
                 "[+1 Culture] from every [Pearls]",
-                "[20]% Yield from every [Crabs]",
+                "[20]% Yield from every [Crab]",
                 "[20]% Yield from every [Whales]",
                 "[20]% Yield from every [Pearls]",
                 "May buy [Tidal Shrine] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"
