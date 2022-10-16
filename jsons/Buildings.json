@@ -897,9 +897,8 @@
 */
 //Section to append proper tags to the vanilla buildings
 
-//Commenting this out because the thing it's for doesn't actually *work;*
-//but I hope that the relevant unique will be updated at some point to actually use the right filter for it.
-/*	{
+//putting these back in because I remembered that some things *do* work and need them, natch.
+	{
 		"name": "Shrine",
 		"faith": 1,
 		"cost": 40,
@@ -969,7 +968,7 @@
                            ],
 		"requiredTech": "Theology",
 		"isNationalWonder": true
-	}, */
+	}, 
 /* Religious building template 
    {
      "name": "Cathedral",
