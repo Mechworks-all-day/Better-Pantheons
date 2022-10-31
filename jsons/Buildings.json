@@ -107,7 +107,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] from [Water] tilesl [in this city] <within [3] tiles of a [City center]>",
+                "[+1 Faith] from [Water] tiles [in this city] <within [3] tiles of a [City center]>",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Folklore"
@@ -241,7 +241,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith, +1 Happiness, +1 Gold, +1 Culture, +1 Science] from [Fishing Boats] tiles <in cities with a [Cult of the Ocean]>",
+                "[+1 Faith, +1 Happiness, +1 Gold, +1 Culture, +1 Science] from [Fishing Boats] <in cities with a [Cult of the Ocean]>",
                 "Must be next to [Water]",
                 "Unbuildable", 
                 "Hidden when religion is disabled",
