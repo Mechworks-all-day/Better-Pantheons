@@ -581,67 +581,106 @@
   {
      "name": "Crafting Goddess",//"Goddess of Crafting",
      "type": "Founder",
-     "uniques": ["May buy [Creation Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"]
+     "uniques": [
+                 "May buy [Creation Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                 "[+10]% [Production] [in cities following this religion]"
+                ]
   },
   {
      "name": "Sea God",//"God of the Sea",
      "type": "Founder",
-     "uniques": ["May buy [Cult of the Ocean] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"]
+     "uniques": [
+                 "May buy [Cult of the Ocean] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                 "[+1 Faith, +1 Happiness, +1 Gold, +1 Culture, +1 Science] from [Fishing Boats] tiles [in cities following this religion]"
+                ]
   },
   {
      "name": "Sea Goddess",//"Goddess of the Sea",
      "type": "Founder",
-     "uniques": ["May buy [Seafarer's Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"]
+     "uniques": [
+                 "May buy [Seafarer's Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                 "[+10]% Yield from every [Water]"
+                ]
   },
   {
      "name": "War God",//"God of War",
      "type": "Founder",
-     "uniques": ["May buy [Cult of the Warrior] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"]
+     "uniques": [
+                 "May buy [Cult of the Warrior] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                 "New [Military] units start with [+5] Experience [in cities following this religion]"
+                ]
   },
   {
      "name": "War Goddess",//"Goddess of War",
      "type": "Founder",
-     "uniques": ["May buy [Battle Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"]
+     "uniques": [
+                 "May buy [Battle Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                 "Gain a free [Barracks] [in cities following this religion]"
+                ]
   },
   {
      "name": "Sky God",//"God of the Sky",
      "type": "Founder",
-     "uniques": ["May buy [Cult of the Sky] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"]
+     "uniques": [
+                 "May buy [Cult of the Sky] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                 "[+1 Happiness] in cities on [Hill] tiles"
+                ]
   },
   {
      "name": "Sky Goddess",//"Goddess of the Sky",
      "type": "Founder",
-     "uniques": ["May buy [Wind Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"]
+     "uniques": [
+                 "May buy [Wind Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                 "[+1 Happiness] in cities on [Land] tiles <in tiles without [Hill]>"
+                ]
   },
   {
      "name": "Love God",//"God of Love",
      "type": "Founder",
-     "uniques": ["May buy [Cult of Love] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"]
+     "uniques": [
+                 "May buy [Cult of Love] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                 "[-10]% Unhappiness from [followers of this religion] [in all cities]"
+                ]
   },
   {
      "name": "Love Goddess",//"Goddess of Love",
      "type": "Founder",
-     "uniques": ["May buy [Fertility Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"]
+     "uniques": [
+                 "May buy [Fertility Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                 "[+2 Faith] per [10] population [in cities following this religion]"
+                ]
   },
   {
      "name": "Protector God",//"God of Protection",
      "type": "Founder",
-     "uniques": ["May buy [Cult of the Defender] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"]
+     "uniques": [
+                 "May buy [Cult of the Defender] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                 "[+15]% Strength <when fighting in [Friendly Land] tiles> <when defending>"
+                ]
   },
   {
      "name": "Protector Goddess",//"Goddess of Protection",
      "type": "Founder",
-     "uniques": ["May buy [Protective Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"]
+     "uniques": [
+                 "May buy [Protective Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                 "[+15]% Strength <when attacking> <when fighting in [Friendly Land] tiles>"
+                ]
   },
   {
      "name": "Hunting God",//"God of the Hunt",
      "type": "Founder",
-     "uniques": ["May buy [Cult of the Hunter] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"]
+     "uniques": [
+                 "May buy [Cult of the Hunter] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                 "[+10]% Production when constructing [{Ranged} {Land}] units [in cities following this religion]"
+                ]
   },
   {
      "name": "Hunting Goddess",//"Goddess of the Hunt",
      "type": "Founder",
-     "uniques": ["May buy [Hunting Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"]
+     "uniques": [
+                 "May buy [Hunting Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                 "[Faith] cost of purchasing [{Ranged} {Land}] units [-10]%"
+                ]
   },
 //Renamed all the duplicates because it was throwing a snit about them and having none show up ever
 //I want to put more The One God/Grand Pantheon stuff in here as well,
