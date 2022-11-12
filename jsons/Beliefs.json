@@ -298,7 +298,7 @@
                 "May buy [Battle Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
                 "May buy [Basic Pantheon] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
 //                "May buy [Religious Practice] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
-                "Gain a free [Barracks] [in cities following this religion]"
+                "[+10]% Production when constructing [Military] units [in cities following this religion]"
                 ]
   },
   {
@@ -348,7 +348,7 @@
                 "May buy [Cult of the Defender] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
                 "May buy [Basic Pantheon] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
 //                "May buy [Religious Practice] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
-                "[+15]% Strength <when fighting in [Friendly Land] tiles> <when defending>"
+                "[+10]% Strength for cities <when defending>"
                 ]
   },
   {
@@ -358,7 +358,7 @@
                 "May buy [Protective Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
                 "May buy [Basic Pantheon] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
 //                "May buy [Religious Practice] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
-                "[+15]% Strength <when attacking> <when fighting in [Friendly Land] tiles>"
+                "[+10]% Strength for cities <when attacking>"
                 ]
   },
   {
@@ -615,7 +615,7 @@
      "type": "Founder",
      "uniques": [
                  "May buy [Battle Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
-                 "Gain a free [Barracks] [in cities following this religion]"
+                 "[+10]% Production when constructing [Military] units [in cities following this religion]"
                 ]
   },
   {
@@ -655,7 +655,7 @@
      "type": "Founder",
      "uniques": [
                  "May buy [Cult of the Defender] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
-                 "[+15]% Strength <when fighting in [Friendly Land] tiles> <when defending>"
+                 "[+10]% Strength for cities <when defending>"
                 ]
   },
   {
@@ -663,7 +663,7 @@
      "type": "Founder",
      "uniques": [
                  "May buy [Protective Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
-                 "[+15]% Strength <when attacking> <when fighting in [Friendly Land] tiles>"
+                 "[+10]% Strength for cities <when attacking>"
                 ]
   },
   {
