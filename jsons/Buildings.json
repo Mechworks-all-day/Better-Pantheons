@@ -241,7 +241,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith, +1 Happiness, +1 Gold, +1 Culture, +1 Science] from [Fishing Boats] <in cities with a [Cult of the Ocean]>",
+                "[+15]% Production when constructing [Water] units [in this city]",
                 "Must be next to [Water]",
                 "Unbuildable", 
                 "Hidden when religion is disabled",
