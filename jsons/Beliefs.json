@@ -328,7 +328,7 @@
                 "May buy [Cult of Love] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
                 "May buy [Basic Pantheon] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
 //                "May buy [Religious Practice] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
-                "[-10]% Unhappiness from [followers of this religion] [in all cities]"
+                "[-10]% Unhappiness from [Followers of this Religion] [in all cities]"
                 ]
   },
   {
@@ -639,7 +639,7 @@
      "type": "Founder",
      "uniques": [
                  "May buy [Cult of Love] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
-                 "[-10]% Unhappiness from [followers of this religion] [in all cities]"
+                 "[-10]% Unhappiness from [Followers of this Religion] [in all cities]"
                 ]
   },
   {
