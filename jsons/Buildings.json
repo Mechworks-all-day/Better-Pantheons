@@ -6,7 +6,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+5]% [Faith] [in all cities] <while the empire is happy>",
+                "[+1]% [Faith] [in all cities] <while the empire is happy>",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Simple"
@@ -17,7 +17,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+10]% [Faith] [in this city] <while the empire is happy>",
+                "[+5]% [Faith] [in this city] <while the empire is happy>",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Simple"
