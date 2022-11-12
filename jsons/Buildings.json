@@ -299,7 +299,7 @@
      "faith": 1,
      "uniques": [
                 "All newly-trained [Ranged] units [in this city] receive the [Hunter Cult] promotion",
-                "[+1 Faith] from every [Furs]",
+                "[+1 Faith] from [Camp] tiles [in this city]",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Deific"
