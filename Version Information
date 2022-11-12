@@ -38,8 +38,10 @@ Fixed spelling error in Harmonious Existence, should be able to actually build S
 12-11-2022 (Version 0.5) (TwoHoursLater.jpg)
 Updated all the Gods with special effects. Stand by for bug smashing.
 
-12-11-2020 (Version 0.5.1) (A_Short_Time_Later.jpg)
+12-11-2022 (Version 0.5.1) (A_Short_Time_Later.jpg)
 Syntax error with Love God's mechanic squashed. Initial mechanics for God of Protection, Goddess of Protection, and Goddess of War changed, as the initial thoughts didn't work as was.
 All systems should now function (other than images, naturally.)
 (Also on that note I fixed a couple that were still the beeg 500x500+ images, into 80x80 like the rest.)
 
+12-11-2022 (Version 0.5.2) (AnotherTwoHoursLater.jpg)
+Fixed previously uncaught name mismatches in God of Craftsman and Ceremonial Burial that keept you from being able to buy their respective buildings.
