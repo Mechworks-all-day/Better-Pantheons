@@ -362,7 +362,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+5]% [Faith] for every [Experience]",
+                "[+4]% [Production] [in this city] <when at war>",
                 "Unbuildable", 
                 "Hidden when religion is disabled",
                 "Basic Religion", "Deific"
