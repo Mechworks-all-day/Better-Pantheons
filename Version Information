@@ -31,3 +31,6 @@ For some reason.  * Confused face *
 
 15-10-2022 (Version 0.4.4)
 Squashed minor syntax error in Sacred Seas that wasn't calling Crab correctly, should work now.
+
+12-11-2022 (Version 0.4.5)
+Fixed spelling error in Harmonious Existence, should be able to actually build Shangri La now.
