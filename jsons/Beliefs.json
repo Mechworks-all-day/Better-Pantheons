@@ -412,7 +412,7 @@
      "type": "Founder",
      "uniques": [
                 "[+2 Happiness] for each global city following this religion",
-                "May buy [Grand Masoleum] buildings for [1000] [Faith] [in holy cities]"
+                "May buy [Grand Mausoleum] buildings for [1000] [Faith] [in holy cities]"
                 ]
   },
   {
@@ -572,7 +572,7 @@
      "name": "Crafting God",//"God of Craftsman",
      "type": "Founder",
      "uniques": [
-                 "May buy [Cult of Making] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                 "May buy [Cult of the Maker] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
                  "[+1 Production] from all [Basic Religion] buildings",
                  "[+2 Production] from all [Enhanced Religion] buildings",
                  "[+4 Production] from all [Religious Wonder] buildings"
