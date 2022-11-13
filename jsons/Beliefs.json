@@ -382,6 +382,60 @@
                 ]
   },
 //Nuked the Religious Practice stuff from everything on account of its removal due to "doesn't actually work as intended" issues.
+  {
+     "name": "God of the Sword",
+     "type": "Pantheon",
+     "uniques": [
+                "May buy [Cult of the Sword] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                "May buy [Basic Pantheon] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
+                "[+10]% Production when constructing [{Melee} {Land}] units [in cities following this religion]"
+                ]
+  },
+  {
+     "name": "Goddess of the Sword",
+     "type": "Pantheon",
+     "uniques": [
+                "May buy [Blade Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                "May buy [Basic Pantheon] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
+                "[Faith] cost of purchasing [{Melee} {Land}] units [-10]%"
+                ]
+  },
+  {
+     "name": "God of Ships",
+     "type": "Pantheon",
+     "uniques": [
+                "May buy [Cult of Sailing] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                "May buy [Basic Pantheon] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
+                "[+10]% Production when constructing [{Military} {Water}] units [in cities following this religion]"
+                ]
+  },
+  {
+     "name": "Goddess of Ships",
+     "type": "Pantheon",
+     "uniques": [
+                "May buy [Commissioning Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                "May buy [Basic Pantheon] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
+                "[Faith] cost of purchasing [{Military} {Water}] units [-10]%"
+                ]
+  },
+  {
+     "name": "God of Mining",
+     "type": "Pantheon",
+     "uniques": [
+                "May buy [Cult of the Miner] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                "May buy [Basic Pantheon] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
+                "[+10]% Yield from every [Mine]"
+                ]
+  },
+  {
+     "name": "Goddess of Mining",
+     "type": "Pantheon",
+     "uniques": [
+                "May buy [Miner's Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                "May buy [Basic Pantheon] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
+                "[+1 Production] from [Hill] tiles [in cities following this religion]"
+                ]
+  },
 New gods list:
 Science (more Science from science stuff)
 Wisdom (Science from religion stuff)
@@ -389,8 +443,6 @@ Invention (% boost to science stuff)
 Discovery (smaller % boost to each science thing)
 Forge (production boosts)
 Masonry (build buildings faster)
-Swords (melee version of Hunter)
-Ships (the above, but for water units)
 Mining (Improved yeild from mines)
 Wealth (more Gold yeilds)
 Harvest (food yeild improvements)
