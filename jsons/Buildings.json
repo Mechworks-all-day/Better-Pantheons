@@ -6,7 +6,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+5]% [Faith] [in all cities] <while the empire is happy>",
+                "[+1]% [Faith] [in all cities] <while the empire is happy>",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Simple"
@@ -17,7 +17,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+10]% [Faith] [in this city] <while the empire is happy>",
+                "[+5]% [Faith] [in this city] <while the empire is happy>",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Simple"
@@ -62,7 +62,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] per [Desert] [in this city] <within [3] tiles of a [City center]>",
+                "[+1 Faith] per [Desert] [in this city] <within [2] tiles of a [City center]>",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Folklore"
@@ -73,7 +73,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] per [Forest] [in this city] <within [5] tiles of a [City center]>",
+                "[+1 Faith] per [Forest] [in this city] <within [2] tiles of a [City center]>",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Folklore"
@@ -84,8 +84,8 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] per [Grassland] [in this city] <in tiles without [Forest]> <in tiles without [Hill]> <within [4] tiles of a [City center]>",
-                "[+1 Faith] per [Plains] [in this city] <in tiles without [Forest]> <in tiles without [Hill]> <within [4] tiles of a [City center]>",
+                "[+1 Faith] per [Grassland] [in this city] <in tiles without [Forest]> <in tiles without [Hill]> <within [2] tiles of a [City center]>",
+                "[+1 Faith] per [Plains] [in this city] <in tiles without [Forest]> <in tiles without [Hill]> <within [2] tiles of a [City center]>",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Folklore"
@@ -96,7 +96,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] per [Mountain] [in this city] <within [4] tiles of a [City center]>",
+                "[+1 Faith] per [Mountain] [in this city] <within [2] tiles of a [City center]>",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Folklore"
@@ -107,7 +107,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] per [Water] [in this city] <within [3] tiles of a [City center]>",
+                "[+1 Faith] from [Water] tiles [in this city] <within [2] tiles of a [City center]>",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Folklore"
@@ -118,7 +118,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] per [Jungle] [in this city] <within [5] tiles of a [City center]>",
+                "[+1 Faith] per [Jungle] [in this city] <within [2] tiles of a [City center]>",
                 "Unbuildable", 
                 "Hidden when religion is disabled",
                 "Basic Religion", "Sacred"
@@ -129,7 +129,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] per [River] [in this city] <within [4] tiles of a [City center]>",
+                "[+1 Faith] from [River] tiles [in this city] <within [2] tiles of a [City center]>",
                 "Unbuildable", 
                 "Hidden when religion is disabled",
                 "Basic Religion", "Sacred"
@@ -177,7 +177,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] from every [Crabs]",
+                "[+1 Faith] from every [Crab]",
                 "[+1 Faith] from every [Whales]",
                 "[+1 Faith] from every [Pearls]",
                 "Unbuildable", 
@@ -242,7 +242,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith, +1 Happiness, +1 Gold, +1 Culture, +1 Science] from [Fishing Boats] <in cities with a [Cult of the Ocean]>",
+                "[+15]% Production when constructing [Water] units [in this city]",
                 "Must be next to [Water]",
                 "Unbuildable", 
                 "Hidden when religion is disabled",
@@ -287,7 +287,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith][in all cities]<with a garrison>",
+                "[+1 Faith] [in all cities] <with a garrison>",
                 "[+15]% City Strength from defensive buildings <with a garrison>",
                 "Unbuildable", 
                 "Hidden when religion is disabled",
@@ -300,7 +300,7 @@
      "faith": 1,
      "uniques": [
                 "All newly-trained [Ranged] units [in this city] receive the [Hunter Cult] promotion",
-                "[+1 Faith] from every [Furs]",
+                "[+1 Faith] from [Camp] tiles [in this city]",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Deific"
@@ -348,7 +348,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] from [Fishing Boats] [in all cities]",
+                "[+1 Faith] from [Fishing Boats] tiles [in all cities]",
                 "Must be next to [Water]",
                 "Unbuildable", 
                 "Hidden when religion is disabled",
@@ -360,7 +360,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+5]% [Faith] for every [Experience]",
+                "[+4]% [Production] [in this city] <when at war>",
                 "Unbuildable", 
                 "Hidden when religion is disabled",
                 "Basic Religion", "Deific"
@@ -911,9 +911,8 @@
 */
 //Section to append proper tags to the vanilla buildings
 
-//Commenting this out because the thing it's for doesn't actually *work;*
-//but I hope that the relevant unique will be updated at some point to actually use the right filter for it.
-/*	{
+//putting these back in because I remembered that some things *do* work and need them, natch.
+	{
 		"name": "Shrine",
 		"faith": 1,
 		"cost": 40,
@@ -983,7 +982,7 @@
                            ],
 		"requiredTech": "Theology",
 		"isNationalWonder": true
-	}, */
+	}, 
 /* Religious building template 
    {
      "name": "Cathedral",
