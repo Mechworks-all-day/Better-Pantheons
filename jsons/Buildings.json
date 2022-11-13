@@ -6,7 +6,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1]% [Faith] [in all cities] <while the empire is happy>",
+                "[+5]% [Faith] [in all cities] <while the empire is happy>",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Simple"
@@ -17,7 +17,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+5]% [Faith] [in this city] <while the empire is happy>",
+                "[+10]% [Faith] [in this city] <while the empire is happy>",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Simple"
@@ -62,7 +62,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] per [Desert] [in this city] <within [2] tiles of a [City center]>",
+                "[+1 Faith] per [Desert] [in this city] <within [3] tiles of a [City center]>",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Folklore"
@@ -73,7 +73,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] per [Forest] [in this city] <within [2] tiles of a [City center]>",
+                "[+1 Faith] per [Forest] [in this city] <within [5] tiles of a [City center]>",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Folklore"
@@ -84,8 +84,8 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] per [Grassland] [in this city] <in tiles without [Forest]> <in tiles without [Hill]> <within [2] tiles of a [City center]>",
-                "[+1 Faith] per [Plains] [in this city] <in tiles without [Forest]> <in tiles without [Hill]> <within [2] tiles of a [City center]>",
+                "[+1 Faith] per [Grassland] [in this city] <in tiles without [Forest]> <in tiles without [Hill]> <within [4] tiles of a [City center]>",
+                "[+1 Faith] per [Plains] [in this city] <in tiles without [Forest]> <in tiles without [Hill]> <within [4] tiles of a [City center]>",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Folklore"
@@ -96,7 +96,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] per [Mountain] [in this city] <within [2] tiles of a [City center]>",
+                "[+1 Faith] per [Mountain] [in this city] <within [4] tiles of a [City center]>",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Folklore"
@@ -107,7 +107,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] from [Water] tiles [in this city] <within [2] tiles of a [City center]>",
+                "[+1 Faith] per [Water] [in this city] <within [3] tiles of a [City center]>",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Folklore"
@@ -118,7 +118,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] per [Jungle] [in this city] <within [2] tiles of a [City center]>",
+                "[+1 Faith] per [Jungle] [in this city] <within [5] tiles of a [City center]>",
                 "Unbuildable", 
                 "Hidden when religion is disabled",
                 "Basic Religion", "Sacred"
@@ -129,7 +129,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] from [River] tiles [in this city] <within [2] tiles of a [City center]>",
+                "[+1 Faith] per [River] [in this city] <within [4] tiles of a [City center]>",
                 "Unbuildable", 
                 "Hidden when religion is disabled",
                 "Basic Religion", "Sacred"
@@ -177,7 +177,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] from every [Crab]",
+                "[+1 Faith] from every [Crabs]",
                 "[+1 Faith] from every [Whales]",
                 "[+1 Faith] from every [Pearls]",
                 "Unbuildable", 
@@ -224,6 +224,7 @@
                 "Basic Religion", "Sacred"
                 ],
    },
+
 //Gods ("Cult of X" or "Cult of the X" is the naming scheme here)
    { //Crafting 
      "name": "Cult of the Maker",
@@ -241,7 +242,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+15]% Production when constructing [Water] units [in this city]",
+                "[+1 Faith, +1 Happiness, +1 Gold, +1 Culture, +1 Science] from [Fishing Boats] <in cities with a [Cult of the Ocean]>",
                 "Must be next to [Water]",
                 "Unbuildable", 
                 "Hidden when religion is disabled",
@@ -286,7 +287,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] [in all cities] <with a garrison>",
+                "[+1 Faith][in all cities]<with a garrison>",
                 "[+15]% City Strength from defensive buildings <with a garrison>",
                 "Unbuildable", 
                 "Hidden when religion is disabled",
@@ -299,19 +300,19 @@
      "faith": 1,
      "uniques": [
                 "All newly-trained [Ranged] units [in this city] receive the [Hunter Cult] promotion",
-                "[+1 Faith] from [Camp] tiles [in this city]",
+                "[+1 Faith] from every [Furs]",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Deific"
                 ],
    },
+
 //Goddesses (Possessive-Pronoun/Action Rites is the general naming scheme here
    { //Crafting 
      "name": "Creation Rites",
      "cost": 0,
      "faith": 1,
      "uniques": [
-
                 "[+1 Faith][in this city]<in cities with a [Stone Works]>",
                 "[+1 Faith][in this city]<in cities with a [Water Mill]>",
                 "[+1 Faith][in this city]<in cities with a [Stable]>",
@@ -328,7 +329,6 @@
                 "[+1 Faith][in this city]<in cities with a [Solar Plant]>",
                 "[+1 Faith][in this city]<in cities with a [Nuclear Plant]>",
                 "[+1 Faith][in this city]<in cities with a [Spaceship Factory]>",
-
 //Oh I hate this, but it's the only way to get the desired behavior 
 //Why for the love of god can't we get more cityFilter versions of things
 //"[+1 Faith from all [Production buildings [in this city" would be so much more elegant!
@@ -338,8 +338,6 @@
 //                " +1 Faith  in this city <in cities with a  Production >",
 //The problem with that is it only ever generates *one* faith, if there's *any* production buildings,
 //The desired behavior is that *each* production building in the same city generates one faith. 
-
-
                 "Unbuildable", 
                 "Hidden when religion is disabled",
                 "Basic Religion", "Deific"
@@ -350,7 +348,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] from [Fishing Boats] tiles [in all cities]",
+                "[+1 Faith] from [Fishing Boats] [in all cities]",
                 "Must be next to [Water]",
                 "Unbuildable", 
                 "Hidden when religion is disabled",
@@ -362,7 +360,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+4]% [Production] [in this city] <when at war>",
+                "[+5]% [Faith] for every [Experience]",
                 "Unbuildable", 
                 "Hidden when religion is disabled",
                 "Basic Religion", "Deific"
@@ -522,6 +520,7 @@
                 "Hidden when religion is disabled",
                 "Enhanced Religion", "Pilgrimage"
                 ],
+      "quote": "Placeholder"//find something pithy about humble beginnings 
    },
   { //Pilgrimage 
      "name": "Storied Temple",
@@ -542,6 +541,7 @@
                 "Hidden when religion is disabled",
                 "Enhanced Religion", "Pilgrimage"
                 ],
+      "quote": "Placeholder"//about something impressive in Japan I think.
    },
   { //Pilgrimage 
      "name": "Sacred Grave",
@@ -560,6 +560,7 @@
                 "Hidden when religion is disabled",
                 "Enhanced Religion", "Pilgrimage"
                 ],
+      "quote": "'Do not stand by my grave, and weep. I am not there, I do not sleep— I am the thousand winds that blow, I am the diamond glints in snow, I am the sunlight on ripened grain, I am the gentle, autumn rain. As you awake with morning’s hush, I am the swift, up-flinging rush; of quiet birds in circling flight, I am the day transcending night. Do not stand by my grave, and cry— I am not there, I did not die.' -Clare Harner" 
    },
   { //Pilgrimage 
      "name": "Grand Idol",
@@ -582,6 +583,7 @@
                 "Hidden when religion is disabled",
                 "Enhanced Religion", "Pilgrimage"
                 ],
+      "quote": "Placeholder"//no idea for this one  trying to mix these up really.
    },
   { //Harmoy 
      "name": "Temple of Contemplation",
@@ -616,6 +618,7 @@
                 "Hidden when religion is disabled",
                 "Religious Wonder", "Burial"
                 ],
+      "quote": "Placeholder"//something middle eastern perhaps 
    },
   { //Global 
      "name": "Central Temple",
@@ -633,6 +636,7 @@
                 "Hidden when religion is disabled",
                 "Religious Wonder", "Worldwide"
                 ],
+      "quote": "Placeholder"//maybe something Judaic for this one? Is that even a thing?
    },
   { //Tithe 
      "name": "Church Treasury",
@@ -650,6 +654,7 @@
                 "Hidden when religion is disabled",
                 "Religious Wonder", "Tithe"
                 ],
+      "quote": "Placeholder"//Insert Catholic Church joke here
    },
   { //Harmony 
      "name": "Temple Complex",
@@ -668,6 +673,7 @@
                 "Hidden when religion is disabled",
                 "Religious Wonder", "Harmony"
                 ],
+      "quote": "Placeholder"//something asian obviously 
    },
 
 //Teir 4 (Religious World Wonders)
@@ -691,6 +697,7 @@
                 "Hidden when religion is disabled",
                 "Religious World Wonder", "Burial"
                 ],
+      "quote": "'So as regards these two great obelisks, / Wrought with electrum by my majesty for my father Amun, / In order that my name may endure in this temple, / For eternity and everlastingness, / They are each of one block of hard granite, / Without seam, with joining together!' -Queen Hatshepsut"
    },
   { //World 
      "name": "Mecca",
@@ -712,6 +719,7 @@
                 "Hidden when religion is disabled",
                 "Religious World Wonder", "Worldwide"
                 ],
+      "quote": "Placeholder"//it should not be this hard to find a quote about this as arcatexture dangit!
    },
   { //Tithe 
      "name": "Sacred Horde",
@@ -733,6 +741,7 @@
                 "Hidden when religion is disabled",
                 "Religious World Wonder", "Tithe"
                 ],
+      "quote": "Placeholder"//something something India and their *Gold plated buildings*
    },
   { //Harmony 
      "name": "Shangri La",
@@ -754,6 +763,7 @@
                 "Hidden when religion is disabled",
                 "Religious World Wonder", "Harmony"
                 ],
+      "quote": "Placeholder"//something Tibetan #FuckthePRC
    },
   { //Pilgrimage 
      "name": "Simple Shrine",
@@ -773,6 +783,7 @@
                 "Hidden when religion is disabled",
                 "Religious World Wonder", "Pilgrimage"
                 ],
+      "quote": "Placeholder"//probably want to find something that's famously simple for this 
    },
   { //Pilgrimage 
      "name": "First Temple",
@@ -793,6 +804,7 @@
                 "Hidden when religion is disabled",
                 "Religious World Wonder", "Pilgrimage"
                 ],
+      "quote": "Placeholder"//I dunno what to do for this one. 
    },
   { //Pilgrimage 
      "name": "Tomb of the Saint",
@@ -814,6 +826,7 @@
                 "Hidden when religion is disabled",
                 "Religious World Wonder", "Pilgrimage"
                 ],
+      "quote": "'The simple fact that the Christian fellowship, founded on belief in Jesus' resurrection, came into existence and flourished in the very city where he was executed and buried is powerful evidence for the historicity of the empty tomb.' -William Lane Craig"
    },
   { //Pilgrimage 
      "name": "Temple of Glory",
@@ -838,6 +851,7 @@
                 "Hidden when religion is disabled",
                 "Religious World Wonder", "Pilgrimage"
                 ],
+      "quote": "'And I view inside, and all there, As the swarming hollow of a hive, The whole Basilica alive! Men in the chancel, body and nave, Men on the pillars' architrave, Men on the statues, men on the tombs, With popes and kings in their porphyry wombs, All famishing in expectation, Of the main-altar's consummation.' -Browning, Christmas Eve 1850"
    },
 
 //Special bits for expanding the number of things you can pick:
@@ -897,8 +911,9 @@
 */
 //Section to append proper tags to the vanilla buildings
 
-//putting these back in because I remembered that some things *do* work and need them, natch.
-	{
+//Commenting this out because the thing it's for doesn't actually *work;*
+//but I hope that the relevant unique will be updated at some point to actually use the right filter for it.
+/*	{
 		"name": "Shrine",
 		"faith": 1,
 		"cost": 40,
@@ -968,7 +983,7 @@
                            ],
 		"requiredTech": "Theology",
 		"isNationalWonder": true
-	}, 
+	}, */
 /* Religious building template 
    {
      "name": "Cathedral",
