@@ -45,3 +45,6 @@ All systems should now function (other than images, naturally.)
 
 12-11-2022 (Version 0.5.2) (AnotherTwoHoursLater.jpg)
 Fixed previously uncaught name mismatches in God of Craftsman and Ceremonial Burial that keept you from being able to buy their respective buildings.
+
+13-11-2022 (Version 0.5.3)
+Squashed *yet another* uncaught name mismatch, in pilgrimage this time. Hopefully I won't find many more of these, arg.
