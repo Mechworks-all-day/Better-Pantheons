@@ -722,8 +722,8 @@
      "type": "Enhancer",
      "uniques": [
                 "[+1 Faith] for each global city following this religion",
-                "May buy [Humble Shrine] buildings for [100] [Faith] [in cities following this religion]",
-                "May buy [Important Temple] buildings for [200] [Faith] [in cities following this religion]",
+                "May buy [Humble Church] buildings for [100] [Faith] [in cities following this religion]",
+                "May buy [Storied Temple] buildings for [200] [Faith] [in cities following this religion]",
                 "May buy [Sacred Grave] buildings for [400] [Faith] [in cities following this religion]",
                 "May buy [Grand Idol] buildings for [800] [Faith] [in cities following this religion]"
                 ]
