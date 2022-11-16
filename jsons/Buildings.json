@@ -50,8 +50,8 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] per [Tundra] [in this city] <within [3] tiles of a [City center]>",
-                "[+1 Faith] per [Snow] [in this city] <within [4] tiles of a [City center]>",
+                "[+1 Faith] from [Tundra] tiles [in this city] <within [2] tiles of a [City center]>",
+                "[+1 Faith] from [Snow] tiles [in this city] <within [2] tiles of a [City center]>",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Folklore"
@@ -62,7 +62,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] per [Desert] [in this city] <within [2] tiles of a [City center]>",
+                "[+1 Faith] from [Desert] tiles [in this city] <within [2] tiles of a [City center]>",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Folklore"
@@ -73,7 +73,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] per [Forest] [in this city] <within [2] tiles of a [City center]>",
+                "[+1 Faith] from [Forest] tiles [in this city] <within [2] tiles of a [City center]>",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Folklore"
@@ -84,8 +84,8 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] per [Grassland] [in this city] <in tiles without [Forest]> <in tiles without [Hill]> <within [2] tiles of a [City center]>",
-                "[+1 Faith] per [Plains] [in this city] <in tiles without [Forest]> <in tiles without [Hill]> <within [2] tiles of a [City center]>",
+                "[+1 Faith] from [Grassland] tiles [in this city] <in tiles without [Forest]> <in tiles without [Hill]> <within [2] tiles of a [City center]>",
+                "[+1 Faith] from [Plains] tiles [in this city] <in tiles without [Forest]> <in tiles without [Hill]> <within [2] tiles of a [City center]>",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Folklore"
@@ -96,7 +96,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] per [Mountain] [in this city] <within [2] tiles of a [City center]>",
+                "[+1 Faith] from [Mountain] tiles [in this city] <within [2] tiles of a [City center]>",
                 "Unbuildable", 
                 "Hidden when religion is disabled"
                 "Basic Religion", "Folklore"
@@ -118,7 +118,7 @@
      "cost": 0,
      "faith": 1,
      "uniques": [
-                "[+1 Faith] per [Jungle] [in this city] <within [2] tiles of a [City center]>",
+                "[+1 Faith] from [Jungle] tiles [in this city] <within [2] tiles of a [City center]>",
                 "Unbuildable", 
                 "Hidden when religion is disabled",
                 "Basic Religion", "Sacred"
