@@ -52,3 +52,6 @@ Squashed *yet another* uncaught name mismatch, in pilgrimage this time. Hopefull
 14-11-2022 (Version 0.5.4)
 *Arrrrrrrrrrrrrrrrggggghhhhhhhhhh*
 (more name mismatches fixed.)
+
+16-11-2022 (Version 0.5.5)
+Fixed previously uncaught errors in the environment shrines that made them not work right. Should work as intended now.
