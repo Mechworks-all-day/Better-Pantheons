@@ -3,7 +3,7 @@
 //Teir 1
    { //Ancestor Worship 
      "name": "Ancestral Shrine",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+1]% [Faith] [in all cities] <while the empire is happy>",
@@ -14,7 +14,7 @@
    },
    { //Small Gods 
      "name": "Appeasement Shrine",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+5]% [Faith] [in this city] <while the empire is happy>",
@@ -25,7 +25,7 @@
    },
    { //Correct Actions 
      "name": "Tablet of Law",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+1 Faith] per [15] population [in all cities]",
@@ -36,7 +36,7 @@
    },
    { //Everyday Spirituality 
      "name": "Sacred Markings",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+1 Faith] per [5] population [in this city]",
@@ -47,7 +47,7 @@
    },
    { //Arctic Folklore 
      "name": "Spirit Shrine",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+1 Faith] from [Tundra] tiles [in this city] <within [2] tiles of a [City center]>",
@@ -59,7 +59,7 @@
    },
    { //Desert Folklore 
      "name": "Shrine of Sands",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+1 Faith] from [Desert] tiles [in this city] <within [2] tiles of a [City center]>",
@@ -70,7 +70,7 @@
    },
    { //Woodland Folklore 
      "name": "Sacred Grove",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+1 Faith] from [Forest] tiles [in this city] <within [2] tiles of a [City center]>",
@@ -81,7 +81,7 @@
    },
    { //Grassland Folklore 
      "name": "Waystone",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+1 Faith] from [Grassland] tiles [in this city] <in tiles without [Forest]> <in tiles without [Hill]> <within [2] tiles of a [City center]>",
@@ -93,7 +93,7 @@
    },
    { //Mountain Folklore 
      "name": "Sacred Stair",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+1 Faith] from [Mountain] tiles [in this city] <within [2] tiles of a [City center]>",
@@ -104,7 +104,7 @@
    },
    { //Coastal Folklore 
      "name": "Shrine of Seas",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+1 Faith] from [Water] tiles [in this city] <within [2] tiles of a [City center]>",
@@ -115,7 +115,7 @@
    },
    { //Sacred Path 
      "name": "Golden Path",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+1 Faith] from [Jungle] tiles [in this city] <within [2] tiles of a [City center]>",
@@ -126,7 +126,7 @@
    },
    { //Sacred waters 
      "name": "Sacred Stream",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+1 Faith] from [River] tiles [in this city] <within [2] tiles of a [City center]>",
@@ -137,7 +137,7 @@
    },
    { //Sacred stones 
      "name": "Standing Stones",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+2 Faith] per [Quarry] [in this city]",
@@ -148,7 +148,7 @@
    },
    { //Sacred Riches
      "name": "Gleaming Idol",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+1 Faith] from every [Gold Ore]",
@@ -161,7 +161,7 @@
    },
    { //Sacred celebrations
      "name": "Dancing Ground",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+1 Faith] from every [Incense]",
@@ -174,7 +174,7 @@
    },
    { //Sacred Seas
      "name": "Tidal Shrine",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+1 Faith] from every [Crab]",
@@ -187,7 +187,7 @@
    },
    { //Sacred bounty
      "name": "Feasting Hall",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+1 Faith] from every [Wheat]",
@@ -200,7 +200,7 @@
    },
    { //Sacred herds
      "name": "Sacred Bull",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+1 Faith] from every [Cattle]",
@@ -213,7 +213,7 @@
    },
    { //Sacred fruits 
      "name": "Idol of Plenty",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+1 Faith] from every [Bananas]",
@@ -227,10 +227,11 @@
 //Gods ("Cult of X" or "Cult of the X" is the naming scheme here)
    { //Crafting 
      "name": "Cult of the Maker",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
-                "Enables conversion of city production to [Faith] <in cities with a [Cult of the Maker]>",
+//                "Enables conversion of city production to [Faith] <in cities with a [Cult of the Maker]>",
+//This doesn't actually work, think of something else to do with this 
                 "Unbuildable", 
                 "Hidden when religion is disabled",
                 "Basic Religion", "Deific"
@@ -238,7 +239,7 @@
    },
    { //Sea 
      "name": "Cult of the Ocean",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+15]% Production when constructing [Water] units [in this city]",
@@ -250,7 +251,7 @@
    },
   { //War 
      "name": "Cult of the Warrior",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "All newly-trained [Military] units [in this city] receive the [Warrior Cult] promotion",
@@ -261,7 +262,7 @@
    },
   { //Sky 
      "name": "Cult of the Sky",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+1 Faith] from [Hill] tiles without [Forest] [in this city] <within [5] tiles of a [City center]>",
@@ -272,7 +273,7 @@
    },
   { //Love 
      "name": "Cult of Love",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+1 Faith] per [5] population [in this city]",
@@ -283,7 +284,7 @@
    },
   { //Defense 
      "name": "Cult of the Defender",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+1 Faith] [in all cities] <with a garrison>",
@@ -295,7 +296,7 @@
    },
   { //Hunt 
      "name": "Cult of the Hunter",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "All newly-trained [Ranged] units [in this city] receive the [Hunter Cult] promotion",
@@ -308,26 +309,25 @@
 //Goddesses (Possessive-Pronoun/Action Rites is the general naming scheme here
    { //Crafting 
      "name": "Creation Rites",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
-
-                "[+1 Faith][in this city]<in cities with a [Stone Works]>",
-                "[+1 Faith][in this city]<in cities with a [Water Mill]>",
-                "[+1 Faith][in this city]<in cities with a [Stable]>",
-                "[+1 Faith][in this city]<in cities with a [Petra]>",
-                "[+1 Faith][in this city]<in cities with a [Workshop]>",
-                "[+1 Faith][in this city]<in cities with a [Forge]>",
-                "[+1 Faith][in this city]<in cities with a [Harbor]>",
-                "[+1 Faith][in this city]<in cities with a [Ironworks]>",
-                "[+1 Faith][in this city]<in cities with a [Seaport]>",
-                "[+1 Faith][in this city]<in cities with a [Windmill]>",
-                "[+1 Faith][in this city]<in cities with a [Factory]>",
-                "[+1 Faith][in this city]<in cities with a [Hydro Plant]>",
-                "[+1 Faith][in this city]<in cities with a [Statue of Liberty]>",
-                "[+1 Faith][in this city]<in cities with a [Solar Plant]>",
-                "[+1 Faith][in this city]<in cities with a [Nuclear Plant]>",
-                "[+1 Faith][in this city]<in cities with a [Spaceship Factory]>",
+                "[+1 Faith] [in this city] <in cities with a [Stone Works]>",
+                "[+1 Faith] [in this city] <in cities with a [Water Mill]>",
+                "[+1 Faith] [in this city] <in cities with a [Stable]>",
+                "[+1 Faith] [in this city] <in cities with a [Petra]>",
+                "[+1 Faith] [in this city] <in cities with a [Workshop]>",
+                "[+1 Faith] [in this city] <in cities with a [Forge]>",
+                "[+1 Faith] [in this city] <in cities with a [Harbor]>",
+                "[+1 Faith] [in this city] <in cities with a [Ironworks]>",
+                "[+1 Faith] [in this city] <in cities with a [Seaport]>",
+                "[+1 Faith] [in this city] <in cities with a [Windmill]>",
+                "[+1 Faith] [in this city] <in cities with a [Factory]>",
+                "[+1 Faith] [in this city] <in cities with a [Hydro Plant]>",
+                "[+1 Faith] [in this city] <in cities with a [Statue of Liberty]>",
+                "[+1 Faith] [in this city] <in cities with a [Solar Plant]>",
+                "[+1 Faith] [in this city] <in cities with a [Nuclear Plant]>",
+                "[+1 Faith] [in this city] <in cities with a [Spaceship Factory]>",
 
 //Oh I hate this, but it's the only way to get the desired behavior 
 //Why for the love of god can't we get more cityFilter versions of things
@@ -338,8 +338,6 @@
 //                " +1 Faith  in this city <in cities with a  Production >",
 //The problem with that is it only ever generates *one* faith, if there's *any* production buildings,
 //The desired behavior is that *each* production building in the same city generates one faith. 
-
-
                 "Unbuildable", 
                 "Hidden when religion is disabled",
                 "Basic Religion", "Deific"
@@ -347,7 +345,7 @@
    },
    { //Sea 
      "name": "Seafarer's Rites",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+1 Faith] from [Fishing Boats] tiles [in all cities]",
@@ -359,7 +357,7 @@
    },
   { //War 
      "name": "Battle Rites",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+4]% [Production] [in this city] <when at war>",
@@ -370,7 +368,7 @@
    },
   { //Sky 
      "name": "Wind Rites",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+1 Faith] from [Land] tiles without [Forest] [in this city] <within [4] tiles of a [City center]>",
@@ -381,7 +379,7 @@
    },
   { //Love 
      "name": "Fertility Rites",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "[+1 Faith] from [Farm] tiles [in this city]",
@@ -393,14 +391,14 @@
    },
   { //Defense 
      "name": "Protective Rites",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
-                "[+1 Faith][in this city]<in cities with a [Walls]>",
-                "[+1 Faith][in this city]<in cities with a [Castle]>",
-                "[+1 Faith][in this city]<in cities with a [Arsenal]>",
-                "[+1 Faith][in this city]<in cities with a [Military Base]>",
-                "[+1 Faith][in this city]<in cities with a [Kremlin]>",
+                "[+1 Faith] [in this city] <in cities with a [Walls]>",
+                "[+1 Faith] [in this city] <in cities with a [Castle]>",
+                "[+1 Faith] [in this city] <in cities with a [Arsenal]>",
+                "[+1 Faith] [in this city] <in cities with a [Military Base]>",
+                "[+1 Faith] [in this city] <in cities with a [Kremlin]>",
 // IhatethisIhatethis*IhatethesSOMUCH!*
 //WRRRRY.gif
                 "[+5]% Strength for cities <when attacking>",
@@ -411,7 +409,7 @@
    },
   { //Hunt 
      "name": "Hunting Rites",
-     "cost": 0,
+     "cost": 50,
      "faith": 1,
      "uniques": [
                 "All newly-trained [Ranged] units [in this city] receive the [Hunting Rites] promotion",
@@ -462,11 +460,12 @@
 //So remember to put those back in if/when those get buildingFilter.
   { //Ritual burial 
      "name": "Burial Ground",
-     "cost": 0,
+     "cost": 100,
      "faith": 2,
      "uniques": [
                 "[+1 Faith] per [14] population [in all cities]",
-                "[+1 Happiness] from every [Basic Religion] <in cities with a [Burial Ground]>",//this is flakkin' awkward but there's no Cityfilter on this one so this is the best I can do I think 
+//                "[+1 Happiness] from every [Basic Religion] <in cities with a [Burial Ground]>",//this is flakkin' awkward but there's no Cityfilter on this one so this is the best I can do I think 
+//Did not function as intended, moving this to the Belief in hopes that does.
 //Rarg.
 //                "Requires a Basic Religion in at least 5 cities",
                 "Unbuildable", 
@@ -476,11 +475,11 @@
    },
   { //Global Church 
      "name": "Seminary",
-     "cost": 0,
+     "cost": 100,
      "faith": 2,
      "uniques": [
                 "[+1 Faith] per [7] population [in this city]",
-                "[+1 Culture] from every [Basic Religion] <in cities with a [Seminary]>", 
+//                "[+1 Culture] from every [Basic Religion] <in cities with a [Seminary]>", 
 //                "Requires a Basic Religion in at least 5 cities",
 //Arg.
                 "Unbuildable", 
@@ -490,12 +489,12 @@
    },
   { //Tithe 
      "name": "Blessed Market",
-     "cost": 0,
+     "cost": 100,
      "faith": 2,
      "uniques": [
                 "[+1 Faith] from every [Gold] <in cities with a [Blessed Market]>",
 //Original idea for these doesn't work, so it's this now. Not as good as I want, but it'll work and that's the important thing.
-                "[+1 Gold] from every [Basic Religion] <in cities with a [Blessed Market]>",
+//                "[+1 Gold] from every [Basic Religion] <in cities with a [Blessed Market]>",
 //Gah!
 //                "Requires a Basic Religion in at least 5 cities",
                 "Unbuildable", 
@@ -505,12 +504,13 @@
    },
   { //Pilgrimage 
      "name": "Humble Church",
-     "cost": 0,
+     "cost": 80,
      "faith": 2,
      "isNationalWonder": true,
      "uniques": [
                 "[+1 Faith] from all [Pilgrimage] buildings",
                 "[+1 Faith] from every [Basic Religion] <in cities with a [Pilgrimage]>",//Changed how that works a little for the pilgrim sets
+//Unlike the other sets, these don't need to be as modified, because you're limited in how many you can build.
 //                "Requires a Basic Religion in at least 5 cities",
 //And it was such an *elegant* idea too
 //it just ain't the same 
@@ -525,12 +525,13 @@
    },
   { //Pilgrimage 
      "name": "Storied Temple",
-     "cost": 0,
+     "cost": 120,
      "faith": 2,
      "isNationalWonder": true,
      "uniques": [
                 "[+1 Faith] from all [Pilgrimage] buildings",
-                "[+1 Faith] from every [Basic Religion] <in cities with a [Pilgrimage]>",
+                "[+1 Faith] from every [Enhanced Religion] <in cities with a [Pilgrimage]>",
+//I did, however, manage to forget to lane their efforts properly anyway. Arg.
 //                "Requires a Basic Religion in at least 5 cities",
 //                "Requires a Pilgrimage in at least 2 cities",
 // *Sigh*
@@ -545,12 +546,12 @@
    },
   { //Pilgrimage 
      "name": "Sacred Grave",
-     "cost": 0,
+     "cost": 250,
      "faith": 2,
      "isNationalWonder": true,
      "uniques": [
                 "[+1 Faith] from all [Pilgrimage] buildings",
-                "[+1 Faith] from every [Basic Religion] <in cities with a [Pilgrimage]>",
+                "[+1 Faith] from every [Enhanced Religion]",
 //                "Requires a Basic Religion in at least 5 cities",
                 "Only available <in cities without a [Pilgrimage]>",
                 "Limited to [2] per Civilization",
@@ -563,12 +564,12 @@
    },
   { //Pilgrimage 
      "name": "Grand Idol",
-     "cost": 0,
+     "cost": 600,
      "faith": 2,
      "isNationalWonder": true,
-     "uniques": [
+     "uniques": 
                 "[+1 Faith] from all [Pilgrimage] buildings",
-                "[+1 Faith] from every [Basic Religion] <in cities with a [Pilgrimage]>",
+                "[+1 Faith] from every [Religious Wonder] <in cities with a [Pilgrimage]>",
 //At least this let me catch that Pilgrimage wasn't giving Faith as intended
 //So that's something I suppose.
                 "Requires a [Humble Church] in at least [1] cities",
@@ -585,11 +586,11 @@
    },
   { //Harmoy 
      "name": "Temple of Contemplation",
-     "cost": 0,
+     "cost": 100,
      "faith": 2,
      "uniques": [
                 "[+1 Faith] from every [Science] <in cities with a [Temple of Contemplation]>",//again, not really what I want this to do, but it'll actually work now so c'est la vie 
-                "[+1 Science] from every [Basic Religion] <in cities with a [Temple of Contemplation]>",
+//                "[+1 Science] from every [Basic Religion] <in cities with a [Temple of Contemplation]>",
 //                "Requires a Basic Religion in at least 5 cities",
 //Damn faint silver lining though.
                 "Unbuildable", 
@@ -601,7 +602,7 @@
 //Teir 3 (National Wonders)
   { //Burial 
      "name": "Sacred Mausoleum",
-     "cost": 0,
+     "cost": 150,
      "faith": 3,
      "isNationalWonder": true,
      "uniques": [
@@ -619,7 +620,7 @@
    },
   { //Global 
      "name": "Central Temple",
-     "cost": 0,
+     "cost": 150,
      "faith": 3,
      "isNationalWonder": true,
      "uniques": [
@@ -636,7 +637,7 @@
    },
   { //Tithe 
      "name": "Church Treasury",
-     "cost": 0,
+     "cost": 150,
      "faith": 3,
      "isNationalWonder": true,
      "uniques": [
@@ -653,7 +654,7 @@
    },
   { //Harmony 
      "name": "Temple Complex",
-     "cost": 0,
+     "cost": 150,
      "faith": 3,
      "isNationalWonder": true,
      "uniques": [
@@ -673,7 +674,7 @@
 //Teir 4 (Religious World Wonders)
   { //Burial 
      "name": "Grand Mausoleum",
-     "cost": 0,
+     "cost": 400,
      "faith": 4,
      "isWonder": true,
      "uniques": [
@@ -694,7 +695,7 @@
    },
   { //World 
      "name": "Mecca",
-     "cost": 0,
+     "cost": 400,
      "faith": 4,
      "isWonder": true,
      "uniques": [
@@ -715,7 +716,7 @@
    },
   { //Tithe 
      "name": "Sacred Horde",
-     "cost": 0,
+     "cost": 400,
      "faith": 4,
      "isWonder": true,
      "uniques": [
@@ -736,7 +737,7 @@
    },
   { //Harmony 
      "name": "Shangri La",
-     "cost": 0,
+     "cost": 400,
      "faith": 4,
      "isWonder": true,
      "uniques": [
@@ -757,7 +758,7 @@
    },
   { //Pilgrimage 
      "name": "Simple Shrine",
-     "cost": 0,
+     "cost": 200,
      "faith": 4,
      "isWonder": true,
      "uniques": [
@@ -776,7 +777,7 @@
    },
   { //Pilgrimage 
      "name": "First Temple",
-     "cost": 0,
+     "cost": 300,
      "faith": 4,
      "isWonder": true,
      "uniques": [
@@ -796,7 +797,7 @@
    },
   { //Pilgrimage 
      "name": "Tomb of the Saint",
-     "cost": 0
+     "cost": 500
      "faith": 4,
      "isWonder": true,
      "uniques": [
@@ -817,7 +818,7 @@
    },
   { //Pilgrimage 
      "name": "Temple of Glory",
-     "cost": 0,
+     "cost": 800,
      "Culture": 4
      "faith": 4,
      "isWonder": true,
@@ -843,7 +844,7 @@
 //Special bits for expanding the number of things you can pick:
    {
      "name": "Basic Pantheon",
-     "cost": 0,
+     "cost": 1,
      "uniques": [
                 "Gain a free [Pantheon] belief",
                 "Limited to [2] per Civilization",
@@ -927,14 +928,14 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
-		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured","Basic Religion", "Agnostic"]
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured","Enhanced Religion", "Agnostic"]
 	},
 	{
 		"name": "Burial Tomb",
 		"replaces": "Temple",
 		"uniqueTo": "Egypt",
 		"maintenance": 0,
-		"uniques": ["Doubles Gold given to enemy if city is captured","Basic Religion", "Agnostic"],
+		"uniques": ["Doubles Gold given to enemy if city is captured","Enhanced Religion", "Agnostic"],
 		"faith": 2,
 		"happiness": 2,
 		"requiredBuilding": "Shrine",
@@ -949,7 +950,7 @@
 		"hurryCostModifier": 25,
 		"culture": 2,
 		"faith": 2,
-                "uniques ":["Basic Religion", "Agnostic"],
+                "uniques ":["Enhanced Religion", "Agnostic"],
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Philosophy"
 	},
@@ -964,7 +965,7 @@
 			   "[+100]% Natural religion spread [in this city]", 
                            "Hidden when religion is disabled", 
                            "Can only be built [in holy cities]",
-                           "Enhanced Religion", "Agnostic"
+                           "Religious Wonder", "Agnostic"
                            ],
 		"requiredTech": "Theology",
 		"isNationalWonder": true
