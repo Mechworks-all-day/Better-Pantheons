@@ -382,6 +382,7 @@
                 ]
   },
 //Nuked the Religious Practice stuff from everything on account of its removal due to "doesn't actually work as intended" issues.
+//Batch 2 Gods start here
   {
      "name": "God of the Sword",
      "type": "Pantheon",
@@ -397,7 +398,7 @@
      "uniques": [
                 "May buy [Blade Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
                 "May buy [Basic Pantheon] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
-                "[Faith] cost of purchasing [{Melee} {Land}] units [-10]%"
+                "[Gold] cost of purchasing [{Melee} {Land}] units [-10]%"
                 ]
   },
   {
@@ -415,7 +416,7 @@
      "uniques": [
                 "May buy [Commissioning Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
                 "May buy [Basic Pantheon] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
-                "[Faith] cost of purchasing [{Military} {Water}] units [-10]%"
+                "[Gold] cost of purchasing [{Military} {Water}] units [-10]%"
                 ]
   },
   {
@@ -424,7 +425,7 @@
      "uniques": [
                 "May buy [Cult of the Miner] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
                 "May buy [Basic Pantheon] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
-                "[+10]% Yield from every [Mine]"
+                "[+1 Faith] from every [Mine]"
                 ]
   },
   {
@@ -436,9 +437,44 @@
                 "[+1 Production] from [Hill] tiles [in cities following this religion]"
                 ]
   },
+  {
+     "name": "God of Wisdom",
+     "type": "Pantheon",
+     "uniques": [
+                "May buy [Cult of the Sage] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                "May buy [Basic Pantheon] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
+                "[+1 Science] from all [Faith] buildings"
+                ]
+  },
+  {
+     "name": "Goddess of Wisdom",
+     "type": "Pantheon",
+     "uniques": [
+                "May buy [Rite of Wisdom] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                "May buy [Basic Pantheon] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
+                "[Gold] cost of purchasing [Science] buildings [-10]%"
+                ]
+  },
+  {
+     "name": "God of Logistics",
+     "type": "Pantheon",
+     "uniques": [
+                "May buy [Cult of the Quartermaster] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                "May buy [Basic Pantheon] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
+                "[+10]% [Gold] from Trade Routes"
+                ]
+  },
+  {
+     "name": "Goddess of Logistics",
+     "type": "Pantheon",
+     "uniques": [
+                "May buy [Logistical Rites] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                "May buy [Basic Pantheon] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
+                "[+1 Faith] from each Trade Route"
+                ]
+  },
 New gods list:
 Science (more Science from science stuff)
-Wisdom (Science from religion stuff)
 Invention (% boost to science stuff)
 Discovery (smaller % boost to each science thing)
 Forge (production boosts)
