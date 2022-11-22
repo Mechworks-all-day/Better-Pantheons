@@ -251,6 +251,8 @@
                 "[+4 Production] from all [Religious Wonder] buildings",
 //                "Enables conversion of city production to [Faith] <in cities with a [Cult of the Maker]>"//this was originally on the aforementioned building, but didn't actually *work*.
 //Arg, that doesn't work either. So just put this whole thing on hold I suppose.
+                 "[+1 Faith] from all [Production] buildings <in cities with a [Cult of the Maker]>"
+//Whatever we'll just do that. Another instance of '"it's not what we wanted, but it does work."
                 ]
   },
   {
@@ -579,6 +581,7 @@
                  "[+2 Production] from all [Enhanced Religion] buildings",
                  "[+4 Production] from all [Religious Wonder] buildings",
 //                 "Enables conversion of city production to [Faith] <in cities with a [Cult of the Maker]>"
+                 "[+1 Faith] from all [Production] buildings <in cities with a [Cult of the Maker]>"
                 ]
   },
   {
