@@ -496,6 +496,28 @@
                 "Basic Religion", "Deific"
                 ],
    },
+   { //Logistics 
+     "name": "Cult of the Quartermaster",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "All newly-trained [{Military} {Land}] units [in this city] receive the [March] promotion",
+                "Unbuildable", 
+                "Hidden when religion is disabled"
+                "Basic Religion", "Deific"
+                ],
+   },
+   { //
+     "name": "Logistical Rites",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "All newly-trained [{Military} {Water}] units [in this city] receive the [Supply] promotion",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Deific"
+                ],
+   },
 
 //Teir 2
 //Note that almost all of these are going to require at least some other stuff before you can build them.
