@@ -248,7 +248,8 @@
 //                "May buy [Religious Practice] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
                 "[+1 Production] from all [Basic Religion] buildings",
                 "[+2 Production] from all [Enhanced Religion] buildings",
-                "[+4 Production] from all [Religious Wonder] buildings"
+                "[+4 Production] from all [Religious Wonder] buildings",
+                "Enables conversion of city production to [Faith] <in cities with a [Cult of the Maker]>"//this was originally on the aforementioned building, but didn't actually *work*.
                 ]
   },
   {
@@ -575,7 +576,8 @@
                  "May buy [Cult of the Maker] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
                  "[+1 Production] from all [Basic Religion] buildings",
                  "[+2 Production] from all [Enhanced Religion] buildings",
-                 "[+4 Production] from all [Religious Wonder] buildings"
+                 "[+4 Production] from all [Religious Wonder] buildings",
+                 "Enables conversion of city production to [Faith] <in cities with a [Cult of the Maker]>"
                 ]
   },
   {
@@ -696,7 +698,8 @@
      "uniques": [
                 "[+1 Happiness] for each global city following this religion",
                 "May buy [Sacred Mausoleum] buildings for [800] [Faith] [in holy cities]",
-                "May buy [Burial Ground] buildings for [50] [Faith] [in cities following this religion] at an increasing price ([25])"
+                "May buy [Burial Ground] buildings for [50] [Faith] [in cities following this religion] at an increasing price ([25])",
+                "[+1 Happiness] from every [Basic Religion] <in cities with a [Burial Ground]>"//again an effect that's getting moved so it works as intended (hopefully)
                 ]
   },
   {
@@ -705,7 +708,8 @@
      "uniques": [
                 "[+1 Culture] for each global city following this religion",
                 "May buy [Central Temple] buildings for [800] [Faith] [in holy cities]",
-                "May buy [Seminary] buildings for [50] [Faith] [in cities following this religion] at an increasing price ([25])"
+                "May buy [Seminary] buildings for [50] [Faith] [in cities following this religion] at an increasing price ([25])",
+                "[+1 Culture] from every [Basic Religion] <in cities with a [Seminary]>"
                 ]
   },
   {
@@ -714,7 +718,8 @@
      "uniques": [
                 "[+1 Gold] for each global city following this religion",
                 "May buy [Church Treasury] buildings for [800] [Faith] [in holy cities]",
-                "May buy [Blessed Market] buildings for [50] [Faith] [in cities following this religion] at an increasing price ([25])"
+                "May buy [Blessed Market] buildings for [50] [Faith] [in cities following this religion] at an increasing price ([25])",
+                "[+1 Gold] from every [Basic Religion] <in cities with a [Blessed Market]>"
                 ]
   },
   {
@@ -734,7 +739,8 @@
      "uniques": [
                 "[+1 Science] for each global city following this religion",
                 "May buy [Temple Complex] buildings for [800] [Faith] [in holy cities]",
-                "May buy [Temple of Contemplation] buildings for [50] [Faith] [in cities following this religion] at an increasing price ([25])"
+                "May buy [Temple of Contemplation] buildings for [50] [Faith] [in cities following this religion] at an increasing price ([25])",
+                "[+1 Science] from every [Basic Religion] <in cities with a [Temple of Contemplation]>",
                 ]
   },
   {
