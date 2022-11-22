@@ -567,7 +567,7 @@
      "cost": 600,
      "faith": 2,
      "isNationalWonder": true,
-     "uniques": 
+     "uniques": [
                 "[+1 Faith] from all [Pilgrimage] buildings",
                 "[+1 Faith] from every [Religious Wonder] <in cities with a [Pilgrimage]>",
                 "Requires a [Humble Church] in at least [1] cities",
