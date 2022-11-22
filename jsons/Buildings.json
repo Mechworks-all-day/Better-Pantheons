@@ -450,6 +450,53 @@
 // Obviously "Atheism" and it's "No Gods" tag complete this little trinity, but I can't actually implement it
 //Bah.
 
+//Batch 2 Gods
+
+   { //Mining
+     "name": "Cult of the Miner",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Production] from [Mine] tiles [in this city] <in [Strategic resource] tiles>",
+                "[+1 Production] from [Mine] tiles [in this city] <in [Luxury resource] tiles>",
+                "Unbuildable", 
+                "Hidden when religion is disabled"
+                "Basic Religion", "Deific"
+                ],
+   },
+   { 
+     "name": "Miner's Rites",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Deific"
+                ],
+   },
+   { //Wisdom 
+     "name": "Cult of the Sage",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "Unbuildable", 
+                "Hidden when religion is disabled"
+                "Basic Religion", "Deific"
+                ],
+   },
+   { //
+     "name": "Rite of Wisdom",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+5]% [Science] [in this city]",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Deific"
+                ],
+   },
+
 //Teir 2
 //Note that almost all of these are going to require at least some other stuff before you can build them.
 //Note 2: arg. Apparently the requires X building unique *doesn't use buildingFilter*
