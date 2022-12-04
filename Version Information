@@ -55,3 +55,14 @@ Squashed *yet another* uncaught name mismatch, in pilgrimage this time. Hopefull
 
 16-11-2022 (Version 0.5.5)
 Fixed previously uncaught errors in the environment shrines that made them not work right. Should work as intended now.
+
+04-12-2022 (Version 0.6)
+MAJOR UPDATE: restored original building restrictions to Religious Wonders now that the necessary Unique is using buildingFilter properly
+This has also necessarily required some minor background tweaking; as follows:
+* Enhancer specific Pilgrimage buildings are not National Wonders anymore because you can build more than one of them as originally intended; looking for solutions to make those properly interact with the standard Wonder mechanics at this time,
+* Founder specific Religious World Wonders are no longer restricted to Holy Cities (which, yes, means you can now build more than one per civ)
+* Founder Beliefs also now give access to a Religious Wonder (as you have to have at least one to build a Religious World Wonder)
+We have also changed the Basic set from only enhancing Shrines to enhancing all Agnostic Religious buildings (the vanilla ones, in other words),
+And have added a Science version (Natural Philosophy/Theology) and a new building to go with it (the Sage's Lodge) so be aware of that option.
+
+Stand by for day zero bug fixing.
