@@ -14,7 +14,7 @@
      "name": "Ancestor Worship",
      "type": "Pantheon",
      "uniques": [
-                "[+1 Culture] from every [Shrine]", 
+                "[+1 Culture] from every [Agnostic]", 
                 "May buy [Ancestral Shrine] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
                 "May buy [Basic Pantheon] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
 //                "May buy [Religious Practice] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>"
@@ -24,7 +24,7 @@
      "name": "Small Gods",
      "type": "Pantheon",
      "uniques": [
-                "[+1 Happiness] from every [Shrine]", 
+                "[+1 Happiness] from every [Agnostic]", 
                 "May buy [Appeasement Shrine] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
                 "May buy [Basic Pantheon] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
 //                "May buy [Religious Practice] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>"
@@ -34,8 +34,18 @@
      "name": "Correct Actions",
      "type": "Pantheon",
      "uniques": [
-                "[+1 Gold] from every [Shrine]", 
+                "[+1 Gold] from every [Agnostic]", 
                 "May buy [Tablet of Law] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
+                "May buy [Basic Pantheon] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
+//                "May buy [Religious Practice] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>"
+                ]
+  },
+  {
+     "name": "Natural Philosophy",
+     "type": "Pantheon",
+     "uniques": [
+                "[+1 Science] from every [Agnostic]", 
+                "May buy [Sage's Lodge] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
                 "May buy [Basic Pantheon] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
 //                "May buy [Religious Practice] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>"
                 ]
@@ -44,7 +54,7 @@
      "name": "Everyday Spirituality",
      "type": "Pantheon",
      "uniques": [
-                "[+1 Faith] from every [Shrine]", 
+                "[+1 Faith] from every [Agnostic]", 
                 "May buy [Sacred Markings] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
                 "May buy [Basic Pantheon] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>",
 //                "May buy [Religious Practice] buildings for [1] [Faith] [in capital] <before the [Renaissance era]>"
@@ -763,7 +773,7 @@
      "name": "Ancestral Worship",//"Ancestor Worship",
      "type": "Enhancer",
      "uniques": [
-                "[+1 Culture] from every [Shrine]", 
+                "[+1 Culture] from every [Agnostic]", 
                 "May buy [Ancestral Shrine] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"
                 ]
   },
@@ -771,7 +781,7 @@
      "name": "Gods in Everything",//"Small Gods",
      "type": "Enhancer",
      "uniques": [
-                "[+1 Happiness] from every [Shrine]", 
+                "[+1 Happiness] from every [Agnostic]", 
                 "May buy [Appeasement Shrine] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"
                 ]
   },
@@ -779,8 +789,16 @@
      "name": "Law of Heaven",//"Correct Actions",
      "type": "Enhancer",
      "uniques": [
-                "[+1 Gold] from every [Shrine]", 
+                "[+1 Gold] from every [Agnostic]", 
                 "May buy [Tablet of Law] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])"
+                ]
+  },
+  {
+     "name": "Natural Theology",
+     "type": "Pantheon",
+     "uniques": [
+                "[+1 Science] from every [Agnostic]", 
+                "May buy [Sage's Lodge] buildings for [10] [Faith] [in cities following this religion] at an increasing price ([5])",
                 ]
   },
   {
