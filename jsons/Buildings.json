@@ -34,6 +34,17 @@
                 "Basic Religion", "Simple"
                 ],
    },
+   { //Natural Philosophy 
+     "name": "Sage's Lodge",
+     "cost": 50,
+     "faith": 1,
+     "uniques": [
+//This one doesn't have anything extra because its effect has to go in the belief to work right 
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Simple"
+                ],
+   },
    { //Everyday Spirituality 
      "name": "Sacred Markings",
      "cost": 50,
