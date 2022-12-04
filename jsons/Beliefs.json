@@ -429,7 +429,8 @@
      "type": "Founder",
      "uniques": [
                 "[+2 Happiness] for each global city following this religion",
-                "May buy [Grand Mausoleum] buildings for [1000] [Faith] [in holy cities]"
+                "May buy [Grand Mausoleum] buildings for [2000] [Faith] [in cities following this religion]",
+                "May buy [Grand Crypt] buildings for [1000] [Faith] [in cities following this religion]"
                 ]
   },
   {
@@ -437,7 +438,8 @@
      "type": "Founder",
      "uniques": [
                 "[+2 Culture] for each global city following this religion",
-                "May buy [Mecca] buildings for [1000] [Faith] [in holy cities]"
+                "May buy [Mecca] buildings for [2000] [Faith] [in cities following this religion]",
+                "May buy [Basilica of Wonder] buildings for [1000] [Faith] [in cities following this religion]"
                 ]
   },
   {
@@ -445,7 +447,8 @@
      "type": "Founder",
      "uniques": [
                 "[+2 Gold] for each global city following this religion",
-                "May buy [Sacred Horde] buildings for [1000] [Faith] [in holy cities]"
+                "May buy [Sacred Horde] buildings for [2000] [Faith] [in cities following this religion]",
+                "May buy [Grand Treasury] buildings for [1000] [Faith] [in cities following this religion]"
                 ]
   },
   {
@@ -464,7 +467,8 @@
      "type": "Founder",
      "uniques": [
                 "[+2 Science] for each global city following this religion",
-                "May buy [Shangri La] buildings for [1000] [Faith] [in holy cities]"
+                "May buy [Shangri La] buildings for [2000] [Faith] [in cities following this religion]",
+                "May buy [Spiritual Retreat] buildings for [1000] [Faith] [in cities following this religion]"
                 ]
   },
   {
