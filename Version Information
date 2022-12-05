@@ -66,3 +66,7 @@ We have also changed the Basic set from only enhancing Shrines to enhancing all 
 And have added a Science version (Natural Philosophy/Theology) and a new building to go with it (the Sage's Lodge) so be aware of that option.
 
 Stand by for day zero bug fixing.
+
+05-12-2023 (Version 0.5.6)
+Rolled back use of restrictions, because it's still not working
+In that the mod test no longer throws a snit, but the game itself does and crashes whenever you open a city menu.
