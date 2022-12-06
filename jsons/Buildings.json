@@ -431,6 +431,75 @@
                 ],
    },//Yes they both give out promotions. A spot where doubling down is really good here; getting both is a pretty good boost for your unit
 
+//Batch 2 Gods
+
+   { //Mining
+     "name": "Cult of the Miner",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+1 Production] from [Mine] tiles [in this city] <in [Strategic resource] tiles>",
+                "[+1 Production] from [Mine] tiles [in this city] <in [Luxury resource] tiles>",
+                "Unbuildable", 
+                "Hidden when religion is disabled"
+                "Basic Religion", "Deific"
+                ],
+   },
+   { 
+     "name": "Miner's Rites",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Deific"
+                ],
+   },
+   { //Wisdom 
+     "name": "Cult of the Sage",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "Unbuildable", 
+                "Hidden when religion is disabled"
+                "Basic Religion", "Deific"
+                ],
+   },
+   { //
+     "name": "Rite of Wisdom",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "[+5]% [Science] [in this city]",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Deific"
+                ],
+   },
+   { //Logistics 
+     "name": "Cult of the Quartermaster",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "All newly-trained [{Military} {Land}] units [in this city] receive the [March] promotion",
+                "Unbuildable", 
+                "Hidden when religion is disabled"
+                "Basic Religion", "Deific"
+                ],
+   },
+   { //
+     "name": "Logistical Rites",
+     "cost": 0,
+     "faith": 1,
+     "uniques": [
+                "All newly-trained [{Military} {Water}] units [in this city] receive the [Supply] promotion",
+                "Unbuildable", 
+                "Hidden when religion is disabled",
+                "Basic Religion", "Deific"
+                ],
+   },
+
 //Teir 2
 //Note that almost all of these are going to require at least some other stuff before you can build them.
 //Note for UnCiv v 4.3.5: everything has Buildingfilter now, stand by for restriction restoration...
