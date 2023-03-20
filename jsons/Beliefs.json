@@ -9,6 +9,154 @@
 
 // Old Pantheon Status: NUKED
 
+////Basic Shapes////
+//(You only get one of these; and they dictate when options you have)
+{
+ "name": "Naturalism",
+ "type": "Pantheon",
+ "uniques": [
+             "[+1 Faith] from [unimproved] tiles [in cities following this religion]",
+             "Unlocks Beliefs which generate Faith based on Terrain.",
+             "Only available <before adopting [Materialism]",//not sure what the actual wording for that will be, but this is probably a safe guess.
+             "Only available <before adopting [Polytheism]>",
+             "Only available <before adopting [Monotheism]>",
+             "Only available <before founding a Pantheon>"
+            ]
+},
+{
+ "name": "Materialism",
+ "type": "Pantheon",
+ "uniques": [
+             "[+1 Faith] from [Strategic resource] tiles [in cities following this religion]",
+             "
+             "Unlocks Beliefs which generate Faith and other resources based on the amount of resources you control.",
+             "Only available <before adopting [Naturalism]>",
+             "Only available <before adopting [Polytheism]>",
+             "Only available <before adopting [Monotheism]>",
+             "Only available <before founding a Pantheon>"
+            ]
+},
+{
+ "name": "Polytheism",
+ "type": "Pantheon",
+ "uniques": [
+             "[+1 Faith] from all [Religion] buildings",
+             "Unlocks Beliefs which have a wide variety of effects, but which are individually less powerful than other basic types.",
+             "Only available <before adopting [Naturalism]>",
+             "Only available <before adopting [Materialism]>",
+             "Only available <before adopting [Monotheism]>",
+             "Only available <before founding a Pantheon>"
+            ]
+},
+{
+ "name": "Monotheism"
+ "type": "Pantheon",
+ "uniques": [
+             "[+10]% [Faith] from from every [Religion]",
+             "[+1]% [Faith] from every follower, up to [100]%",
+             "[+1 Faith] from every [Natural Wonder]",
+             "[+1 Faith] from every [Holy Site]",
+             "Unlocks Beliefs which are extremely powerful but very narrow in scope. Prevents you from selecting many beliefs later.",
+             "Only available <before adopting [Naturalism]>",
+             "Only available <before adopting [Polytheism]>",
+             "Only available <before adopting [Materialism]>",
+             "Only available <before founding a Pantheon>"
+            ]
+},
+[TEN GODSDAMN DUPLICATES go here]
+(Note: duplicates will be incremented (Naturalism II, Naturalism III, etc) and will not show in the Civilopedia, because they're in there for mechanical reasons.)
+
+//Population Bonuses//
+//These give you a population based bonus, but you only ever get one; Yes even the duplicates are getting Only available'd. 
+//Yes this is a messy pain in the ass. No there really isn't any other way to implement this as desired.
+{
+ "name": "Small Gods",
+ "type": "Pantheon",
+ "uniques": [
+             "[+1 Faith] per [5] population [in cities following this religion]",
+             "[+1 Happiness] per [10] population [in cities following this religion]",
+             "[+1 Happiness] [in cities following this religion] <after founding a religion>",
+             "Only available <before adopting [Monotheism]>",
+             "Only available <after founding a Pantheon>",
+             "Only available <before adopting [Ancestor Worship]>",
+             "Only available <before adopting [Religions Donations]>",
+             "Only available <before adopting [Divine Inspiration]>",
+             "Only available <before adopting [Spirituality]>",
+             (Giant blob of Only Availables for the duplicates goes here)
+
+            ]
+},
+{
+ "name": "Ancestor Worship",
+ "type": "Pantheon",
+ "uniques": [
+             "[+1 Faith] per [5] population [in cities following this religion]",
+             "[+1 Culture] per [10] population [in cities following this religion]",
+             "[+1 Culture] [in cities following this religion] <after founding a religion>",
+             "Only available <before adopting [Monotheism]>",
+             "Only available <after founding a Pantheon>",
+             "Only available <before adopting [Small Gods]>",
+             "Only available <before adopting [Religions Donations]>",
+             "Only available <before adopting [Divine Inspiration]>",
+             "Only available <before adopting [Spirituality]>",
+             (Giant blob of Only Availables for the duplicates goes here)
+
+            ]
+},
+{
+ "name": "Religious Donations",
+ "type": "Pantheon",
+ "uniques": [
+             "[+1 Faith] per [5] population [in cities following this religion]",
+             "[+1 Gold] per [10] population [in cities following this religion]",
+             "[+1 Gold] [in cities following this religion] <after founding a religion>",
+             "Only available <before adopting [Monotheism]>",
+             "Only available <after founding a Pantheon>",
+             "Only available <before adopting [Ancestor Worship]>",
+             "Only available <before adopting [Small Gods]>",
+             "Only available <before adopting [Divine Inspiration]>",
+             "Only available <before adopting [Spirituality]>",
+             (Giant blob of Only Availables for the duplicates goes here)
+
+            ]
+},
+{
+ "name": "Divine Inspiration",
+ "type": "Pantheon",
+ "uniques": [
+             "[+1 Faith] per [5] population [in cities following this religion]",
+             "[+1 Science] per [10] population [in cities following this religion]",
+             "[+1 Science] [in cities following this religion] <after founding a religion>",
+             "Only available <before adopting [Monotheism]>",
+             "Only available <after founding a Pantheon>",
+             "Only available <before adopting [Ancestor Worship]>",
+             "Only available <before adopting [Religions Community]>",
+             "Only available <before adopting [Small Gods]>",
+             "Only available <before adopting [Spirituality]>",
+             (Giant blob of Only Availables for the duplicates goes here)
+
+            ]
+},
+{
+ "name": "Spirituality",
+ "type": "Pantheon",
+ "uniques": [
+             "[+1 Faith] per [5] population [in cities following this religion]",
+             "[+1 Faith] per [10] population [in cities following this religion]",
+             "[+1 Faith] [in cities following this religion] <after founding a religion>",
+             "Only available <before adopting [Monotheism]>",
+             "Only available <after founding a Pantheon>",
+             "Only available <before adopting [Ancestor Worship]>",
+             "Only available <before adopting [Religions Community]>",
+             "Only available <before adopting [Divine Inspiration]>",
+             "Only available <before adopting [Small Gods]>",
+             (Giant blob of Only Availables for the duplicates goes here)
+
+            ]
+},
+(Giant blob of ten duplicates goes here)
+
+
 //////////////////////////////////////////////Founder Beliefs//////////////////////////////////////////////
 
 // Old Founder Status: NUKED 
