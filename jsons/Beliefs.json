@@ -28,7 +28,8 @@
  "type": "Pantheon",
  "uniques": [
              "[+1 Faith] from [Strategic resource] tiles [in cities following this religion]",
-             "
+             "[+1 Faith] from [Luxury resource] tiles [in cities following this religion]",
+             "[+1 Faith] from [Bonus resource] tiles [in cities following this religion]",
              "Unlocks Beliefs which generate Faith and other resources based on the amount of resources you control.",
              "Only available <before adopting [Naturalism]>",
              "Only available <before adopting [Polytheism]>",
@@ -78,11 +79,11 @@
              "[+1 Happiness] [in cities following this religion] <after founding a religion>",
              "Only available <before adopting [Monotheism]>",
              "Only available <after founding a Pantheon>",
-             "Only available <before adopting [Ancestor Worship]>",
-             "Only available <before adopting [Religions Donations]>",
-             "Only available <before adopting [Divine Inspiration]>",
-             "Only available <before adopting [Spirituality]>",
-             (Giant blob of Only Availables for the duplicates goes here)
+             "Only available <before adopting [Ancestor Worship I]>",
+             "Only available <before adopting [Religions Donations I]>",
+             "Only available <before adopting [Divine Inspiration I]>",
+             "Only available <before adopting [Spirituality I]>",
+             "Only available <before adopting [Small Gods I]>",
 
             ]
 },
@@ -155,6 +156,17 @@
             ]
 },
 (Giant blob of ten duplicates goes here)
+
+////--Naturalism--////
+{
+ "name": "",
+ "type": "Pantheon",
+ "uniques": [
+             "[+1 Faith] from ",
+             "Only available <after founding a Pantheon>",
+             "Only available <after adopting [Naturalism]>"
+            ]
+},
 
 
 //////////////////////////////////////////////Founder Beliefs//////////////////////////////////////////////
