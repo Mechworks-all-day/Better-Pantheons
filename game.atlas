@@ -1,0 +1,447 @@
+
+game.png
+size: 2048, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Ancestor Shrine
+  rotate: false
+  xy: 4, 180
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Appeasement Shrine
+  rotate: false
+  xy: 112, 288
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Basic Pantheon
+  rotate: false
+  xy: 220, 396
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Basilica of Wonder
+  rotate: false
+  xy: 4, 92
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Battle Rites
+  rotate: false
+  xy: 308, 396
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Blessed Market
+  rotate: false
+  xy: 4, 4
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Burial Ground
+  rotate: false
+  xy: 396, 396
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Central Temple
+  rotate: false
+  xy: 484, 396
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Church Treasury
+  rotate: false
+  xy: 572, 396
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Creation Rites
+  rotate: false
+  xy: 660, 396
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cult of Love
+  rotate: false
+  xy: 748, 396
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cult of the Defender
+  rotate: false
+  xy: 836, 396
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cult of the Hunter
+  rotate: false
+  xy: 924, 396
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cult of the Maker
+  rotate: false
+  xy: 1012, 396
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cult of the Ocean
+  rotate: false
+  xy: 1100, 396
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cult of the Sky
+  rotate: false
+  xy: 1188, 396
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cult of the Warrior
+  rotate: false
+  xy: 1276, 396
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dancing Ground
+  rotate: false
+  xy: 1364, 396
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Feasting Hall
+  rotate: false
+  xy: 1452, 396
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Fertility Rites
+  rotate: false
+  xy: 1540, 396
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/First Temple
+  rotate: false
+  xy: 1628, 396
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gleaming Idol
+  rotate: false
+  xy: 1716, 396
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Golden Path
+  rotate: false
+  xy: 1804, 396
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Grand Crypt
+  rotate: false
+  xy: 1892, 396
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Grand Idol
+  rotate: false
+  xy: 92, 180
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Grand Mausoleum
+  rotate: false
+  xy: 92, 92
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Grand Treasury
+  rotate: false
+  xy: 92, 4
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Humble Church
+  rotate: false
+  xy: 200, 288
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Hunting Rites
+  rotate: false
+  xy: 4, 376
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Idol of Plenty
+  rotate: false
+  xy: 180, 24
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mecca
+  rotate: false
+  xy: 4, 268
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Protective Rites
+  rotate: false
+  xy: 288, 308
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Religious Practice
+  rotate: false
+  xy: 376, 308
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sacred Bull
+  rotate: false
+  xy: 464, 308
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sacred Grave
+  rotate: false
+  xy: 552, 308
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sacred Grove
+  rotate: false
+  xy: 640, 308
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sacred Horde
+  rotate: false
+  xy: 728, 308
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sacred Markings
+  rotate: false
+  xy: 816, 308
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sacred Mausoleum
+  rotate: false
+  xy: 904, 308
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sacred Stair
+  rotate: false
+  xy: 992, 308
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sacred Stream
+  rotate: false
+  xy: 1080, 308
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sage's Lodge
+  rotate: false
+  xy: 1168, 308
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Seafarer's Rites
+  rotate: false
+  xy: 1256, 308
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Seminary
+  rotate: false
+  xy: 1344, 308
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Shangri La
+  rotate: false
+  xy: 112, 376
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Shrine of Sands
+  rotate: false
+  xy: 1432, 308
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Shrine of Seas
+  rotate: false
+  xy: 1520, 308
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Simple Shrine
+  rotate: false
+  xy: 1608, 308
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Spirit Shrine
+  rotate: false
+  xy: 1696, 308
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Spiritual Retreat
+  rotate: false
+  xy: 1784, 308
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Standing Stones
+  rotate: false
+  xy: 1872, 308
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Storied Temple
+  rotate: false
+  xy: 268, 200
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tablet of Law
+  rotate: false
+  xy: 268, 112
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Temple Complex
+  rotate: false
+  xy: 268, 24
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Temple of Contemplation
+  rotate: false
+  xy: 356, 220
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Temple of Glory
+  rotate: false
+  xy: 356, 132
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tidal Shrine
+  rotate: false
+  xy: 444, 220
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tomb of the Saint
+  rotate: false
+  xy: 356, 44
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Waystone
+  rotate: false
+  xy: 532, 220
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+BuildingIcons/Wind Rites
+  rotate: false
+  xy: 444, 44
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Hunter Cult
+  rotate: false
+  xy: 180, 200
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Hunting Rites
+  rotate: false
+  xy: 180, 112
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Warrior Cult
+  rotate: false
+  xy: 444, 132
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
