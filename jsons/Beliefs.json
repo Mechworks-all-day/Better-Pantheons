@@ -159,16 +159,117 @@
 
 ////--Naturalism--////
 {
- "name": "",
+ "name": "Desert Lore",
  "type": "Pantheon",
  "uniques": [
-             "[+1 Faith] from ",
+             "[+1 Faith] from [Desert] tiles <in [unimproved] tiles>",
              "Only available <after founding a Pantheon>",
              "Only available <after adopting [Naturalism]>"
             ]
 },
-
-
+{
+ "name": "Tundra Lore",
+ "type": "Pantheon",
+ "uniques": [
+             "[+1 Faith] from [Tundra] tiles <in [unimproved] tiles>",
+             "Only available <after founding a Pantheon>",
+             "Only available <after adopting [Naturalism]>"
+            ]
+},
+{
+ "name": "Grassland Lore",
+ "type": "Pantheon",
+ "uniques": [
+             "[+1 Faith] from [Grassland] tiles <in [unimproved] tiles>",
+             "Only available <after founding a Pantheon>",
+             "Only available <after adopting [Naturalism]>"
+            ]
+},
+{
+ "name": "Plains Lore",
+ "type": "Pantheon",
+ "uniques": [
+             "[+1 Faith] from [Plains] tiles <in [unimproved] tiles>",
+             "Only available <after founding a Pantheon>",
+             "Only available <after adopting [Naturalism]>"
+            ]
+},
+{
+ "name": "Ocean Lore",
+ "type": "Pantheon",
+ "uniques": [
+             "[+1 Faith] from [Ocean] tiles <within [2] tiles of a [City Center]>",
+             "Only available <after founding a Pantheon>",
+             "Only available <after adopting [Naturalism]>"
+            ]
+},
+{
+ "name": "Coastal Lore",
+ "type": "Pantheon",
+ "uniques": [
+             "[+1 Faith] from [Coast] tiles <within [2] tiles of a [City Center]>",
+             "Only available <after founding a Pantheon>",
+             "Only available <after adopting [Naturalism]>"
+            ]
+},
+{
+ "name": "Lore of Rivers",
+ "type": "Pantheon",
+ "uniques": [
+             "[+1 Faith] from [River] tiles <in [unimproved] tiles>",
+             "[+1 Faith] from [River] tiles",
+             "Only available <after founding a Pantheon>",
+             "Only available <after adopting [Naturalism]>"
+            ]
+},
+{
+ "name": "Lore of Forests",
+ "type": "Pantheon",
+ "uniques": [
+             "[+1 Faith] from [Forest] tiles <in [unimproved] tiles>",
+             "[+1 Faith] from [Forest] tiles",
+             "Only available <after founding a Pantheon>",
+             "Only available <after adopting [Naturalism]>"
+            ]
+},
+{
+ "name": "Lore of Jungles",
+ "type": "Pantheon",
+ "uniques": [
+             "[+1 Faith] from [Jungle] tiles <in [unimproved] tiles>",
+             "[+1 Faith] from [Jungle] tiles",
+             "Only available <after founding a Pantheon>",
+             "Only available <after adopting [Naturalism]>"
+            ]
+},
+{
+ "name": "Lore of Hills",
+ "type": "Pantheon",
+ "uniques": [
+             "[+1 Faith] from [Hill] tiles <in [unimproved] tiles>",
+             "[+1 Faith] from [Hill] tiles",
+             "Only available <after founding a Pantheon>",
+             "Only available <after adopting [Naturalism]>"
+            ]
+},
+{
+ "name": "Lore of Mountians",
+ "type": "Pantheon",
+ "uniques": [
+             "[+1 Faith] from [All] tiles <within [1] tiles of a [Mountain]>",
+             "Only available <after founding a Pantheon>",
+             "Only available <after adopting [Naturalism]>"
+            ]
+},
+{
+ "name": "Lore of Lakes",
+ "type": "Pantheon",
+ "uniques": [
+             "[+1 Faith] from [All] tiles <within [1] tiles of a [Lake]>",
+             "Only available <after founding a Pantheon>",
+             "Only available <after adopting [Naturalism]>"
+            ]
+},
 //////////////////////////////////////////////Founder Beliefs//////////////////////////////////////////////
 
 // Old Founder Status: NUKED 
